@@ -1,0 +1,12 @@
+Changed PlayerActionHitAttribute:
+Eugene | "SWD_126_04_H01_LV02":
+  - _DamageAdjustment: 25.0 -> 75.0
+
+Yurius | 
+
+Changed ActionCondition:
+990:
+	- _RateCritical: 0.0 -> 0.1
+993:
+	- _RateCritical: 0.0 -> 0.1
+	- _RateSkill: 0.0 -> 0.1
