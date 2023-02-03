@@ -54,7 +54,11 @@ Eugene | 993:
 
 Changed CharaData:
 Beautician Zardin | 10250401
-	- _Abilities12: 217 > 871 
+	- _Abilities12: 217 > 871
+
+Changed AbilityData:
+Great Cascade (Styx) | 330000568
+	- _CoolTime: 10.0 -> 5.0
 
 Added: 
 Eugene S2 | GameObject PlayerAction_00191260:
