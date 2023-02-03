@@ -1,12 +1,65 @@
 Changed PlayerActionHitAttribute:
-Eugene | "SWD_126_04_H01_LV02":
-  - _DamageAdjustment: 25.0 -> 75.0
+Ku Hai | "SWD_001_03_KGI_H01_LV03"
+	- _DamageAdjustment: 4.14 -> 6.21
 
-Yurius | 
+Ku Hai | "SWD_001_03_KGI_H02_LV03"
+	- _DamageAdjustment: 4.14 -> 6.21
+
+Ku Hai | "SWD_001_03_KGI_H03_LV03"
+	- _DamageAdjustment: 4.14 -> 6.21
+
+Ku Hai | "SWD_001_03_KGI_H04_LV03"
+	- _DamageAdjustment: 4.14 -> 6.21
+
+Ku Hai | "SWD_CHR_05_H01_LV02"
+	- _DamageAdjustment: 1.66 -> 4.98
+	- _ToBreakDmgRate: 1.85 -> 1.22
+
+Eugene | "SWD_126_04_H01_LV02":
+	- _DamageAdjustment: 25.0 -> 75.0
+
+Beautician Zardin | "KAT_104_04_H01_LV03"
+	- _DamageAdjustment": 4.424 -> 7.742
+
+Beautician Zardin | "KAT_104_04_H02_LV03"
+	- _DamageAdjustment": 4.424 -> 7.742
+
+Beautician Zardin | "KAT_104_04_H03_LV03"
+	- _DamageAdjustment": 4.424 -> 7.742
+
+Delphi | "DAG_113_04_H01_LV03":
+	- _DamageCounterCoef: 11.0 -> 110.0
+
 
 Changed ActionCondition:
-990:
+Delphi | 448:
+	- _SlipDamagePower: 3.0 -> 6.0
+Delphi | 449:
+	- _RatePoison: 0.0 -> -0.2
+Eugene | 987:
+	- _SlipDamageIntervalSec: 0.0 > 1.0
+	- _SlipDamageRatio: 0 -> -0.02
+	- _ValidRegeneSP: 0 -> 1
+Eugene | 990:
+	- _SlipDamageIntervalSec: 0.0 > 1.0
+	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
-993:
+	- _ValidRegeneSP: 0 -> 1
+Eugene | 993:
+	- _SlipDamageIntervalSec: 0.0 > 1.0
+	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
 	- _RateSkill: 0.0 -> 0.1
+	- _ValidRegeneSP: 0 -> 1
+
+Changed CharaData:
+Beautician Zardin | 10250401
+	- _Abilities12: 217 > 871 
+
+Added: 
+Eugene S2 | GameObject PlayerAction_00191260:
+	[12]
+    0 ComponentPair data
+     0 PPtr<Component> component
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 606787670743785909
