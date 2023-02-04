@@ -18,6 +18,12 @@ Ku Hai | "SWD_CHR_05_H01_LV02"
 Eugene | "SWD_126_04_H01_LV02":
 	- _DamageAdjustment: 25.0 -> 75.0
 
+Albert | "SWD_CHR_13_H01_LV02"
+	- _AdditionActiveGaugeValue: 150 -> 0
+
+Albert | "SWD_CHR_12_H01_LV02_CHLV02"
+	- _DamageAdjustment: 1.12 -> 2.24
+
 Beautician Zardin | "KAT_104_04_H01_LV03"
 	- _DamageAdjustment: 4.424 -> 7.742
 
@@ -51,6 +57,12 @@ Dragonyule Jeanne | "S076_002_01_LV02"
 	- _KillerState: 0.0 -> 11.0
 	- _KillerStateDamageRate: 0.0 -> 1.3
 
+Apollo | "S103_001_00_LV02"
+	- _DamageAdjustment: 3.6 -> 11.6
+
+Apollo | "S103_000_02":
+	- _ActionCondition1: 0 -> 2049
+
 Giovanni | "S135_000_00"
 	- _DamageAdjustment: 2.15 > 4.3
 
@@ -63,21 +75,28 @@ Delphi | 448:
 	- _SlipDamagePower: 3.0 -> 6.0
 Delphi | 449:
 	- _RatePoison: 0.0 -> -0.2
+
 Eugene | 987:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _ValidRegeneSP: 0 -> 1
+
 Eugene | 990:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
+
 Eugene | 993:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
+
+Albert | 1170:
+	- _SlipDamageRatio: 0.05 -> 0.0
+
 Giovanni | 1350:
 	- _EnhancedCritical: 0.1 -> 0.2
 
@@ -85,19 +104,44 @@ Changed CharaData:
 Beautician Zardin | 10250401
 	- _Abilities12: 217 -> 871
 
+Changed SkillData :
+Albert | 101504012
+	- _SpLv4": 160000 ->  20000
+
 Changed DragonData:
+
+Apollo | 330000560
+	- _Abilities16: 330000560 -> 1619
+	
 Styx | 20050212
 	- _Abilities26: 2216 -> 330000325
+
+Pop-Star Siren | 20050409
+	- _Abilities15: 330000408 -> 1761
 
 Changed AbilityData:
 Great Cascade (Styx) | 330000568
 	- _CoolTime: 10.0 -> 5.0
+
+Exhilaration (Pop-Star Siren) | 330000194
+	- _AbilityType1UpValue: 3.0 > 5.0
+
+Wyrmbound Shell (Farren) | 2194
+	- _VariousId3a: 0 -> 861
+
+(Flame) Burning Punisher | 330000175
+	- _AbilityType1UpValue: 20.0 > 40.0
+
 Dragonyule Blessing V | 330000122
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
+
 (Shadow) Strength and Critical Rate | 1458
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
+
+Thunderous Impulse | 1189
+	- _AbilityType1UpValue: 10.0 -> 50.0
 	
 Added: 
 Eugene S2 | GameObject PlayerAction_00191260:
