@@ -1,0 +1,66 @@
+Notes: Any and all of the changes listed below are not currently final and are subject to change, at current I (Doc) have playtested all of them in endgame,
+(Legend/SinDom/PDT), with proposed CoN time changes of: 20s in Expert, 30s in Master and Legend.
+
+Last Updated 06/02/2023 (Doc)
+
+Adventurers
+Albert
+S1: 2352.2% + 6 * 157.7% -> 2940.2%  6 * 157.7% When Electrified
+S2: 160000 SP -> 20000SP, Automatic Fill % Per Second kept the same.
+A1: 10% FS Buff while Electrified -> 50% FS Buff while Electrified
+FS: No longer drains S2, 112% -> 224% at Level 2 when Electrified
+
+Beautician Zardin
+S1: 3 * 442.4% -> 3 * 774.2%
+A1: Striker's Energy III -> Energy = Strength & Critical Rate VII
+
+Delphi
+S1 (Zone): -20% Def -> -20% Def, -20% Poison Res 
+S2 (Counter): 11x Damage Taken ->  110x Damage Taken
+S2 (Poison): 300% -> 600% per tick.
+
+Eugene:
+S1
+Phase I: 25% Str -> 25% Str, 2% SP Regen per second
+Phase II: 25% Str, 8% Flame Res -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second
+Phase III: 25% Str, 8% Flame Res, 20% Crit Damage -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second, 20% Crit Damage, 10% Skill Damage
+S2: 2500% > 7500%, Now refills S1 on cast.
+
+Farren:
+S1: 6 * 520% -> 6 * 600% In Dragondrive
+S2: 3250% -> 4000% In Dragondrive
+A1: 35% Skill Damage added In Dragondrive
+
+Gala Audric
+A1: 2% Attack Rate Per Stack, Max 5 -> 2% Attack Rate Per Stack, Max 10
+
+Ku Hai:
+S1: 4 * 414% -> 4 * 621%
+FS: While S2 is Active, 166% * 3 -> 498% * 3, OD Damage Rate 1.85x -> 1x
+
+Nobunaga:
+S1: Burning Ambition 1565% -> 1956%
+
+Yachiyo:
+S1: 2 * 648% -> 2 * 810%
+S2: Now Grants 2 Charges of 'Dauntless Spirit'
+FS: 1017% -> 1779%, 1.2x Paralysis Killer
+
+Dragons:
+Apollo
+A1: Strength (55%) & Surge of Strength (35%) -> 70% Strength 
+A2: 20% Burning Punisher -> 70% Strength + 40% Burning Punisher
+Combo: -20% Burn Res for 30s added to C3
+S1: 340% + 860% -> 1140% + 860%
+
+Dragonyule Jeanne
+A1: 45% Strength + 20% Critical Rate -> 60% Strength + 30% Critical Rate
+S1: 408% * 3 > 714% * 3, 1.3x Frostbite Killer
+
+Pop Star Siren
+A1: 40% Strength -> 70% Strength
+A2: Exhilaration Extended, 3s -> 5s
+
+Styx
+A1: 50% SD every 10s -> 50% SD every 5s
+A2 Added: Skill Haste + 35%
