@@ -36,7 +36,8 @@ Gala Audric
 A1: 2% Attack Rate Per Stack, Max 5 -> 2% Attack Rate Per Stack, Max 10
 
 Heinwald
-S1: 541% -> 1048% All Versions, 8% of HP Drain Cap -> 20% of HP Drain Cap under Abyssal Connection
+S1: 541% -> 1048% All Versions, 8% of HP Drain Cap -> 20% of HP Drain Cap under 'Abyssal Connection'
+S2: 10% Strength -> 20% Strength when 'Abyssal Connection' is active. 'Abyssal Connection' is now CoN immune.
 
 Ku Hai:
 S1: 4 * 414% -> 4 * 621%
