@@ -173,9 +173,13 @@ Giovanni | 1390
 	- _EnhancedCritical: 0.15 -> 0.2
 	- _CurseOfEmptinessInvalid: 0 -> 1
 	
-
 Yachiyo | 310012001:
 	- _DurationNum: 1 -> 2
+
+Heinwald | 311050702
+	- _RateAttack: 0.1 -> 0.2
+	- _CurseOfEmptinessInvalid
+	
 
 Changed CharaData:
 Beautician Zardin | 10250401
