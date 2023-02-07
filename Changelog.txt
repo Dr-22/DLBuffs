@@ -13,7 +13,7 @@ Ku Hai | "SWD_001_03_KGI_H04_LV03"
 
 Ku Hai | "SWD_CHR_05_H01_LV02"
 	- _DamageAdjustment: 1.66 -> 4.98
-	- _ToBreakDmgRate: 1.85 -> 1.22
+	- _ToBreakDmgRate: 1.85 -> 1
 
 Eugene | "SWD_126_04_H01_LV02":
 	- _DamageAdjustment: 25.0 -> 75.0
@@ -99,6 +99,9 @@ Pazuzu | "S026_001_01_LV02"
 
 Corsaint Phoenix | "S056_000_02"
 	- _ActionCondition1: 0 -> 857
+
+Corsaint Phoenix | "S056_005_00_LV02"
+	- _DamageAdjustment: 2.6 -> 3.9
 	
 Apollo | "S103_001_00_LV02"
 	- _DamageAdjustment: 3.6 -> 11.6
