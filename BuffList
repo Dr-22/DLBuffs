@@ -1,7 +1,7 @@
 Notes: Any and all of the changes listed below are not currently final and are subject to change, at current I (Doc) have playtested all of them in endgame,
 (Legend/SinDom/PDT), with proposed CoN time changes of: 20s in Expert, 30s in Master and Legend, Energy/Inspiration are now immune to CoN.
 
-Last Updated 06/02/2023 (Doc)
+Last Updated 07/02/2023 (Doc), Heinwald/Giovanni/Epimetheus/Corsaint Phoenix/Pazuzu
 
 Adventurers
 Albert
@@ -24,6 +24,7 @@ S1
 Phase I: 25% Str -> 25% Str, 2% SP Regen per second
 Phase II: 25% Str, 8% Flame Res -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second
 Phase III: 25% Str, 8% Flame Res, 20% Crit Damage -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second, 20% Crit Damage, 10% Skill Damage
+Check: Now immune to CoN.
 S2: 2500% > 7500%, Now refills S1 on cast.
 
 Farren:
@@ -33,6 +34,9 @@ A1: 35% Skill Damage added In Dragondrive
 
 Gala Audric
 A1: 2% Attack Rate Per Stack, Max 5 -> 2% Attack Rate Per Stack, Max 10
+
+Heinwald
+S1: 541% -> 1048% All Versions, 8% of HP Drain Cap -> 20% of HP Drain Cap under Abyssal Connection
 
 Ku Hai:
 S1: 4 * 414% -> 4 * 621%
@@ -53,14 +57,34 @@ A2: 20% Burning Punisher -> 40% Burning Punisher
 Combo: -20% Burn Res for 30s added to C3
 S1: 340% + 860% -> 1140% + 860%
 
+Corsaint Phoenix
+A1: Strength (55%) & Surge of Strength (30%) -> 70% Strength 
+A2: 20% Paralyzed Punisher -> 40% Paralyzed Punisher
+Combo: -20% Paralysis Res for 20s added to C3
+S1: 7 * 260% -> 7 * 390%
+
 Dragonyule Jeanne
 A1: 45% Strength + 20% Critical Rate -> 60% Strength + 30% Critical Rate
 S1: 408% * 3 > 714% * 3, 1.3x Frostbite Killer
 
+Epimetheus
+A1: Strength (55%) & Surge of Strength (30%) -> 70% Strength 
+A2: 20% Poisoned Punisher -> 40% Poisoned Punisher
+Combo: 360%, 394%, 504% -> 540%, 594%, 504%, -20% Poison Res for 30s added to C3
+S1: 1260% -> 2520%
+
 Giovanni
 A1: 45% Strength + 20% Critical Rate -> 60% Strength + 30% Critical Rate
 Combo: 215%, 247% -> 430%, 494%
-C3 Zone: 10% Critical Damage -> 20% Critical Damage
+C3 Zone: 10% Critical Damage -> 20% Critical Damage, 8% Crit Rate
+S1: 6 * 220% -> 6 * 440%, 
+S1 Inside Buff Zone: 5 * 264% + 15% Critcal Damage for the Remainder of Quest -> 5 * 462% + 20% Critical Damage for the Remainder of Quest
+
+Pazuzu
+A1: Strength (55%) & Surge of Strength (30%) -> 70% Strength 
+A2: 20% Poisoned Punisher -> 40% Poisoned Punisher
+Combo: 208%, 308%, 3 * 130% -> 416%, 616%, 3 * 260%, -20% Poison Res for 30s added to C3
+S1: 5 * 182% -> 5 * 364%
 
 Pop Star Siren
 A1: 40% Strength -> 70% Strength
