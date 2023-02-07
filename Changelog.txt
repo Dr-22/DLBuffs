@@ -70,10 +70,11 @@ Heinwald | "CAN_104_04_H02_LV04"
 
 Heinwald | "CAN_104_04_H01_PLUS_LV04"
 	- _DamageAdjustmet: 5.41 -> 10.82
-
+	- _HpDrainLimitRate: 0.08 -> 0.2
+	
 Heinwald | "CAN_104_04_H02_PLUS_LV04"
 	- _DamageAdjustmet: 5.41 -> 10.82
-
+	- _HpDrainLimitRate: 0.08 -> 0.2
 
 Dragonyule Jeanne | "S076_002_01_LV02"
 	- _DamageAdjustment: 4.08 > 7.14
@@ -87,8 +88,12 @@ Pazuzu | "S026_000_01"
 	- _DamageAdjustment: 3.08 -> 6.16
 
 Pazuzu | "S026_000_02"
+	- _DamageAdjustment: 1.3 -> 2.6
+
+Pazuzu | "S026_000_03"
+	- _DamageAdjustment: 1.3 -> 2.6
 	- _ActionCondition1: 0 -> 1316
-	
+
 Pazuzu | "S026_001_01_LV02"
 	- _DamageAdjustment: 1.82 -> 3.64
 
@@ -119,6 +124,12 @@ Giovanni | "S135_000_00"
 Giovanni | "S135_000_01"
 	- _DamageAdjustment: 2.47 -> 4.94
 
+Giovanni | "S135_001_00_LV02"
+	- _DamageAdjustment: 2.2 -> 4.4
+
+Giovanni | "S135_002_00_LV02"
+	- _DamageAdjustment: 2.64 -> 4.62
+
 
 
 Changed ActionCondition:
@@ -126,6 +137,9 @@ Delphi | 448:
 	- _SlipDamagePower: 3.0 -> 6.0
 Delphi | 449:
 	- _RatePoison: 0.0 -> -0.2
+
+Eugene | 953:
+	- _CurseOfEmptinessInvalid: 0 -> 1
 
 Eugene | 987:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
@@ -150,11 +164,15 @@ Albert | 1170:
 
 Giovanni | 1350:
 	- _EnhancedCritical: 0.1 -> 0.2
+	- _RateCritical: 0.0 -> 0.08
+
+Giovanni | 1390
+	- _EnhancedCritical: 0.15 -> 0.2
+	- _CurseOfEmptinessInvalid: 0 -> 1
+	
 
 Yachiyo | 310012001:
 	- _DurationNum: 1 -> 2
-
-Heinwald | 
 
 Changed CharaData:
 Beautician Zardin | 10250401
