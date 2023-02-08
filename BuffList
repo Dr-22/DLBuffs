@@ -14,6 +14,9 @@ Beautician Zardin
 S1: 3 * 442.4% -> 3 * 774.2%
 A1: Striker's Energy III -> Energy = Strength & Critical Rate VII
 
+Child Ranzal
+A1: 40% Critcal Damage -> 300% Critical Damage
+
 Delphi
 S1 (Zone): -20% Def -> -20% Def, -20% Poison Res 
 S2 (Counter): 11x Damage Taken ->  110x Damage Taken
@@ -37,7 +40,7 @@ A1: 2% Attack Rate Per Stack, Max 5 -> 2% Attack Rate Per Stack, Max 10
 
 Heinwald
 S1: 541% -> 1048% All Versions, 8% of HP Drain Cap -> 20% of HP Drain Cap under 'Abyssal Connection'
-S2: 10% Strength -> 20% Strength when 'Abyssal Connection' is active. 'Abyssal Connection' is now CoN immune.
+S2: 10% Strength -> 20% Strength while 'Abyssal Connection' is active. 'Abyssal Connection' is now CoN immune.
 
 Ku Hai:
 S1: 4 * 414% -> 4 * 621%
@@ -49,7 +52,7 @@ S1: Burning Ambition, 1565% -> 1956%
 Yachiyo:
 S1: 2 * 648% -> 2 * 810%
 S2: Now Grants 2 Charges of 'Dauntless Spirit'
-FS: 1017% -> 1779%, 1.2x Paralysis Killer when granted 'Dauntless Spirit'
+FS: 1017% -> 1779%, 1.2x Paralyzed Killer when granted 'Dauntless Spirit'
 
 Dragons:
 Apollo
