@@ -172,6 +172,9 @@ Giovanni | 1350:
 Giovanni | 1390
 	- _EnhancedCritical: 0.15 -> 0.2
 	- _CurseOfEmptinessInvalid: 0 -> 1
+
+Child Ranzal | 1840
+	- _AbilityType2UpValue: 40.0 -> 300.0
 	
 Yachiyo | 310012001:
 	- _DurationNum: 1 -> 2
