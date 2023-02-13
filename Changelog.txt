@@ -70,6 +70,10 @@ Heinwald:
 	- _DamageAdjustmet: 5.41 -> 10.82
 	- _HpDrainLimitRate: 0.08 -> 0.2
 
+Yoshitsune:
+"GUN_108_04_PLUS_H01_LV03"
+	- _DamageAdjustmet: 15.72 -> 31.44
+
 Dragonyule Jeanne:
 "S076_002_01_LV02":
 	- _DamageAdjustment: 4.08 > 7.14
@@ -161,6 +165,10 @@ Giovanni |
 	- _EnhancedCritical: 0.15 -> 0.2
 	- _CurseOfEmptinessInvalid: 0 -> 1
 
+Yoshitsune:
+1439: 
+	- _RateAttackSpeed: 0.1 -> 0.3
+	
 Child Ranzal:
 1840:
 	- _AbilityType2UpValue: 40.0 -> 300.0
