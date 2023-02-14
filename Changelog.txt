@@ -241,6 +241,11 @@ Wyrmbound Shell (Farren):
 2194:
 	- _VariousId3a: 0 -> 861
 
+The Sugary Star (Annelie):
+2508:
+	- _VariousId1a: 6 -> 4
+	- _AbilityType1UpValue: 10 -> 20
+	
 Dragonyule Blessing V: 
 330000122:
 	- _AbilityType1UpValue: 45.0 -> 60.0
