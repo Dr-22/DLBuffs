@@ -124,6 +124,16 @@ Giovanni:
 	- _DamageAdjustment: 2.2 -> 4.4
 "S135_002_00_LV02":
 	- _DamageAdjustment: 2.64 -> 4.62
+	
+Raphael:
+"S154_000_00":
+	- _DamageAdjustment: 6.0 -> 8.0
+"S154_000_01":
+	- _DamageAdjustment: 6.9 -> 8.6
+"S154_000_02":
+	- _DamageAdjustment: 9.0 -> 12.0
+"S154_001_03_LV02":
+	- _RecoverySpSkillIndex: 0 -> 1
 
 
 
@@ -222,6 +232,10 @@ Pop-Star Siren:
 20050409:
 	- _Abilities15: 330000408 -> 1761
 
+Raphael:
+20050415:
+	- _Abilities15: 330000416 -> 1761
+
 Changed AbilityData:
 
 Thunderous Impulse (Albert):
@@ -232,7 +246,13 @@ Thunderous Impulse (Albert):
 1458:
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
-		
+
+(Light) Raphael's Aid:
+2070:
+	- _VariousId1str: UF_257_HEAL_LV02 -> 
+	- _AbilityType3: 0 -> 14
+	- _VariousId3a: 0 -> 1582
+
 Undying Will (Gala Audric):
 2150:
 	- _MaxCount: 5 -> 10
