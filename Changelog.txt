@@ -58,6 +58,10 @@ Farren:
 "DAG_144_04_PLUS_H02_LV03":
 	- _DamageAdjustmet: 5.2 -> 6.0 
 
+Finni
+"AXE_130_01_H01_LV02":
+	- _DamageAdjustment: 4.5 -> 5.0
+
 Heinwald:
 "CAN_104_04_H01_LV04":
 	- _DamageAdjustmet: 5.41 -> 10.82 
