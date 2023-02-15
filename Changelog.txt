@@ -132,8 +132,6 @@ Raphael:
 	- _DamageAdjustment: 6.9 -> 8.6
 "S154_000_02":
 	- _DamageAdjustment: 9.0 -> 12.0
-"S154_001_03_LV02":
-	- _RecoverySpSkillIndex: 0 -> 1
 
 
 
