@@ -251,7 +251,7 @@ Thunderous Impulse (Albert):
 
 (Light) Raphael's Aid:
 2070:
-	- _VariousId1str: UF_257_HEAL_LV02 -> 
+	- _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
 	- _AbilityType3: 0 -> 14
 	- _VariousId3a: 0 -> 1582
 
