@@ -12,6 +12,18 @@ Ku Hai:
 	- _DamageAdjustment: 1.66 -> 4.98
 	- _ToBreakDmgRate: 1.85 -> 1
 
+Gala Ranzal:
+"SWD_105_04_H01_LV04":
+	- _DamageAdjustment: 3.09 -> 4.63
+"SWD_CHR_09_H01_LV01":
+	- _DamageAdjustment: 2.075 -> 4.15
+"SWD_CHR_09_H01_LV02":
+	- _DamageAdjustment: 2.075 -> 4.15
+"SWD_CHR_09_H02_LV01":
+	- _DamageAdjustment: 2.3 -> 4.6
+"SWD_CHR_09_H02_LV02":
+	- _DamageAdjustment: 2.3 -> 4.6
+
 Eugene:	
 "SWD_126_04_H01_LV02":
 	- _DamageAdjustment: 25.0 -> 75.0
