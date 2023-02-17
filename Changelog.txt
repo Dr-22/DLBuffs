@@ -68,7 +68,13 @@ Farren:
 "DAG_144_04_PLUS_H01_LV03":
 	- _DamageAdjustmet: 5.2 -> 6.0
 "DAG_144_04_PLUS_H02_LV03":
-	- _DamageAdjustmet: 5.2 -> 6.0 
+	- _DamageAdjustmet: 5.2 -> 6.0
+
+Lin You:
+"AXE_104_04_PLUS_H01_LV04":
+	- _DamageAdjustment: 2.42 -> 3.63
+"AXE_104_04_PLUS_H02_LV04":
+	- _DamageAdjustment: 2.42 -> 3.63
 
 Finni
 "AXE_130_01_H01_LV02":
@@ -159,6 +165,14 @@ Raphael:
 "S154_000_02":
 	- _DamageAdjustment: 9.0 -> 12.0
 
+Gala Thor:
+"S90018_000_02":
+	- _DamageAdjustment: 0.58 -> 2.32
+"S90018_000_03":
+	- _DamageAdjustment: 0.58 -> 2.32
+"S90018_004_01_LV02":
+	- _DamageAdjustment: 17.8 -> 22.25
+
 
 
 Changed ActionCondition:
@@ -170,6 +184,10 @@ Delphi:
 	- _SlipDamagePower: 3.0 -> 6.0
 449:
 	- _RatePoison: 0.0 -> -0.2
+Heaven's Breath (Lin You):
+514:
+	- _CurseOfEmptinessInvalid: 0 -> 1
+	- _EnhancedCritical: 0.0 -> 0.5
 Paralysis Resistance Down (Generic):
 857:
 	- _DurationSec: 20.0 -> 30.0
