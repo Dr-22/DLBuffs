@@ -79,6 +79,10 @@ Lin You:
 Finni
 "AXE_130_01_H01_LV02":
 	- _DamageAdjustment: 4.5 -> 5.0
+
+Grimnir:
+"LAN_140_04_H01_LV01":
+	- _DamageAdjustment: 0.8 -> 8.0
 	
 Radiant Xuan Zang:
 "BUF_202_SGC_LV02":
@@ -310,7 +314,11 @@ Thunderous Impulse (Albert):
 1458:
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
-
+	
+Forbidden Power Within (Grimnir)
+1914:
+	- _ConditionValue: 100.0 -> 50.0
+	
 (Light) Raphael's Aid:
 2070:
 	- _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
@@ -329,6 +337,10 @@ The Sugary Star (Annelie):
 2508:
 	- _VariousId1a: 6 -> 4
 	- _AbilityType1UpValue: 10 -> 20
+
+(Wind) Michael's Favour (Michael):
+2591:
+	_ConditionValue2: 10.0 -> 20
 	
 Dragonyule Blessing V: 
 330000122:
