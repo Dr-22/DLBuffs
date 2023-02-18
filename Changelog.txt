@@ -179,6 +179,9 @@ Changed ActionCondition:
 Finni:
 231:
 	- _SlipDamageRatio: -0.08 -> -0.16
+Crystalline Blades Buffed (Naveed):
+338:
+	- _RateSkill: 0.0 -> 0.1
 Delphi:
 448:
 	- _SlipDamagePower: 3.0 -> 6.0
@@ -232,6 +235,20 @@ Yoshitsune:
 Child Ranzal:
 1840:
 	- _AbilityType2UpValue: 40.0 -> 300.0
+
+Overcharge (Humanoid Jupiter):
+1967:
+	- _RateAttack: 0.0 -> -0.05
+	- _RateDefense: 0.0 -> -0.05
+1968:
+	- _RateAttack: 0.0 -> -0.1
+	- _RateDefense: 0.0 -> -0.1
+1969:
+	- _RateAttack: 0.0 -> -0.15
+	- _RateDefense: 0.0 -> -0.15
+1970:
+	- _RateAttack: 0.0 -> -0.2
+	- _RateDefense: 0.0 -> -0.2
 	
 Yachiyo:
 310012001:
