@@ -1,0 +1,38 @@
+VMelody:
+ActionCondition:
+ "AXE_114_04_H01_LV03"
+  _DamageAdjustment = 1,39 -> 1,67
+  _ActionCondition1 = 0 -> 1361
+  _KillerState1 = 0 -> 1
+  _KillerStateDamageRate = 0 -> 1,2
+ "AXE_114_04_H02_LV03"
+  _DamageAdjustment = 1,39 -> 1,67
+  _ActionCondition1 = 0 -> 291
+  _KillerState1 = 0 -> 1
+  _KillerStateDamageRate = 0 -> 1,2
+ "AXE_115_04_H01_LV02"
+  _DamageAdjustment = 8,64 -> 11,23
+  _KillerState1 = 0 -> 13
+  _KillerStateDamageRate = 0 -> 1,2
+
+  TextLabel:
+  "SKILL_DETAIL_LV3_104503021"
+  _Text = "Deals wind damage to enemies directly ahead,\ninflicts stormlash, dispels one buff and creates a debuff zone that lasts for 10 seconds\nand reduces the defense of enemies inside it by 15%. Poisoned enemies take more damage."
+
+  "SKILL_DETAIL_LV2_104503022"
+  _Text = "Deals wind damage to enemies directly ahead,\nand inflicts poison. Stormlashed enemies take more damage.
+ 
+ VAddis:
+ "BOW_113_04_H01_LV03"
+  _DamageAdjustment = 3,87 -> 5,48
+  _KillerState1 = 0 -> 1
+  _KillerStateDamageRate = 0 -> 1,1
+ "BOW_113_04_H02_LV03"
+  _KillerState1 = 0 -> 1
+  _KillerStateDamageRate = 0 -> 1,2
+
+  TextLabel
+  "SKILL_DETAIL_LV3_106505021"
+  _Text = "Deals shadow damage to the target and\nnearby enemies, and inflicts poison.\nThe lower the user's HP, the more\ndamage this skill deals. Poisoned enemies also take more damage." 
+
+
