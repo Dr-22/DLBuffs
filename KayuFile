@@ -35,4 +35,36 @@ Changed ActionCondition:
   "SKILL_DETAIL_LV3_106505021"
   _Text = "Deals shadow damage to the target and\nnearby enemies, and inflicts poison.\nThe lower the user's HP, the more\ndamage this skill deals. Poisoned enemies also take more damage." 
 
+OGYachiyo
+Changed ActionCondition:
+ "KAT_002_03_PARALYSIS_H01_LV03"
+   _KillerState1 = 0 -> 4
+   _KillerStateDamageRateCurveDependsOnHitCount = "0_10/15_15/30_30/50_50"
+ "KAT_002_03_PARALYSIS_H02_LV01"
+   _KillerState1 = 0 -> 4
+   _KillerStateDamageRateCurveDependsOnHitCount = "0_10/15_15/30_30/50_50"
+ "KAT_CHR_05_H01_LV02"
+   _ActionCondition1 = 0 -> 291
 
+ Changed TextLabel:
+  "SKILL_DETAIL_LV3_102404011"
+   _Text = "Deals light damage to enemies in a line,\\nand inflicts paralysis. Paralyzed enemies take more damage depending on how high the user's combo is, capping at 50 combo."
+  "SKILL_DETAIL_LV2_102404012"
+   _Text = "Activates "Dauntless Spirit." The user's\\nnext force strike will deal extra damage and dispel one buff from each enemy."
+
+ Raemond
+ Changed ActionCondition:
+  "SWD_001_02_H01_SWOON_RAIMUND_LV03"
+   _DamageAdjustment = 9,74 -> 11,688
+   _ActionCondition1 = 57 -> 67
+   _KillerState1 = 0 -> 12
+   _KillerStateDamageRate = 0 -> 1,1
+  "SWD_004_02_H01_180_RAIMUND_LV02"
+   _DamageAdjustment = 4,91 -> 7,36
+   _ActionCondition1 = 0 -> 1258
+
+  Changed TextLabel:
+   "SKILL_DETAIL_LV3_101304011"
+    _Text = "Deals light damage to enemies directly ahead,\\ninflicts stun, and reduces their defense by 5% for\\n10 seconds. This defense reduction effect will not stack. Flashburned enemies take more damage."
+   "SKILL_DETAIL_LV2_101304012"
+    _Text = "Deals light damage to surrounding enemies and inflicts flashburn."
