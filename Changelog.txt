@@ -219,27 +219,19 @@ Eugene:
 	- _RateCritical: 0.0 -> 0.1
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
-
 Albert:
 1170:
 	- _SlipDamageRatio: 0.05 -> 0.0
-
-Giovanni | 
+Giovanni: 
 1350:
 	- _EnhancedCritical: 0.1 -> 0.2
 	- _RateCritical: 0.0 -> 0.08
 1390:
 	- _EnhancedCritical: 0.15 -> 0.2
 	- _CurseOfEmptinessInvalid: 0 -> 1
-
 Yoshitsune:
 1439: 
-	- _RateAttackSpeed: 0.1 -> 0.3
-	
-Child Ranzal:
-1840:
-	- _AbilityType2UpValue: 40.0 -> 300.0
-
+	- _RateAttackSpeed: 0.1 -> 0.3	
 Overcharge (Humanoid Jupiter):
 1967:
 	- _RateAttack: 0.0 -> -0.05
@@ -253,15 +245,20 @@ Overcharge (Humanoid Jupiter):
 1970:
 	- _RateAttack: 0.0 -> -0.2
 	- _RateDefense: 0.0 -> -0.2
-	
-Yachiyo:
+Uriel's Zeal (Uriel):
+1973:
+	- _RateDestroyFireKiller: 0 -> 0.1
+1974:
+	- _RateDestroyFireKiller: 0 -> 0.15
+1975:
+	- _RateDestroyFireKiller: 0 -> 0.2
+Dauntless Spirit (Yachiyo):
 310012001:
 	- _DurationNum: 1 -> 2
-
-Heinwald: 
+Abyssal Connection (Heinwald): 
 311050702:
 	- _RateAttack: 0.1 -> 0.2
-	- _CurseOfEmptinessInvalid
+	- _CurseOfEmptinessInvalid: 0 -> 1
 	
 
 Changed CharaData:
@@ -279,15 +276,12 @@ Changed DragonData:
 Apollo:  
 330000560:
 	- _Abilities16: 330000560 -> 1619
-
 Corsaint Phoenix: 
 20050403:
 	- _Abilities16: 330000560 -> 1761
-	
-Styx 
+	Styx 
 20050212:
 	- _Abilities26: 2216 -> 330000325
-
 Epimetheus: 
 20050514:
 	- _Abilities26: 2025 -> 33000560
@@ -295,86 +289,68 @@ Epimetheus:
 Pazuzu:
 20050306:
 	- _Abilities16: 330000560 -> 1591
-
 Pop-Star Siren:
 20050409:
 	- _Abilities15: 330000408 -> 1761
-
 Raphael:
 20050415:
 	- _Abilities15: 330000416 -> 1761
 
 Changed AbilityData:
-
 Thunderous Impulse (Albert):
 1189:
 	- _AbilityType1UpValue: 10.0 -> 50.0
-
 (Shadow) Strength and Critical Rate: 
 1458:
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
-	
+Power Hitter (Child Ranzal):
+1840:
+	- _AbilityType2UpValue: 40.0 -> 300.0
 Forbidden Power Within (Grimnir)
 1914:
-	- _ConditionValue: 100.0 -> 50.0
-	
+	- _ConditionValue: 100.0 -> 50.0	
 (Light) Raphael's Aid:
 2070:
 	- _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
 	- _AbilityType3: 0 -> 14
 	- _VariousId3a: 0 -> 1582
-
 Undying Will (Gala Audric):
 2150:
 	- _MaxCount: 5 -> 10
-	
 Wyrmbound Shell (Farren):
 2194:
 	- _VariousId3a: 0 -> 861
-
 The Sugary Star (Annelie):
 2508:
 	- _VariousId1a: 6 -> 4
 	- _AbilityType1UpValue: 10 -> 20
-
 (Wind) Michael's Favour (Michael):
 2591:
-	_ConditionValue2: 10.0 -> 20
-	
+	_ConditionValue2: 10.0 -> 20.0
 Dragonyule Blessing V: 
 330000122:
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
-
 (Flame) Burning Punisher:
 330000175:
 	- _AbilityType1UpValue: 20.0 -> 40.0
-
 (Wind) Poisoned Punisher:
 330000189:
 	- _AbilityType1UpValue: 20.0 -> 40.0
-
 (Light) Paralyzed Punisher: 
 330000191:
 	- _AbilityType1UpValue: 20.0 -> 40.0
-
 Exhilaration (Pop-Star Siren):
 330000194:
 	- _AbilityType1UpValue: 3.0 > 5.0
-
 (Shadow) Poisoned Punisher:
 330000523:
 	- _AbilityType1UpValue: 20.0 -> 40.0
-
 Great Cascade (Styx):
 330000568:
 	- _CoolTime: 10.0 -> 5.0
 
-
-
-
-	
 Added: 
 Eugene (S2):
 GameObject PlayerAction_00191260:
