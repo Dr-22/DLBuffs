@@ -58,9 +58,29 @@ Nobunaga:
 "KAT_112_04_ADDDAMAGE_LV03":
 	- _DamageAdjustment: 15.65 -> 19.56
 
+Regina:
+"KAT_133_04_H01_LV03":
+	- _KillerState1: 0 -> 99
+	- _KillerStateDamageRate: 0.0 -> 1.5
+"KAT_133_04_HEAL_LV03":
+	- "_TargetGroup": 1 -> 6
+"KAT_133_04_CURE_LV03"
+	-"_RecoverySpRatio": 0.0 -> 0.1
+
 Delphi: 
 "DAG_113_04_H01_LV03":
 	- _DamageCounterCoef: 11.0 -> 110.0
+
+Nevin:
+"DAG_133_04_H01_LV02":
+	-"_DamageAdjustment": 10.0 -> 20.0
+"DAG_133_04_PLUS_H01_LV02":
+	-"_DamageAdjustment": 3.0 -> 5.0
+"DAG_133_04_PLUS_H02_LV02":
+	-"_DamageAdjustment": 1.0 -> 4.0
+"DAG_NEV2_CHR1_01_H01_LV02":
+	-"_DamageAdjustment": 1.0 -> 6.0
+	-"_AdditionRecoverySp": 30 -> 100
 
 Farren:
 "DAG_145_04_PLUS_H01_LV02":
@@ -79,10 +99,22 @@ Lin You:
 Finni
 "AXE_130_01_H01_LV02":
 	- _DamageAdjustment: 4.5 -> 5.0
-
+	
+Ryzarda:
+"LAN_LIZ_CMB_05_H04":
+	- "_DamageAdjustment": 2.67 -> 4.0
+	- "_HpDrainRate": 0.0 -> 0.1
+	- "_HpDrainLimitRate": 0.0 -> 0.2
 Grimnir:
 "LAN_140_04_H01_LV01":
 	- _DamageAdjustment: 0.8 -> 8.0
+
+Pinon:
+"BOW_116_04_H01_LV03":
+	-"_DamageAdjustment": 18.15 -> 25.41
+"BOW_PNN_CMB_06_H01":
+	-"_KillerState1": 0 -> 11
+	-"_KillerStateDamageRate": 0.0 -> 1.5
 	
 Radiant Xuan Zang:
 "BUF_202_SGC_LV02":
@@ -93,7 +125,7 @@ Radiant Xuan Zang:
 	- _DamgeAdjustment: 2.22 -> 4.44
 "ROD_SAN_CHR_01_H02_LV02":
 	- _DamgeAdjustment: 2.22 -> 4.44
-
+	
 Heinwald:
 "CAN_104_04_H01_LV04":
 	- _DamageAdjustmet: 5.41 -> 10.82 
@@ -105,11 +137,24 @@ Heinwald:
 "CAN_104_04_H02_PLUS_LV04:
 	- _DamageAdjustmet: 5.41 -> 10.82
 	- _HpDrainLimitRate: 0.08 -> 0.2
-
+	
 Yoshitsune:
 "GUN_108_04_PLUS_H01_LV03"
-	- _DamageAdjustmet: 15.72 -> 31.44
-
+	- _DamageAdjustment: 15.72 -> 31.44
+	
+Faris:
+"GUN_112_04_H01_LV03":
+	- _KillerState1: 0 -> 15
+	- _KillerStateDamageRate: 0.0 -> 1.5
+"GUN_112_04_PLUS_H01_LV03":
+	- _KillerState1: 0 -> 15
+	- _KillerStateDamageRate: 0.0 -> 1.7
+"GUN_FUA_CMB_01_H01":
+	- _DamageAdjustment: 0.97 -> 1.5
+	- _KillerStateDamageRate: 1.35 -> 1.5
+"GUN_FUA_CHR_01_PLUS_H01_LV02":
+	- _KillerStateDamageRate: 1.35 -> 1.5
+	
 Dragonyule Jeanne:
 "S076_002_01_LV02":
 	- _DamageAdjustment: 4.08 > 7.14
@@ -128,7 +173,7 @@ Pazuzu:
 	- _ActionCondition1: 0 -> 1316
 "S026_001_01_LV02":
 	- _DamageAdjustment: 1.82 -> 3.64
-
+	
 Corsaint Phoenix:
 "S056_000_02:
 	- _ActionCondition1: 0 -> 857
@@ -140,7 +185,7 @@ Apollo:
 	- _DamageAdjustment: 3.6 -> 11.6
 "S103_000_02":
 	- _ActionCondition1: 0 -> 2049
-
+	
 Epimetheus: 
 "S112_000_00":
 	- _DamageAdjustment: 3.6 -> 5.4
@@ -168,7 +213,7 @@ Raphael:
 	- _DamageAdjustment: 6.9 -> 8.6
 "S154_000_02":
 	- _DamageAdjustment: 9.0 -> 12.0
-
+	
 Gala Thor:
 "S90018_000_02":
 	- _DamageAdjustment: 0.58 -> 2.32
@@ -222,6 +267,13 @@ Eugene:
 Albert:
 1170:
 	- _SlipDamageRatio: 0.05 -> 0.0
+Gabriel's Blessing (Pinon):
+1218:
+	- "_DurationNum": 0 -> 3
+	- "_RateDamageShield2": 0.15 -> 0.30
+Sigil Released (Pinon):
+1276: 
+	- "_Rate": 40 -> 80
 Giovanni: 
 1350:
 	- _EnhancedCritical: 0.1 -> 0.2
@@ -231,7 +283,13 @@ Giovanni:
 	- _CurseOfEmptinessInvalid: 0 -> 1
 Yoshitsune:
 1439: 
-	- _RateAttackSpeed: 0.1 -> 0.3	
+	- _RateAttackSpeed: 0.1 -> 0.3
+
+Raphael's Steel (Ryszarda):
+1540:
+	- "_RateAttack": 0.15 -> 0.25
+	- "_RateDefense": 0.0 -> 0.15
+	
 Overcharge (Humanoid Jupiter):
 1967:
 	- _RateAttack: 0.0 -> -0.05
