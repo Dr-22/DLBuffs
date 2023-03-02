@@ -81,6 +81,26 @@ Nevin:
 "DAG_NEV2_CHR1_01_H01_LV02":
 	-"_DamageAdjustment": 1.0 -> 6.0
 	-"_AdditionRecoverySp": 30 -> 100
+Fleur:
+"DAG_106_03_1_H01_LV03":
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+"DAG_106_03_1_H02_LV03"
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+"DAG_106_03_2_H01_LV03"
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+"DAG_106_03_2_H02_LV03"
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+"DAG_106_03_3_H01_LV03"
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+"DAG_106_03_3_H02_LV03"
+"_DamageAdjustment": 3.33 -> 6.685
+"_KillerStateDamageRate": 20 -> 1.5
+
 
 Farren:
 "DAG_145_04_PLUS_H01_LV02":
@@ -137,6 +157,10 @@ Heinwald:
 "CAN_104_04_H02_PLUS_LV04:
 	- _DamageAdjustmet: 5.41 -> 10.82
 	- _HpDrainLimitRate: 0.08 -> 0.2
+	
+Dragonyule Lily:
+"CAN_117_04_HEAL_LV03"
+"_RecoveryValue": 87 -> 130
 	
 Yoshitsune:
 "GUN_108_04_PLUS_H01_LV03"
@@ -319,6 +343,12 @@ Uriel's Zeal (Uriel):
 	- _RateDestroyFireKiller: 0 -> 0.15
 1975:
 	- _RateDestroyFireKiller: 0 -> 0.2
+
+Great Cascade (Styx):
+2184
+ "_RateSkill": 0.5 -> 0.0
+ _RateAttackSpeed": 0.0 -> 0.05
+ 
 Dauntless Spirit (Yachiyo):
 310012001:
 	- _DurationNum: 1 -> 2
@@ -329,26 +359,30 @@ Abyssal Connection (Heinwald):
 	
 
 Changed CharaData:
-Beautician Zardin: 
-10250401:
-	- _Abilities12: 217 -> 871
+
+Beautician Zardin (10250401):
+_Abilities12: 217 -> 871
+Fleur (10340402):
+"_Abilities31": 110160404 -> 110160406
+"_ExAbility2Data5": 400000516 -> 400000529
 
 Changed SkillData :
-Albert:  
-101504012:
-	- _SpLv4: 160000 ->  20000
+
+Albert (101504012):
+_SpLv4: 160000 ->  20000
+
+Fleur (103404022):
+_"SpLv2": 5934 -> 7056
 
 Changed DragonData:
 
-Apollo:  
-330000560:
-	- _Abilities16: 330000560 -> 1619
-Corsaint Phoenix: 
-20050403:
-	- _Abilities16: 330000560 -> 1761
-	Styx 
+Apollo (330000560):
+_Abilities16: 330000560 -> 1619
+Corsaint Phoenix (20050403):
+_Abilities16: 330000560 -> 1761
+Styx 
 20050212:
-	- _Abilities26: 2216 -> 330000325
+_Abilities26: 2216 -> 330000325
 Epimetheus: 
 20050514:
 	- _Abilities26: 2025 -> 33000560
