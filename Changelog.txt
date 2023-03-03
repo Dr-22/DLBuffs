@@ -292,70 +292,73 @@ Eugene:
 	- _ValidRegeneSP: 0 -> 1
 Albert:
 1170:
-	- _SlipDamageRatio: 0.05 -> 0.0
+_SlipDamageRatio: 0.05 -> 0.0
+Saint Starfall Lily (DYLily):
+1417:
+"_RateAttackSpeed": 0.0 -> 0.1,
+"_RateBurstSpeed": 0.0 -> 0.3
 Gabriel's Blessing (Pinon):
 1218:
-	- "_DurationNum": 0 -> 3
-	- "_RateDamageShield2": 0.15 -> 0.30
+ "_DurationNum": 0 -> 3
+"_RateDamageShield2": 0.15 -> 0.30
 Sigil Released (Pinon):
 1276: 
-	- "_Rate": 40 -> 80
+"_Rate": 40 -> 80
 Giovanni: 
 1350:
-	- _EnhancedCritical: 0.1 -> 0.2
-	- _RateCritical: 0.0 -> 0.08
+_EnhancedCritical: 0.1 -> 0.2
+_RateCritical: 0.0 -> 0.08
 1390:
-	- _EnhancedCritical: 0.15 -> 0.2
-	- _CurseOfEmptinessInvalid: 0 -> 1
+_EnhancedCritical: 0.15 -> 0.2
+_CurseOfEmptinessInvalid: 0 -> 1
 Yoshitsune:
 1439: 
-	- _RateAttackSpeed: 0.1 -> 0.3
+_RateAttackSpeed: 0.1 -> 0.3
 Radiant Scion (Gala Chelle)
 1471:
-	- "_RateBurstSpeed": 0.0 -> 0.02
-        - "_MoveSpeedRate": 0.0 -> 0.02
+"_RateBurstSpeed": 0.0 -> 0.02
+"_MoveSpeedRate": 0.0 -> 0.02
 Gala Chelle:
 1526:
-	- "_RateDefense": 0.0 -> -0.3
-
+"_RateDefense": 0.0 -> -0.3
 Raphael's Steel (Ryszarda):
 1540:
-	- "_RateAttack": 0.15 -> 0.25
-	- "_RateDefense": 0.0 -> 0.15
+"_RateAttack": 0.15 -> 0.25
+"_RateDefense": 0.0 -> 0.15
 	
 Overcharge (Humanoid Jupiter):
 1967:
-	- _RateAttack: 0.0 -> -0.05
-	- _RateDefense: 0.0 -> -0.05
+_RateAttack: 0.0 -> -0.05
+_RateDefense: 0.0 -> -0.05
 1968:
-	- _RateAttack: 0.0 -> -0.1
-	- _RateDefense: 0.0 -> -0.1
+_RateAttack: 0.0 -> -0.1
+_RateDefense: 0.0 -> -0.1
 1969:
-	- _RateAttack: 0.0 -> -0.15
-	- _RateDefense: 0.0 -> -0.15
+_RateAttack: 0.0 -> -0.15
+_RateDefense: 0.0 -> -0.15
 1970:
-	- _RateAttack: 0.0 -> -0.2
-	- _RateDefense: 0.0 -> -0.2
+_RateAttack: 0.0 -> -0.2
+_RateDefense: 0.0 -> -0.2
 Uriel's Zeal (Uriel):
 1973:
-	- _RateDestroyFireKiller: 0 -> 0.1
+_RateDestroyFireKiller: 0 -> 0.1
 1974:
-	- _RateDestroyFireKiller: 0 -> 0.15
+_RateDestroyFireKiller: 0 -> 0.15
 1975:
-	- _RateDestroyFireKiller: 0 -> 0.2
+_RateDestroyFireKiller: 0 -> 0.2
 
 Great Cascade (Styx):
 2184
- "_RateSkill": 0.5 -> 0.0
- _RateAttackSpeed": 0.0 -> 0.05
+"_RateSkill": 0.5 -> 0.0
+"_RateAttackSpeed": 0.0 -> 0.05
  
 Dauntless Spirit (Yachiyo):
 310012001:
-	- _DurationNum: 1 -> 2
+_DurationNum: 1 -> 2
 Abyssal Connection (Heinwald): 
 311050702:
-	- _RateAttack: 0.1 -> 0.2
-	- _CurseOfEmptinessInvalid: 0 -> 1
+_RateAttack: 0.1 -> 0.2
+_CurseOfEmptinessInvalid: 0 -> 1
 	
 
 Changed CharaData:
