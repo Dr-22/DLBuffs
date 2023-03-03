@@ -378,47 +378,51 @@ Changed DragonData:
 
 Apollo (330000560):
 _Abilities16: 330000560 -> 1619
+
 Corsaint Phoenix (20050403):
 _Abilities16: 330000560 -> 1761
-Styx 
-20050212:
+
+Styx (20050212):
 _Abilities26: 2216 -> 330000325
-Epimetheus: 
-20050514:
-	- _Abilities26: 2025 -> 33000560
-	
-Pazuzu:
-20050306:
-	- _Abilities16: 330000560 -> 1591
-Pop-Star Siren:
-20050409:
-	- _Abilities15: 330000408 -> 1761
-Raphael:
-20050415:
-	- _Abilities15: 330000416 -> 1761
+
+Epimetheus (20050514):
+_Abilities26: 2025 -> 33000560	
+
+Pazuzu (20050306):
+_Abilities16: 330000560 -> 1591
+
+Pop-Star Siren (20050409):
+_Abilities15: 330000408 -> 1761
+
+Raphael (20050415):
+_Abilities15: 330000416 -> 1761
 
 Changed AbilityData:
-Thunderous Impulse (Albert):
-1189:
-	- _AbilityType1UpValue: 10.0 -> 50.0
-(Shadow) Strength and Critical Rate: 
-1458:
-	- _AbilityType1UpValue: 45.0 -> 60.0
-	- _AbilityType2UpValue: 20.0 -> 30.0
-Power Hitter (Child Ranzal):
-1840:
-	- _AbilityType2UpValue: 40.0 -> 300.0
-Forbidden Power Within (Grimnir)
-1914:
-	- _ConditionValue: 100.0 -> 50.0	
-(Light) Raphael's Aid:
-2070:
-	- _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
-	- _AbilityType3: 0 -> 14
-	- _VariousId3a: 0 -> 1582
-Undying Will (Gala Audric):
-2150:
-	- _MaxCount: 5 -> 10
+Albert - Thunderous Impulse (1189):
+_AbilityType1UpValue: 10.0 -> 50.0
+
+(Shadow) Strength and Critical Rate (1458):
+_AbilityType1UpValue: 45.0 -> 60.0
+_AbilityType2UpValue: 20.0 -> 30.0
+
+DYLily - Saint's Calling (1524):
+"_AbilityType2": 0 -> 43
+"_VariousId2a": 0 ->  110120004
+
+Child Ranzal - Power Hitter (1840):
+_AbilityType2UpValue: 40.0 -> 300.0
+
+Grimnir - Forbidden Power Within (1914):
+_ConditionValue: 100.0 -> 50.0	
+
+(Light) Raphael's Aid (2070):
+_VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
+_AbilityType3: 0 -> 14
+_VariousId3a: 0 -> 1582
+
+Gala Audric - Undying Will (2150):
+_MaxCount: 5 -> 10
+
 Wyrmbound Shell (Farren):
 2194:
 	- _VariousId3a: 0 -> 861
