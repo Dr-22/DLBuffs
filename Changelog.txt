@@ -119,7 +119,13 @@ Lin You:
 Finni
 "AXE_130_01_H01_LV02":
 	- _DamageAdjustment: 4.5 -> 5.0
-	
+
+Xuan Zang:
+"LAN_113_04_H01_LV03"
+"_DamageAdjustment": 3.65 -> 5.11
+"LAN_113_04_H02_LV03"
+"_DamageAdjustment": 3.65 -> 5.11
+
 Ryzarda:
 "LAN_LIZ_CMB_05_H04":
 	- "_DamageAdjustment": 2.67 -> 4.0
@@ -251,6 +257,10 @@ Gala Thor:
 
 
 Changed ActionCondition:
+
+120:
+"_Rate": 70 -> 100
+
 Finni:
 231:
 	- _SlipDamageRatio: -0.08 -> -0.16
@@ -365,9 +375,15 @@ Changed CharaData:
 
 Beautician Zardin (10250401):
 _Abilities12: 217 -> 871
+
 Fleur (10340402):
 "_Abilities31": 110160404 -> 110160406
 "_ExAbility2Data5": 400000516 -> 400000529
+
+Xuan Zang (10540102):
+"_Abilities11": 110050302 -> 1856
+"_Abilities12": 110050303 -> 1857
+"_Abilities31": 210001604 -> 720
 
 Changed SkillData :
 
@@ -414,6 +430,9 @@ DYLily - Saint's Calling (1524):
 
 Child Ranzal - Power Hitter (1840):
 _AbilityType2UpValue: 40.0 -> 300.0
+
+Team Amp = Skill Haste (1857):
+"_AbilityType1UpValue": 10.0 -> 15.0
 
 Grimnir - Forbidden Power Within (1914):
 _ConditionValue: 100.0 -> 50.0	
@@ -480,5 +499,12 @@ GameObject PlayerAction_00891180 (DYLily S2):
         "component": {
           "m_FileID": 0,
           "m_PathID": 1755258622314211500
+        }
+      },
+GameObject PlayerAction_00572000 (Xuan Zang S2):
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -8416903713717370977
         }
       },
