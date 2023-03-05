@@ -391,6 +391,7 @@ Albert (101504012):
 _SpLv4: 160000 ->  20000
 
 Fleur (103404022):
+_"Sp": 5934 -> 7056
 _"SpLv2": 5934 -> 7056
 
 Changed DragonData:
