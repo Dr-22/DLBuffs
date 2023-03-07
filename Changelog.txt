@@ -145,6 +145,10 @@ Grimnir:
 "LAN_140_04_H01_LV01":
 	- _DamageAdjustment: 0.8 -> 8.0
 
+Eleonora:
+"BOW_001_03_H01_POISON2_LV02:
+"_ActionCondition1": 101020601 -> 1316
+
 Pinon:
 "BOW_116_04_H01_LV03":
 	-"_DamageAdjustment": 18.15 -> 25.41
@@ -395,6 +399,10 @@ Xuan Zang (10540102):
 "_Abilities12": 110050303 -> 1857
 "_Abilities31": 210001604 -> 720
 
+Sharena (10550404):
+"_Abilities11": 901 -> 186
+"_Abilities12": 902 -> 187
+
 Changed SkillData :
 
 Albert (101504012):
@@ -524,5 +532,12 @@ GameObject PlayerAction_00591220 (Sharena S2)
         "component": {
           "m_FileID": 0,
           "m_PathID": 2551805182873212260
+        }
+      },
+GameObject PlayerAction_00612311 (Eleonora S2)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -3285203690004953181
         }
       },
