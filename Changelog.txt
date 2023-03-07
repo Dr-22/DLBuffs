@@ -126,6 +126,16 @@ Xuan Zang:
 "LAN_113_04_H02_LV03"
 "_DamageAdjustment": 3.65 -> 5.11
 
+Sharena:
+"LAN_121_04_H01_LV03":
+"_DamageAdjustment": 7.463 -> 10.5
+"LAN_122_04_H01_LV02":
+"_DamageAdjustment": 8.568 -> 8.6
+"_ActionCondition1": 891 -> 857
+"LAN_122_04_H02_LV02":
+"_DamageAdjustment": 10.217 -> 13.4
+"_ActionCondition1": 891 -> 857
+
 Ryzarda:
 "LAN_LIZ_CMB_05_H04":
 	- "_DamageAdjustment": 2.67 -> 4.0
@@ -507,5 +517,12 @@ GameObject PlayerAction_00572000 (Xuan Zang S2):
         "component": {
           "m_FileID": 0,
           "m_PathID": -8416903713717370977
+        }
+      },
+GameObject PlayerAction_00591220 (Sharena S2)
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2551805182873212260
         }
       },
