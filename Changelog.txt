@@ -155,7 +155,10 @@ Pinon:
 "BOW_PNN_CMB_06_H01":
 	-"_KillerState1": 0 -> 11
 	-"_KillerStateDamageRate": 0.0 -> 1.5
-	
+
+Xania:
+"ROD_002_02_H01_BURN_LV03":
+_ActionCondition1: 102040301 -> 2049
 Radiant Xuan Zang:
 "BUF_202_SGC_LV02":
 	- _RecoveryCP: 20 -> 30
@@ -539,5 +542,12 @@ GameObject PlayerAction_00612311 (Eleonora S2)
         "component": {
           "m_FileID": 0,
           "m_PathID": -3285203690004953181
+        }
+      },
+GameObject PlayerAction_00721102 (Xania S2)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1768489605851628118
         }
       },
