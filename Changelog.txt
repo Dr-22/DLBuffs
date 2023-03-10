@@ -148,6 +148,8 @@ Grimnir:
 Eleonora:
 "BOW_001_03_H01_POISON2_LV02:
 "_ActionCondition1": 101020601 -> 1316
+"_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
+"_AdditionalRandomHitNum": 1,
 
 Pinon:
 "BOW_116_04_H01_LV03":
