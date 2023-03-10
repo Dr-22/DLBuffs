@@ -306,17 +306,20 @@ Eugene:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _ValidRegeneSP: 0 -> 1
+	- _CurseOfEmptinessInvalid: 0 -> 1 
 990:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
+	- _CurseOfEmptinessInvalid: 0 -> 1 
 993:
 	- _SlipDamageIntervalSec: 0.0 > 1.0
 	- _SlipDamageRatio: 0 -> -0.02
 	- _RateCritical: 0.0 -> 0.1
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
+	- _CurseOfEmptinessInvalid: 0 -> 1 
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
