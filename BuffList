@@ -23,7 +23,7 @@ S2 (Counter): 11x Damage Taken ->  110x Damage Taken
 S2 (Poison): 300% -> 600% per tick.
 
 Eugene:
-S1
+S1 (All Phases): Immune to CoN
 Phase I: 25% Str -> 25% Str, 2% SP Regen per second
 Phase II: 25% Str, 8% Flame Res -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second
 Phase III: 25% Str, 8% Flame Res, 20% Crit Damage -> 25% Str, 8% Flame Res, 10% Crit, 2% SP Regen per second, 20% Crit Damage, 10% Skill Damage
@@ -57,6 +57,9 @@ Yachiyo:
 S1: 2 * 648% -> 2 * 810%
 S2: Now Grants 2 Charges of 'Dauntless Spirit'
 FS: 1017% -> 1779%, 1.2x Paralyzed Killer when granted 'Dauntless Spirit'
+
+Xania:
+S2: Now inflicts -20% Burn Res for 20s
 
 Dragons:
 Apollo
