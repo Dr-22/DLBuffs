@@ -84,22 +84,22 @@ Nevin:
 Fleur:
 "DAG_106_03_1_H01_LV03":
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_1_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_2_H01_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_2_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_3_H01_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_3_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 20 -> 1.5
+"_KillerStateDamageRate": 2 -> 1.5
 
 
 Farren:
@@ -170,7 +170,18 @@ Radiant Xuan Zang:
 	- _DamgeAdjustment: 2.22 -> 4.44
 "ROD_SAN_CHR_01_H02_LV02":
 	- _DamgeAdjustment: 2.22 -> 4.44
-	
+
+Maribelle:
+"ROD_100_04_H01_LV04":
+"_DamageAdjustment": 2.56 -> 3.0
+"_ActionCondition1": 1246 -> 1267
+"ROD_001_04_H01_LV03"
+"_DamageAdjustment": 4.26 -> 6.0,
+"ROD_001_04_H02_LV03":
+"_DamageAdjustment": 4.26 -> 6.0
+"_AdditionalRandomHitLabel": "S082_002_LV02/S082_002_LV02/S082_002_LV01",
+"_AdditionalRandomHitNum": 0 -> 3,
+
 Heinwald:
 "CAN_104_04_H01_LV04":
 	- _DamageAdjustmet: 5.41 -> 10.82 
@@ -265,6 +276,11 @@ Raphael:
 "S154_000_02":
 	- _DamageAdjustment: 9.0 -> 12.0
 	
+Rose Queen:
+"S152_002_01_LV02"
+"_AdditionalRandomHitLabel": " " -> "BUF_143_SPC_LV01/S082_002_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+
 Gala Thor:
 "S90018_000_02":
 	- _DamageAdjustment: 0.58 -> 2.32
@@ -420,6 +436,9 @@ Fleur (103404022):
 _"Sp": 5934 -> 7056
 _"SpLv2": 5934 -> 7056
 
+Maribelle (107503012):
+"_SpLv3": 5838 -> 8000
+
 Changed DragonData:
 
 Apollo (330000560):
@@ -443,9 +462,15 @@ _Abilities15: 330000408 -> 1761
 Raphael (20050415):
 _Abilities15: 330000416 -> 1761
 
+RQ (20050318):
+"_Abilities15": 1591 -> 330000562
+
 Changed AbilityData:
 Albert - Thunderous Impulse (1189):
 _AbilityType1UpValue: 10.0 -> 50.0
+
+Ramiel - Dprep 1279:
+"_ElementalType": 5 -> 0,
 
 (Shadow) Strength and Critical Rate (1458):
 _AbilityType1UpValue: 45.0 -> 60.0
@@ -504,6 +529,9 @@ Exhilaration (Pop-Star Siren):
 Great Cascade (Styx):
 330000568:
 	- _CoolTime: 10.0 -> 5.0
+
+330000562 (Strength + Surge of Strength II):
+"_AbilityType1UpValue": 45.0 -> 60.0
 
 Added To Master Asset; 
 GameObject PlayerAction_00191260 (Eugene S2):
