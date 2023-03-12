@@ -208,6 +208,7 @@ Dragonyule Lily:
 Yoshitsune:
 "GUN_108_04_PLUS_H01_LV03"
 	- _DamageAdjustment: 15.72 -> 31.44
+
 Gala Chelle:
 "GUN_110_04_H02_LV03":
 	_ "_DamageAdjustment": 0.25 -> 1.25
