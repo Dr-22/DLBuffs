@@ -109,6 +109,13 @@ Farren:
 	- _DamageAdjustmet: 5.2 -> 6.0
 "DAG_144_04_PLUS_H02_LV03":
 	- _DamageAdjustmet: 5.2 -> 6.0
+Vanessa:
+"AXE_001_03_H02_LV04":
+_DamageAdjustment: 8.42 -> 11.42
+"AXE_003_03_H01_DEF_DOWN_LV03":
+"_DamageAdjustment": 5.47 -> 8.42
+"AXE_003_03_H02_DEF_DOWN_LV03":
+"_DamageAdjustment": 5.47 -> 8.42
 
 Lin You:
 "AXE_104_04_PLUS_H01_LV04":
