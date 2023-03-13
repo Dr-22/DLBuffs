@@ -249,7 +249,14 @@ Corsaint Phoenix:
 	- _ActionCondition1: 0 -> 857
 "S056_005_00_LV02":
 	- _DamageAdjustment: 2.6 -> 3.9
-	
+Vayu:
+"S098_000_00":
+"_AdditionRecoverySp": 5 -> 10
+"S098_000_01":
+"_AdditionRecoverySp": 5 -> 10
+"S098_001_00_LV02":
+"_DamageAdjustment": 17.92 -> 2.4
+
 Apollo:
 "S103_001_00_LV02":
 	- _DamageAdjustment: 3.6 -> 11.6
