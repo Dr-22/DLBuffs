@@ -148,6 +148,7 @@ Ryzarda:
 	- "_DamageAdjustment": 2.67 -> 4.0
 	- "_HpDrainRate": 0.0 -> 0.1
 	- "_HpDrainLimitRate": 0.0 -> 0.2
+	
 Grimnir:
 "LAN_140_04_H01_LV01":
 	- _DamageAdjustment: 0.8 -> 8.0
@@ -388,6 +389,10 @@ Raphael's Steel (Ryszarda):
 1540:
 "_RateAttack": 0.15 -> 0.25
 "_RateDefense": 0.0 -> 0.15
+
+Fae Lance (Faeblessed Tobias)
+1723:
+"_DurationSec": 10 -> 15.0
 	
 Overcharge (Humanoid Jupiter):
 1967:
