@@ -66,7 +66,20 @@ Regina:
 	- "_TargetGroup": 1 -> 6
 "KAT_133_04_CURE_LV03"
 	-"_RecoverySpRatio": 0.0 -> 0.1
+Luther:
+"DAG_001_03_H01_LUTA_LV03"
+"_DamageAdjustment": 3.296 -> 4.7
+"DAG_001_03_H02_LUTA_ATK_LV03"
+"_DamageAdjustment": 3.296 -> 4.7
+"DAG_001_03_H02_LUTA_DEF_LV03"
+"_ActionCondition1": 403040103 -> 1246
 
+DYCleo:
+"DAG_104_04_3_H01_LV04"
+"_ActionCondition1": 103020112 -> 403040103
+"DAG_104_04_3_TENSION_LV04":
+"_Attributes02": 1 -> 0,
+"_ActionCondition1": 1 -> 2
 Delphi: 
 "DAG_113_04_H01_LV03":
 	- _DamageCounterCoef: 11.0 -> 110.0
@@ -354,6 +367,11 @@ Eugene:
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
 	- _CurseOfEmptinessInvalid: 0 -> 1 
+
+Luther:
+1081:
+"_RateBurst": 0.0 -> 0.5
+
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
@@ -378,13 +396,20 @@ _CurseOfEmptinessInvalid: 0 -> 1
 Yoshitsune:
 1439: 
 _RateAttackSpeed: 0.1 -> 0.3
+
 Radiant Scion (Gala Chelle)
 1471:
 "_RateBurstSpeed": 0.0 -> 0.02
 "_MoveSpeedRate": 0.0 -> 0.02
+
 Gala Chelle:
 1526:
 "_RateDefense": 0.0 -> -0.3
+
+Frigid Gift (DYCleo):
+1487:
+"_RateBurst": 0.0 -> 0.5,
+
 Raphael's Steel (Ryszarda):
 1540:
 "_RateAttack": 0.15 -> 0.25
@@ -428,6 +453,10 @@ Abyssal Connection (Heinwald):
 _RateAttack: 0.1 -> 0.2
 _CurseOfEmptinessInvalid: 0 -> 1
 	
+403040103 (Was Luther Def Down)
+"_Rate": 50 -> 100
+"_RateDefense": -0.05 -> 0.0
+"_RateFreeze": 0.0 -> -0.1
 
 Changed CharaData:
 
