@@ -36,6 +36,13 @@ Albert:
 "SWD_104_04_H01_PLUS_LV04":
 	- _DamageAdjustment : 23.522 -> 29.402
 
+Lea:
+"SWD_CHR_14_H01_LV02"
+"_DamageAdjustment": 1.65 ->  5.15
+"_AdditionRecoverySp": 350 ->  500
+"SWD_103_04_H01_LV03"
+"_DamageCounterCoef": 11.0 -> 55.0
+
 Beautician Zardin:
 "KAT_104_04_H01_LV03":
 	- _DamageAdjustment: 4.424 -> 7.742
@@ -67,6 +74,10 @@ Regina:
 "KAT_133_04_CURE_LV03"
 	-"_RecoverySpRatio": 0.0 -> 0.1
 Luther:
+"DAG_004_03_H01_LV04"
+"_KillerStateDamageRate": 1.3 -> 1.5
+"DAG_004_03_H02_LV04"
+"_KillerStateDamageRate": 1.3 -> 1.5
 "DAG_001_03_H01_LUTA_LV03"
 "_DamageAdjustment": 3.296 -> 4.7
 "DAG_001_03_H02_LUTA_ATK_LV03"
