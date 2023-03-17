@@ -40,6 +40,7 @@ Lea:
 "SWD_CHR_14_H01_LV02"
 "_DamageAdjustment": 1.65 ->  5.15
 "_AdditionRecoverySp": 350 ->  500
+"_ToBreakDmgRate": 8.0 -> 4.0
 "SWD_103_04_H01_LV03"
 "_DamageCounterCoef": 11.0 -> 55.0
 
