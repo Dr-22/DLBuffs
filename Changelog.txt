@@ -250,7 +250,14 @@ Faris:
 	- _KillerStateDamageRate: 1.35 -> 1.5
 "GUN_FUA_CHR_01_PLUS_H01_LV02":
 	- _KillerStateDamageRate: 1.35 -> 1.5
-	
+Liger:
+S043_001_00_LV02":
+_DamageAdjustment: 2.74 > 5.48
+"S043_001_01_LV02":
+_DamageAdjustment: 2.74 > 5.48
+"_AdditionalRandomHitLabel": "" -> "S082_002_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+
 Dragonyule Jeanne:
 "S076_002_01_LV02":
 	- _DamageAdjustment: 4.08 > 7.14
@@ -467,7 +474,7 @@ _CurseOfEmptinessInvalid: 0 -> 1
 	
 403040103 (Was Luther Def Down)
 "_Rate": 50 -> 100
-"_RateDefense": -0.05 -> 0.0
+"_RateDefenseq": -0.05 -> 0.0
 "_RateFreeze": 0.0 -> -0.1
 
 Changed CharaData:
@@ -501,6 +508,15 @@ Maribelle (107503012):
 "_SpLv3": 5838 -> 8000
 
 Changed DragonData:
+Liger (20050407):
+"_Abilities11": 330000446,
+"_Abilities12": 330000447,
+"_Abilities13": 330000448,
+"_Abilities14": 330000449,
+"_Abilities15": 330000450,
+"_Abilities16": 2220 -> 330000446,
+"_Abilities25": 0 -> 330000569,
+"_Abilities26": 2217 -> 330000569,
 
 Apollo (330000560):
 _Abilities16: 330000560 -> 1619
@@ -532,6 +548,7 @@ _AbilityType1UpValue: 10.0 -> 50.0
 
 Ramiel - Dprep 1279:
 "_ElementalType": 5 -> 0,
+"_AbilityIconName": "" -> "Icon_Ability_1010008",
 
 (Shadow) Strength and Critical Rate (1458):
 _AbilityType1UpValue: 45.0 -> 60.0
