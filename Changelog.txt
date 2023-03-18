@@ -329,6 +329,20 @@ Rose Queen:
 "_AdditionalRandomHitLabel": " " -> "BUF_143_SPC_LV01/S082_002_LV02",
 "_AdditionalRandomHitNum": 0 -> 1,
 
+Summer Marishiten:
+"S156_000_00":
+"_DamageAdjustment": 3.02 -> 6.04
+"S156_000_01":
+"_DamageAdjustment": 3.8 -> 7.6
+"S156_000_02":
+"_DamageAdjustment": 5.5 -> 8.25
+"S156_001_00_LV02":
+"_DamageAdjustment": 18.0 -> 24.0
+"S156_001_01_LV01":
+"_AuraMaxLimitLevel": 2 -> 3
+"S156_001_01_LV02":
+"_AuraMaxLimitLevel": 2 -> 3
+
 Gala Thor:
 "S90018_000_02":
 	- _DamageAdjustment: 0.58 -> 2.32
