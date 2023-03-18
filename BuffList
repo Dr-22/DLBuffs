@@ -53,6 +53,11 @@ FS: While S2 is Active, 166% * 3 -> 498% * 3, OD Damage Rate 1.85x -> 1x
 Nobunaga:
 S1: Burning Ambition, 1565% -> 1956%
 
+Luther:
+S1: 4 hits of 405%, 526.5% to Frosbitten enemies -> 4 hits of 405%, 606% to Frosbitten enemies
+S2: 4 hits of 329.6%, 100% chance of -5% Str for 10s, 50% chance of -5% Def for 10s ->  4 hits of 470%, 100% chance of -5% Str and Def for 10s
+A3: 50% FS buff added, HP 70% = 10% Crit Rate attached.
+
 Yachiyo:
 S1: 2 * 648% -> 2 * 810%
 S2: Now Grants 2 Charges of 'Dauntless Spirit'
