@@ -543,6 +543,10 @@ RQ (20050318):
 "_Abilities15": 1591 -> 330000562
 
 Changed AbilityData:
+Luther - Passionate Dancer 
+"_AbilityType3": 0 -> 43,
+"_VariousId3a": 0 -> 210001606,
+
 Albert - Thunderous Impulse (1189):
 _AbilityType1UpValue: 10.0 -> 50.0
 
