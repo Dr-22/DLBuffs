@@ -184,6 +184,20 @@ Eleonora:
 "_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
 "_AdditionalRandomHitNum": 1,
 
+Joachim:
+"BOW_111_03_1_H01_LV03"
+"_DamageAdjustment": 2.21 -> 5.5
+"BOW_111_03_1_H02_LV03"
+"_DamageAdjustment": 2.21 -> 5.5
+"BOW_111_03_2_H01_LV03",
+"_DamageAdjustment": 2.21 -> 5.5
+"BOW_111_03_2_H02_LV03"
+"_DamageAdjustment": 2.21 -> 5.5
+"BOW_111_03_3_H01_LV03"
+"_DamageAdjustment": 2.21 -> 5.5
+"BOW_111_03_3_H02_LV03"
+"_DamageAdjustment": 2.21 -> 5.5
+
 Pinon:
 "BOW_116_04_H01_LV03":
 	-"_DamageAdjustment": 18.15 -> 25.41
@@ -250,6 +264,11 @@ Faris:
 	- _KillerStateDamageRate: 1.35 -> 1.5
 "GUN_FUA_CHR_01_PLUS_H01_LV02":
 	- _KillerStateDamageRate: 1.35 -> 1.5
+
+Summer Mym	
+"GUN_MM_CMB2_01_H01":
+_DamageAdjustment: 0.99 -> 2.0
+
 Liger:
 S043_001_00_LV02":
 _DamageAdjustment: 2.74 > 5.48
@@ -451,6 +470,9 @@ Raphael's Steel (Ryszarda):
 Fae Lance (Faeblessed Tobias)
 1723:
 "_DurationSec": 10 -> 15.0
+
+Twilit Memory (Summer Mym)
+1768:
 	
 Overcharge (Humanoid Jupiter):
 1967:
@@ -508,6 +530,9 @@ Xuan Zang (10540102):
 Sharena (10550404):
 "_Abilities11": 901 -> 186
 "_Abilities12": 902 -> 187
+
+Summer Mym (10950502):
+"_ExAbilityData5": 109000009 -> 106070008
 
 Changed SkillData :
 
@@ -584,6 +609,11 @@ Team Amp = Skill Haste (1857):
 
 Grimnir - Forbidden Power Within (1914):
 _ConditionValue: 100.0 -> 50.0	
+
+Summer Mym - Summer Sparks (2060)
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 10,
+"_AbilityType2UpValue": 0 -> 20.0,
 
 (Light) Raphael's Aid (2070):
 _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
