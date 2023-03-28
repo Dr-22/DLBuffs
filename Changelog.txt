@@ -260,6 +260,22 @@ Maribelle:
 "_AdditionalRandomHitLabel": "S082_002_LV02/S082_002_LV02/S082_002_LV01",
 "_AdditionalRandomHitNum": 0 -> 3,
 
+Seimei:
+"ROD_CHR_14_H01_LV02":
+"_DamageAdjustment": 0.77 -> 1.5
+"ROD_125_04_OPT2_LV01:
+"_DamageAdjustment": 4.86 -> 6.0,
+"ROD_125_04_BARRIER_LV01"
+"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
+"ROD_125_04_BARRIER_LV02"
+"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
+"ROD_125_04_BARRIER_LV03"
+"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+
 Heinwald:
 "CAN_104_04_H01_LV04":
 	- _DamageAdjustmet: 5.41 -> 10.82 
