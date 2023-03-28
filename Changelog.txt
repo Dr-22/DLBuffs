@@ -62,6 +62,31 @@ Yachiyo:
 "KAT_002_03_PARALYSIS_H02_LV03":
 	- _DamageAdjustment: 6.48 -> 8.1
 	
+Rena:
+"KAT_106_04_1_H01_LV03"
+"_KillerState1": 0 -> 2,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+"KAT_106_04_1_H02_LV03"
+"_KillerState1": 0 -> 2,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+"KAT_106_04_2_H01_LV03"
+"_KillerState1": 0 -> 2,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+"KAT_106_04_2_H02_LV03"
+"_KillerState1": 0 -> 2,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+"KAT_106_04_3_H01_LV03"
+"_KillerStateDamageRate": 1.8 -> 2.0
+"_AdditionCritical": 0.0 -> 0.5,
+"KAT_106_04_3_H02_LV03"
+"_KillerStateDamageRate": 1.8 -> 2.0
+"_AdditionCritical": 0.0 -> 0.5,
+"KAT_106_04_CRITICAL_LV03"
+"_AuraId": 0 -> 30000,
+"_AuraMaxLimitLevel": 0 -> 1,
+
+
+
 Nobunaga:
 "KAT_112_04_ADDDAMAGE_LV03":
 	- _DamageAdjustment: 15.65 -> 19.56
@@ -85,6 +110,12 @@ Luther:
 "_DamageAdjustment": 3.296 -> 4.7
 "DAG_001_03_H02_LUTA_DEF_LV03"
 "_ActionCondition1": 403040103 -> 1246
+
+Fritz: 
+"DAG_001_03_H01_FRITZ_LV03"
+"_ActionCondition1": 403040102 -> 1246
+"DAG_001_03_H02_FRITZ_LV03"
+"_ActionCondition1": 403040102 -> 1246
 
 DYCleo:
 "DAG_104_04_3_H01_LV04"
@@ -622,6 +653,9 @@ _VariousId3a: 0 -> 1582
 
 Gala Audric - Undying Will (2150):
 _MaxCount: 5 -> 10
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 2,
+"_AbilityType3UpValue": 0 -> 3.0
 
 Wyrmbound Shell (Farren):
 2194:
