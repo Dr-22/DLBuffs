@@ -265,15 +265,9 @@ Seimei:
 "_DamageAdjustment": 0.77 -> 1.5
 "ROD_125_04_OPT2_LV01:
 "_DamageAdjustment": 4.86 -> 6.0,
-"ROD_125_04_BARRIER_LV01"
-"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
-"_AdditionalRandomHitNum": 0 -> 1,
-"ROD_125_04_BARRIER_LV02"
-"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
-"_AdditionalRandomHitNum": 0 -> 1,
 "ROD_125_04_BARRIER_LV03"
-"_AdditionalRandomHitLabel": "" -> "ROD_125_04_BUF_LV03",
-"_AdditionalRandomHitNum": 0 -> 1,
+"_AuraId": 0 -> 1000,
+"_AuraMaxLimitLevel": 0 -> 1,
 
 
 Heinwald:
