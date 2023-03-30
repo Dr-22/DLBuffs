@@ -85,7 +85,12 @@ Rena:
 "_AuraId": 0 -> 30000,
 "_AuraMaxLimitLevel": 0 -> 1,
 
-
+Natalie
+"KAT_105_04_H03_LV03":
+"_DamageAdjustment": 5.31 -> 8.0
+"_ActionCondition1": 0 -> 899
+"KAT_105_04_TENSION_LV03"
+"_ActionCondition1": 1 -> 2
 
 Nobunaga:
 "KAT_112_04_ADDDAMAGE_LV03":
@@ -178,6 +183,12 @@ Lin You:
 	- _DamageAdjustment: 2.42 -> 3.63
 "AXE_104_04_PLUS_H02_LV04":
 	- _DamageAdjustment: 2.42 -> 3.63
+
+Zhu Bajie	
+"AXE_119_04_H01_LV03":
+"_DamageAdjustment": 11.076 -> 16.076
+"AXE_HAK_CHR_01_H01_LV02_CHLV03":
+"_CrisisLimitRate": 0.0 -> 2.25
 
 Finni
 "AXE_130_01_H01_LV02":
@@ -364,7 +375,17 @@ Apollo:
 	- _DamageAdjustment: 3.6 -> 11.6
 "S103_000_02":
 	- _ActionCondition1: 0 -> 2049
-	
+
+Hastur:
+"S105_000_00"
+"_DamageAdjustment": 3.8 -> 5.8
+"S105_000_01"
+"_DamageAdjustment": 4.56 -> 6.56
+"S105_000_02"
+"_DamageAdjustment": 6.84 -> 8.84
+"S105_001_00_LV02":
+"_DamageAdjustment": 0.82 -> 4.1
+
 Epimetheus: 
 "S112_000_00":
 	- _DamageAdjustment: 3.6 -> 5.4
@@ -393,6 +414,16 @@ Raphael:
 "S154_000_02":
 	- _DamageAdjustment: 9.0 -> 12.0
 	
+High Chthonious:
+"S148_000_01"
+"_DamageAdjustment": 2.69 -> 4.05,
+"S148_000_02"
+"_DamageAdjustment": 2.69 -> 4.05,
+"S148_000_02"
+"_DamageAdjustment": 2.69 -> 4.05,
+"S148_000_04"
+"_DamageAdjustment": 2.89 -> 6.5,
+
 Rose Queen:
 "S152_002_01_LV02"
 "_AdditionalRandomHitLabel": " " -> "BUF_143_SPC_LV01/S082_002_LV02",
@@ -429,7 +460,10 @@ Changed ActionCondition:
 
 Finni:
 231:
-	- _SlipDamageRatio: -0.08 -> -0.16
+_SlipDamageRatio: -0.08 -> -0.15
+1566:
+_SlipDamageRatio: -0.08 -> -0.1
+
 Crystalline Blades Buffed (Naveed):
 338:
 	- _RateSkill: 0.0 -> 0.1
@@ -445,6 +479,11 @@ Heaven's Breath (Lin You):
 Paralysis Resistance Down (Generic):
 857:
 	- _DurationSec: 20.0 -> 30.0
+	
+Unhealable
+899:
+"_RateDamageCut": 0.0 -> 0.8
+
 Radiant Xuan Zang:
 943:
 	- _CurseOfEmptinessInvalid: 0 -> 1
@@ -474,9 +513,16 @@ Luther:
 1081:
 "_RateBurst": 0.0 -> 0.5
 
+Fluorescent Fish (Yukata Cassandra) 
+1118:
+"_EnhancedFire2": 0.0 -> 0.15,
+"_EnhancedNoElement": 0.0 ->  0.15,
+
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
+
+
 Saint Starfall Lily (DYLily):
 1417:
 "_RateAttackSpeed": 0.0 -> 0.1,
@@ -628,6 +674,10 @@ _Abilities15: 330000408 -> 1761
 
 Raphael (20050415):
 _Abilities15: 330000416 -> 1761
+
+Hastur (20050311):
+"_Abilities26": 330000177 -> 330000219
+
 
 RQ (20050318):
 "_Abilities15": 1591 -> 330000562
