@@ -28,6 +28,11 @@ Eugene:
 "SWD_126_04_H01_LV02":
 	- _DamageAdjustment: 25.0 -> 75.0
 
+Alberius
+"SWD_131_04_H01_LV03":
+"_AdditionRecoveryDpLv1": 0 -> 50,
+
+
 Albert: 
 "SWD_CHR_13_H01_LV02":
 	- _AdditionActiveGaugeValue: 150 -> 0
@@ -88,7 +93,8 @@ Rena:
 Natalie
 "KAT_105_04_H03_LV03":
 "_DamageAdjustment": 5.31 -> 8.0
-"_ActionCondition1": 0 -> 899
+"_AdditionalRandomHitLabel": "" -> "BUF_201_BAN_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
 "KAT_105_04_TENSION_LV03"
 "_ActionCondition1": 1 -> 2
 
@@ -683,6 +689,7 @@ RQ (20050318):
 "_Abilities15": 1591 -> 330000562
 
 Changed AbilityData:
+
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
@@ -707,6 +714,12 @@ _AbilityType2UpValue: 40.0 -> 300.0
 
 Team Amp = Skill Haste (1857):
 "_AbilityType1UpValue": 10.0 -> 15.0
+
+(Shapeshift Prep & Dragon Defense) 
+1860:
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 2,
+"_AbilityLimitedGroupId2": 0 -> 40.0,
 
 Grimnir - Forbidden Power Within (1914):
 _ConditionValue: 100.0 -> 50.0	
