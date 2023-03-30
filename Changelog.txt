@@ -350,6 +350,15 @@ Vayu:
 "S098_001_00_LV02":
 "_DamageAdjustment": 17.92 -> 2.4
 
+Kamuy:
+"S109_000_00"
+"_DamageAdjustment": 3.8 -> 7.6
+"S109_000_01"
+"_DamageAdjustment": 4.18 -> 8.36
+"S109_001_00_LV02":
+"_DamageAdjustment": 3.0 -> 6.0
+
+
 Apollo:
 "S103_001_00_LV02":
 	- _DamageAdjustment: 3.6 -> 11.6
@@ -465,6 +474,10 @@ Luther:
 1081:
 "_RateBurst": 0.0 -> 0.5
 
+Smiling Flower:
+1115:
+"_RateCritical": 0.0 -> 0.05,
+
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
@@ -486,6 +499,13 @@ _RateCritical: 0.0 -> 0.08
 1390:
 _EnhancedCritical: 0.15 -> 0.2
 _CurseOfEmptinessInvalid: 0 -> 1
+
+Joyful Radiance (Lumiere Pandora)
+1406:
+"_RateAttack": 0 -> 0.03,
+"_RateCritical": 0.0 ->  0.03,
+"_RateSkill": 0.0 ->  0.03
+
 Yoshitsune:
 1439: 
 _RateAttackSpeed: 0.1 -> 0.3
@@ -693,9 +713,23 @@ Dragonyule Blessing V:
 Exhilaration (Pop-Star Siren):
 330000194:
 	- _AbilityType1UpValue: 3.0 > 5.0
+
+(Water) Primed Strength:
+330000219:
+"_UnitType": 0 -> 1,
+"_AbilityType2": 0 -> 14,
+"_VariousId2str":  "" -> "AURA_ATK_1",
+
 (Shadow) Poisoned Punisher:
 330000523:
 	- _AbilityType1UpValue: 20.0 -> 40.0
+
+(Shadow) Strength and High Dragon's Might:
+330000551
+"_AbilityType2": 0 -> 36
+"_AbilityLimitedGroupId2": 0 -> 113,
+"_AbilityType2UpValue": 0 -> 50.0,
+
 Great Cascade (Styx):
 330000568:
 	- _CoolTime: 10.0 -> 5.0
@@ -754,3 +788,8 @@ GameObject PlayerAction_00721102 (Xania S2)
           "m_PathID": 1768489605851628118
         }
       },
+      
+      
+Changed TextLabel:
+"ABILITY_NAME_330000219"
+"(Water) Primed Strength +15%" -> "({element_owner}) Primed Strength +15%"
