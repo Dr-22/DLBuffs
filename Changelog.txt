@@ -474,10 +474,6 @@ Luther:
 1081:
 "_RateBurst": 0.0 -> 0.5
 
-Smiling Flower:
-1115:
-"_RateCritical": 0.0 -> 0.05,
-
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
@@ -499,12 +495,6 @@ _RateCritical: 0.0 -> 0.08
 1390:
 _EnhancedCritical: 0.15 -> 0.2
 _CurseOfEmptinessInvalid: 0 -> 1
-
-Joyful Radiance (Lumiere Pandora)
-1406:
-"_RateAttack": 0 -> 0.03,
-"_RateCritical": 0.0 ->  0.03,
-"_RateSkill": 0.0 ->  0.03
 
 Yoshitsune:
 1439: 
