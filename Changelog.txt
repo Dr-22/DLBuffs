@@ -520,9 +520,8 @@ Luther:
 "_RateBurst": 0.0 -> 0.5
 
 Fluorescent Fish (Yukata Cassandra) 
-1118:
-"_EnhancedFire2": 0.0 -> 0.15,
-"_EnhancedNoElement": 0.0 ->  0.15,
+1718:
+"_RateAttack": 0 -> 0.3,
 
 Albert:
 1170:
