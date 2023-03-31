@@ -353,12 +353,36 @@ Pazuzu:
 	- _ActionCondition1: 0 -> 1316
 "S026_001_01_LV02":
 	- _DamageAdjustment: 1.82 -> 3.64
+
+Prometheus
+"S052_000_00"
+"_DamageAdjustment": 3.2 -> 6.4,
+"S052_000_01"
+"_DamageAdjustment": 3.52 -> 7.04,
+"S052_000_02"
+"_DamageAdjustment": 4.48 -> 8.96,
+"S052_001_LV02
+"_DamageAdjustment": 11.2 -> 22.4
+"_ActionCondition1": 0 -> 291
+"_AuraId": 0 -> 20000,
+"_AuraMaxLimitLevel": 0 -> 1,
+"_AdditionalRandomHitLabel": "" -> "KAT_115_04_2_DEBUF_LV04",
+"_AdditionalRandomHitNum": 0 -> 1,
 	
 Corsaint Phoenix:
 "S056_000_02:
 	- _ActionCondition1: 0 -> 857
 "S056_005_00_LV02":
 	- _DamageAdjustment: 2.6 -> 3.9
+	
+Konohana Sakuya:
+"S082_000_01"
+"_AdditionRecoverySp": 5 -> 10
+"S082_000_02"
+"_AdditionRecoverySp": 5 -> 10
+S082_001_LV02":
+"_DamageAdjustment": 13.2 -> 19.3
+
 Vayu:
 "S098_000_00":
 "_AdditionRecoverySp": 5 -> 10
@@ -377,10 +401,26 @@ Kamuy:
 
 
 Apollo:
-"S103_001_00_LV02":
-	- _DamageAdjustment: 3.6 -> 11.6
+"S103_000_00"
+_DamageAdjustment: 3.8 -> 5.7
+"S103_000_01"
+"_DamageAdjustment": 4.18 -> 6.27,
 "S103_000_02":
-	- _ActionCondition1: 0 -> 2049
+"_DamageAdjustment": 5.14 -> 7.71
+"S103_001_00_LV02":
+_DamageAdjustment: 3.6 -> 11.6
+
+Kagutsuchi
+"S107_000_00":
+"_DamageAdjustment": 4.0 -> 6.0
+"S107_000_01"
+"_DamageAdjustment": 4.8 -> 7.2
+"S107_000_LV02"
+"_DamageAdjustment": 4.4 -> 8.0
+"S107_001_LV02"
+"_DamageAdjustment": 4.4 -> 8.0
+"S107_002_LV02"
+"_DamageAdjustment": 4.4 -> 8.0
 
 Hastur:
 "S105_000_00"
@@ -401,7 +441,23 @@ Epimetheus:
 	- _ActionCondition1: 0 -> 1316
 "S112_001_LV02":
 	- _DamageAdjustment: 12.6 ->  25.2
-	
+
+Dreadking Rathalos
+"S122_000_00":
+"_DamageAdjustment": 4.4 -> 6.6,
+"S122_000_01":
+"_DamageAdjustment": 4.84 -> 7.26,
+"S122_000_03"
+"_DamageAdjustment": 6.8 ->  10.0,
+"S122_001_LV02":
+"_DamageAdjustment": 2.0 -> 12.0
+"S122_002_LV02":
+"_DamageAdjustment": 8.0 -> 16.0
+
+Horus:
+"S124_001_LV02"
+"_DamageAdjustment": 0.88 -> 1.32,
+
 Giovanni:
 "S135_000_00":
 	- _DamageAdjustment: 2.15 > 4.3
@@ -472,7 +528,8 @@ _SlipDamageRatio: -0.08 -> -0.1
 
 Crystalline Blades Buffed (Naveed):
 338:
-	- _RateSkill: 0.0 -> 0.1
+"_RateAttack": 0.0 -> 0.06,
+
 Delphi:
 448:
 	- _SlipDamagePower: 3.0 -> 6.0
@@ -589,13 +646,14 @@ _RateDefense: 0.0 -> -0.15
 1970:
 _RateAttack: 0.0 -> -0.2
 _RateDefense: 0.0 -> -0.2
+
 Uriel's Zeal (Uriel):
 1973:
 _RateDestroyFireKiller: 0 -> 0.1
 1974:
-_RateDestroyFireKiller: 0 -> 0.15
-1975:
 _RateDestroyFireKiller: 0 -> 0.2
+1975:
+_RateDestroyFireKiller: 0 -> 0.3
 
 Great Cascade (Styx):
 2184
@@ -648,6 +706,9 @@ _"SpLv2": 5934 -> 7056
 Maribelle (107503012):
 "_SpLv3": 5838 -> 8000
 
+Konohana Sakuya (200501071):
+"_MaxUseNum": 0 -> 99,
+
 Changed DragonData:
 Liger (20050407):
 "_Abilities11": 330000446,
@@ -683,15 +744,23 @@ _Abilities15: 330000416 -> 1761
 Hastur (20050311):
 "_Abilities26": 330000177 -> 330000219
 
+Kagutsuchi (20050110)
+"_Abilities26": 330000217 -> 330000219
 
 RQ (20050318):
 "_Abilities15": 1591 -> 330000562
+
+Prometheus (20050106):
 
 Changed AbilityData:
 
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
+
+(Flame) Attack Rate & Critical Rate V
+1237
+"_AbilityType2UpValue": 50.0 -> 70.0
 
 Albert - Thunderous Impulse (1189):
 _AbilityType1UpValue: 10.0 -> 50.0
@@ -753,9 +822,14 @@ Dragonyule Blessing V:
 330000122:
 	- _AbilityType1UpValue: 45.0 -> 60.0
 	- _AbilityType2UpValue: 20.0 -> 30.0
+
 (Flame) Burning Punisher:
 330000175:
-	- _AbilityType1UpValue: 20.0 -> 40.0
+_AbilityType1UpValue: 20.0 -> 40.0
+"_AbilityType2": 0 -> 47,
+"_VariousId2a": 0 -> 2,
+"_AbilityType2UpValue": 0 -> 70.0,
+
 (Wind) Poisoned Punisher:
 330000189:
 	- _AbilityType1UpValue: 20.0 -> 40.0
@@ -772,6 +846,14 @@ Exhilaration (Pop-Star Siren):
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
 
+(Flame) Strength & Force Strike Damage
+330000108:
+
+"_AbilityType1UpValue": 55.0 -> 70.0,
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 12,
+"_AbilityType3UpValue": 0.0 -> 30.0
+
 (Shadow) Poisoned Punisher:
 330000523:
 	- _AbilityType1UpValue: 20.0 -> 40.0
@@ -781,6 +863,11 @@ Exhilaration (Pop-Star Siren):
 "_AbilityType2": 0 -> 36
 "_AbilityLimitedGroupId2": 0 -> 113,
 "_AbilityType2UpValue": 0 -> 50.0,
+
+(Flame) Strength & Wind Res
+330000567
+"_AbilityType1UpValue": 55.0 -> 65.0,
+"_AbilityType2UpValue": 15.0 -> 25.0,
 
 Great Cascade (Styx):
 330000568:
@@ -845,3 +932,6 @@ GameObject PlayerAction_00721102 (Xania S2)
 Changed TextLabel:
 "ABILITY_NAME_330000219"
 "(Water) Primed Strength +15%" -> "({element_owner}) Primed Strength +15%"
+
+"ABILITY_NAME_330000174"
+"(Flame) Burning Punisher +{ability_val0}%" -> "(Flame) Burning Punisher & Sting +{ability_val0}%"
