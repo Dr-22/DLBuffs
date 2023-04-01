@@ -1,4 +1,9 @@
 Changed PlayerActionHitAttribute:
+Naveed:
+"BUF_111_TEXT_LV03"
+"_AuraId": 0 -> 20000,
+"_AuraMaxLimitLevel": 0 -> 1,
+
 Ku Hai: 
 "SWD_001_03_KGI_H01_LV03":
 	- _DamageAdjustment: 4.14 -> 6.21
@@ -45,9 +50,21 @@ Lea:
 "SWD_CHR_14_H01_LV02"
 "_DamageAdjustment": 1.65 ->  5.15
 "_AdditionRecoverySp": 350 ->  500
-"_ToBreakDmgRate": 8.0 -> 4.0
+"_ToBreakDmgRate": 8.0 -> 2.75
 "SWD_103_04_H01_LV03"
+"_CrisisLimitRate": 0 -> 2.5,
 "_DamageCounterCoef": 11.0 -> 55.0
+
+Hunter Berserker:
+"SWD_MH_CHR_01_H01_LV02":
+"_DamageAdjustment": 4.74 -> 7.11
+"_ToBreakDmgRate": 2.15 -> 1.45
+"SWD_MH_CHR_01_H01_LV02_CHLV02":
+"_DamageAdjustment": 6.78 -> 10.17,
+"_ToBreakDmgRate": 1.95 -> 1.25,
+"SWD_MH_CHR_01_H01_LV02_CHLV03"
+"_DamageAdjustment": 8.77 -> 13.06,
+"_ToBreakDmgRate": 1.75 -> 1.25,
 
 Beautician Zardin:
 "KAT_104_04_H01_LV03":
@@ -66,7 +83,13 @@ Yachiyo:
 	- _DamageAdjustment: 6.48 -> 8.1
 "KAT_002_03_PARALYSIS_H02_LV03":
 	- _DamageAdjustment: 6.48 -> 8.1
-	
+
+Mikoto:
+"KAT_101_04_H02_STANCE1_LV04":
+"_DamageAdjustment": 6.85 -> 7.85,
+"KAT_101_04_H02_STANCE2_LV04":
+"_DamageAdjustment": 7.76 -> 15.52,
+
 Rena:
 "KAT_106_04_1_H01_LV03"
 "_KillerState1": 0 -> 2,
@@ -100,7 +123,10 @@ Natalie
 
 Nobunaga:
 "KAT_112_04_ADDDAMAGE_LV03":
-	- _DamageAdjustment: 15.65 -> 19.56
+"_ActionCondition1": 0 -> 21,
+"KAT_111_04_H01_LV02"
+"_DamageAdjustment": 13.56 -> 16.5,
+"_KillerStateDamageRate": 1.5 -> 2.0,
 
 Regina:
 "KAT_133_04_H01_LV03":
@@ -184,6 +210,19 @@ _DamageAdjustment: 8.42 -> 11.42
 "AXE_003_03_H02_DEF_DOWN_LV03":
 "_DamageAdjustment": 5.47 -> 8.42
 
+Ramona
+"AXE_102_04_H01_LV03":
+"_AdditionalRandomHitLabel": "" -> "AXE_001_03_SA_LV04",
+"_AdditionalRandomHitNum": 1,
+"AXE_102_04_H02_LV03":
+"_DamageAdjustment": 2.93 -> 3.76
+
+Halloween Mym:
+"AXE_108_04_H02_LV03"
+"_AdditionRecoveryDpLv1": 0 -> 50,
+"AXE_109_04_DB_LV02":
+"_TargetGroup": 1 -> 6,
+
 Lin You:
 "AXE_104_04_PLUS_H01_LV04":
 	- _DamageAdjustment: 2.42 -> 3.63
@@ -206,6 +245,7 @@ Xuan Zang:
 "LAN_113_04_H02_LV03"
 "_DamageAdjustment": 3.65 -> 5.11
 
+
 Sharena:
 "LAN_121_04_H01_LV03":
 "_DamageAdjustment": 7.463 -> 10.5
@@ -215,6 +255,16 @@ Sharena:
 "LAN_122_04_H02_LV02":
 "_DamageAdjustment": 10.217 -> 13.4
 "_ActionCondition1": 891 -> 857
+
+Nadine:
+"LAN_127_04_H02_1_LV03"
+"_DamageAdjustment": 1.64 -> 3.28,
+"LAN_127_04_H02_2_LV03"
+"_DamageAdjustment": 3.29 -> 6.58,
+"LAN_127_04_H02_3_LV03":
+"_DamageAdjustment": 5.75 -> 11.5,
+LAN_127_04_H01_2_LV03":
+"_DamageAdjustment": 4.384 -> 6.5,
 
 Ryzarda:
 "LAN_LIZ_CMB_05_H04":
@@ -226,11 +276,29 @@ Grimnir:
 "LAN_140_04_H01_LV01":
 	- _DamageAdjustment: 0.8 -> 8.0
 
+Panther:
+"LAN_133_04_PLUS_H01_LV02":
+"_DamageAdjustment": 9.975 -> 13.5
+"LAN_EP_CMB2_10_H01":
+"_DamageAdjustment": 6.0 -> 8.0
+"_AddUtp": 0 -> 150,
+"LAN_EP_CMB2_11_H01"
+"_DamageAdjustment": 6.0 -> 8.0
+"_AddUtp": 0 -> 150,
+"LAN_EP_CMB2_12_H01":
+"_DamageAdjustment": 6.0 -> 8.0
+"_AddUtp": 0 -> 150,
+
+
 Eleonora:
 "BOW_001_03_H01_POISON2_LV02:
 "_ActionCondition1": 101020601 -> 1316
 "_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
 "_AdditionalRandomHitNum": 1,
+
+Chelsea:
+"BOW_110_04_H01_LV03"
+"_DamageAdjustment": 2.176 -> 3,0
 
 Joachim:
 "BOW_111_03_1_H01_LV03"
@@ -276,6 +344,22 @@ Maribelle:
 "_DamageAdjustment": 4.26 -> 6.0
 "_AdditionalRandomHitLabel": "S082_002_LV02/S082_002_LV02/S082_002_LV01",
 "_AdditionalRandomHitNum": 0 -> 3,
+
+Student Maribelle:
+"ROD_105_04_H01_LV03":
+"_DamageAdjustment": 1.28 -> 2.0
+"ROD_105_04_H02_LV03":
+"_DamageAdjustment": 1.28 -> 2.0
+"ROD_106_04_H01_LV02",:
+"_DamageAdjustment": 10.304 -> 14.304,
+"ROD_106_04_H02_LV02":
+"_DamageAdjustment": 10.304 -> 14.304,
+
+Incognito Nefaria:
+"ROD_121_04_H01_LV03":
+"_DamageAdjustment": 1.32 -> 2.5,
+ROD_122_04_H01_LV02":
+"_DamageAdjustment": 30.78 -> 45.0,
 
 Seimei:
 "ROD_CHR_14_H01_LV02":
@@ -442,6 +526,11 @@ Epimetheus:
 "S112_001_LV02":
 	- _DamageAdjustment: 12.6 ->  25.2
 
+Halloween Brunhilda:
+"S113_001_LV02":
+"_DamageAdjustment": 3.08 -> 4.62
+"_ActionCondition1": 0 -> 291,
+
 Dreadking Rathalos
 "S122_000_00":
 "_DamageAdjustment": 4.4 -> 6.6,
@@ -517,24 +606,57 @@ Gala Thor:
 
 Changed ActionCondition:
 
+Hmym Def Down Zone:
+114
+
+
 120:
 "_Rate": 70 -> 100
 
 Finni:
 231:
 _SlipDamageRatio: -0.08 -> -0.15
+
+Dream Boost
+241:
+"_RateCritical": 0.05 -> 0.15,
+"_RateAttackSpeed": 0.0 -> 0.05,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
+Obsession (Chlesea)
+245:
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
+Armament Charger (Finni)
 1566:
 _SlipDamageRatio: -0.08 -> -0.1
 
 Crystalline Blades Buffed (Naveed):
 338:
-"_RateAttack": 0.0 -> 0.06,
+"_RateDefense": 0.0 -> 0.02,
 
 Delphi:
 448:
 	- _SlipDamagePower: 3.0 -> 6.0
 449:
 	- _RatePoison: 0.0 -> -0.2
+	
+456 (80% FS Damage Up - 1 Time):
+"_CurseOfEmptinessInvalid": 0 -> 1
+
+Obsessive Love II (Chelsea):
+478:
+"_AbilityType1UpValue": 30.0 -> 50.0,
+"_AbilityType3": 0 -> 6,
+"_VariousId3a": 0 -> 2,
+"_TargetAction3":0 -> 1,
+"_AbilityType3UpValue": 0 -> 40.0
+
+Draconic Power III (Gala Mym):
+513:
+"_RateAttackSpeed": 0.0 -> 0.15,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
 Heaven's Breath (Lin You):
 514:
 	- _CurseOfEmptinessInvalid: 0 -> 1
@@ -546,6 +668,19 @@ Paralysis Resistance Down (Generic):
 Unhealable
 899:
 "_RateDamageCut": 0.0 -> 0.8
+
+Passionate Photographer (Nadine):
+909:
+"_UniqueIcon": 0 -> 40,
+"_BuffIconId": 0 -> 137,
+"_RateSkill": 0.0 -> 0.2,
+_CurseOfEmptinessInvalid: 0 -> 1
+910:
+Trendsetting Photographer (Nadine):
+_CurseOfEmptinessInvalid: 0 -> 1
+
+World's Dream (Nobunaga)
+
 
 Radiant Xuan Zang:
 943:
@@ -571,17 +706,15 @@ Eugene:
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
 	- _CurseOfEmptinessInvalid: 0 -> 1 
+	
+Snipe
+1055:
+"_RateAttackSpeed": 0.0 -> 0.1,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 Luther:
 1081:
 "_RateBurst": 0.0 -> 0.5
-
-Fluorescent Fish (Yukata Cassandra) 
-1718:
-"_RateAttack": 0 -> 0.3,
-"_UnifiedManagement": 0 -> 1,
-"_Overwrite": 1 -> 0,
-"_OverwriteIdenticalOwner": 0 -> 1,
 
 Albert:
 1170:
@@ -611,6 +744,14 @@ Yoshitsune:
 1439: 
 _RateAttackSpeed: 0.1 -> 0.3
 
+Shikigami Enhancement - Kuzunoha
+1464:
+"_RateRecovery": 0 -> 0.2,
+"_RateRecoverySp": 0 -> 0.1,
+"_MaxDuplicatedCount": 0 -> 1,
+"_Overwrite": 1 -> 0,
+"_OverwriteIdenticalOwner": 0 -> 1,
+
 Radiant Scion (Gala Chelle)
 1471:
 "_RateBurstSpeed": 0.0 -> 0.02
@@ -628,6 +769,13 @@ Raphael's Steel (Ryszarda):
 1540:
 "_RateAttack": 0.15 -> 0.25
 "_RateDefense": 0.0 -> 0.15
+
+Fluorescent Fish (Yukata Cassandra) 
+1718:
+"_RateAttack": 0 -> 0.15,
+"_MaxDuplicatedCount": 0 -> 1,
+"_Overwrite": 1 -> 0,
+"_OverwriteIdenticalOwner": 0 -> 1,
 
 Fae Lance (Faeblessed Tobias)
 1723:
@@ -663,6 +811,9 @@ Great Cascade (Styx):
 "_RateSkill": 0.5 -> 0.0
 "_RateAttackSpeed": 0.0 -> 0.05
  
+306010401:
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
 Dauntless Spirit (Yachiyo):
 310012001:
 _DurationNum: 1 -> 2
@@ -670,7 +821,17 @@ Abyssal Connection (Heinwald):
 311050702:
 _RateAttack: 0.1 -> 0.2
 _CurseOfEmptinessInvalid: 0 -> 1
-	
+
+Flare Stance - Mikoto
+311010201:
+"_RateAttackSpeed": 0 -> 0.1,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+Ruin Stance - Mikoto
+311010203:
+"_RateAttackSpeed": 0 -> 0.2,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
+
 403040103 (Was Luther Def Down)
 "_Rate": 50 -> 100
 "_RateDefenseq": -0.05 -> 0.0
@@ -756,6 +917,16 @@ RQ (20050318):
 Prometheus (20050106):
 
 Changed AbilityData:
+Primed Strength
+310:
+"_AbilityType2": 0 -> 14,
+"_VariousId2str":  "" -> "AURA_ATK_1",
+
+Flame Blades' Protection:
+695
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 2,
+"_AbilityType3UpValue": 0.0 -> 20.0
 
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
@@ -783,6 +954,10 @@ DYLily - Saint's Calling (1524):
 Child Ranzal - Power Hitter (1840):
 _AbilityType2UpValue: 40.0 -> 300.0
 
+Team Str. Amp = Attack Rate
+1862:
+"_AbilityType1UpValue": 15.0,
+
 Team Amp = Skill Haste (1857):
 "_AbilityType1UpValue": 10.0 -> 15.0
 
@@ -805,6 +980,18 @@ _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
 _AbilityType3: 0 -> 14
 _VariousId3a: 0 -> 1582
 
+Yukata Cleo - Festival Fever II
+2090:
+"_AbilityType1UpValue": -15.0 -> -30.0,
+2091:
+"_AbilityType1UpValue": -15.0 -> -30.0,
+2092:
+"_AbilityType1UpValue": -15.0 -> -30.0,
+
+Dynamic Defense II
+2127:
+"_AbilityType1UpValue": 10.0 -> 25.0,
+
 Gala Audric - Undying Will (2150):
 _MaxCount: 5 -> 10
 "_AbilityType3": 0 -> 1,
@@ -821,6 +1008,13 @@ The Sugary Star (Annelie):
 (Wind) Michael's Favour (Michael):
 2591:
 	_ConditionValue2: 10.0 -> 20.0
+
+Energized = Strength (LV. 2)
+210002604:
+"_AbilityType2": 0 -> 14,
+"_VariousId2str": "" -> "S082_002_LV02",
+
+210002604
 Dragonyule Blessing V: 
 330000122:
 	- _AbilityType1UpValue: 45.0 -> 60.0
@@ -933,8 +1127,12 @@ GameObject PlayerAction_00721102 (Xania S2)
       
       
 Changed TextLabel:
+"ABILITY_NAME_1862",
+"Strength Amp = Attack Rate +8%" - > "Strength Amp = Attack Rate +15%
+
 "ABILITY_NAME_330000219"
 "(Water) Primed Strength +15%" -> "({element_owner}) Primed Strength +15%"
 
 "ABILITY_NAME_330000174"
 "(Flame) Burning Punisher +{ability_val0}%" -> "(Flame) Burning Punisher & Sting +{ability_val0}%"
+
