@@ -122,10 +122,9 @@ Natalie
 "_ActionCondition1": 1 -> 2
 
 Nobunaga:
-"KAT_112_04_ADDDAMAGE_LV03":
-"_ActionCondition1": 0 -> 21,
 "KAT_111_04_H01_LV02"
 "_DamageAdjustment": 13.56 -> 16.5,
+"_ActionCondition1": 0 -> 21,
 "_KillerStateDamageRate": 1.5 -> 2.0,
 
 Regina:
@@ -298,7 +297,7 @@ Eleonora:
 
 Chelsea:
 "BOW_110_04_H01_LV03"
-"_DamageAdjustment": 2.176 -> 3,0
+"_DamageAdjustment": 2.176 -> 3.5
 
 Joachim:
 "BOW_111_03_1_H01_LV03"
@@ -650,7 +649,7 @@ Obsessive Love II (Chelsea):
 "_AbilityType3": 0 -> 6,
 "_VariousId3a": 0 -> 2,
 "_TargetAction3":0 -> 1,
-"_AbilityType3UpValue": 0 -> 40.0
+"_AbilityType3UpValue": 0 -> 100.0
 
 Draconic Power III (Gala Mym):
 513:
