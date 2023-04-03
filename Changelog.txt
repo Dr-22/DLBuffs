@@ -1,4 +1,4 @@
-Changed PlayerActionHitAttribute:
+Changed PlayerActionHitAttribute ######################################################################################################################################################################
 Naveed:
 "BUF_111_TEXT_LV03"
 "_AuraId": 0 -> 20000,
@@ -18,16 +18,20 @@ Ku Hai:
 	- _ToBreakDmgRate: 1.85 -> 1
 
 Gala Ranzal:
-"SWD_105_04_H01_LV04":
-	- _DamageAdjustment: 3.09 -> 4.63
 "SWD_CHR_09_H01_LV01":
-	- _DamageAdjustment: 2.075 -> 4.15
+_DamageAdjustment: 2.075 -> 4.15
 "SWD_CHR_09_H01_LV02":
-	- _DamageAdjustment: 2.075 -> 4.15
+_DamageAdjustment: 2.075 -> 4.15
 "SWD_CHR_09_H02_LV01":
-	- _DamageAdjustment: 2.3 -> 4.6
+_DamageAdjustment: 2.3 -> 4.6
 "SWD_CHR_09_H02_LV02":
-	- _DamageAdjustment: 2.3 -> 4.6
+_DamageAdjustment: 2.3 -> 4.6
+	
+Wedding Elisanne:
+"SWD_111_04_H01_LV02":
+"_DamageAdjustment": 10.515 -> 21.03
+"_AuraId": 0 -> 20000,
+"_AuraMaxLimitLevel": 0 -> 1,
 
 Eugene:	
 "SWD_126_04_H01_LV02":
@@ -37,6 +41,19 @@ Alberius
 "SWD_131_04_H01_LV03":
 "_AdditionRecoveryDpLv1": 0 -> 50,
 
+Nino
+"SWD_133_04_PLUS_H02_LV03":
+"_DamageAdjustment": 0.79 -> 1.3
+"SWD_NIN_BLT_01_H01":
+"_DamageAdjustment": 0.15 -> 0.45,
+"SWD_NIN_BLT_02_H01":
+"_DamageAdjustment": 0.15 -> 0.45,
+"SWD_NIN_BLT_03_H01":
+"_DamageAdjustment": 0.15 -> 0.45,
+"SWD_NIN_BLT_04_H01":
+"_DamageAdjustment": 0.15 -> 0.45,
+"SWD_NIN_BLT_05_H01":
+"_DamageAdjustment": 0.15 -> 0.45,
 
 Albert: 
 "SWD_CHR_13_H01_LV02":
@@ -121,11 +138,47 @@ Natalie
 "KAT_105_04_TENSION_LV03"
 "_ActionCondition1": 1 -> 2
 
+Victor:
+"KAT_108_04_1_H01_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+"KAT_108_04_1_H02_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+"KAT_108_04_2_H01_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+"KAT_108_04_2_H02_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+"KAT_108_04_3_H01_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+"KAT_108_04_3_H02_LV04"
+"_DamageAdjustment": 3.5 -> 4.5,
+
 Nobunaga:
 "KAT_111_04_H01_LV02"
 "_DamageAdjustment": 13.56 -> 16.5,
 "_ActionCondition1": 0 -> 21,
 "_KillerStateDamageRate": 1.5 -> 2.0,
+
+Tobias:
+"KAT_117_04_2_H01_LV02":
+"_DamageAdjustment": 0.13 -> 3.0,
+"KAT_117_04_2_H02_LV02":
+"_DamageAdjustment": 0.13 -> 3.0,
+
+Forager Mitsuba:
+"KAT_124_04_H01_LV03":
+"_DamageAdjustment": 1.55 -> 2.5,
+"KAT_124_04_H02_LV03":
+"_DamageAdjustment": 1.55 -> 2.5,
+
+Harle:
+"KAT_135_04_H01_LV03":
+"_DamageAdjustment": 3.0 -> 4.5,
+"KAT_135_04_H02_LV03":
+"_DamageAdjustment": 3.0 -> 4.5,
+"KAT_135_04_H00_LV03":
+"_DamageAdjustment": 3.5 -> 5.0,
+"KAT_135_04_H03_LV03"
+"_DamageAdjustment": 3.5 -> 5.0,
 
 Regina:
 "KAT_133_04_H01_LV03":
@@ -159,10 +212,14 @@ DYCleo:
 "DAG_104_04_3_TENSION_LV04":
 "_Attributes02": 1 -> 0,
 "_ActionCondition1": 1 -> 2
+
+Wedding Aoi:
+"DAG_110_04_H01_LV04":
+"_DamageAdjustment": 3.24 -> 4.87,
+
 Delphi: 
 "DAG_113_04_H01_LV03":
 	- _DamageCounterCoef: 11.0 -> 110.0
-
 Nevin:
 "DAG_133_04_H01_LV02":
 	-"_DamageAdjustment": 10.0 -> 20.0
@@ -224,9 +281,15 @@ Halloween Mym:
 
 Lin You:
 "AXE_104_04_PLUS_H01_LV04":
-	- _DamageAdjustment: 2.42 -> 3.63
+_DamageAdjustment: 2.42 -> 3.63
 "AXE_104_04_PLUS_H02_LV04":
-	- _DamageAdjustment: 2.42 -> 3.63
+_DamageAdjustment: 2.42 -> 3.63
+
+Valentine's Melody:
+"AXE_114_04_H01_LV03":
+"_DamageAdjustment": 1.39 -> 2.78,
+"AXE_115_04_H01_LV02":
+"_DamageAdjustment": 8.64 -> 17.28,
 
 Zhu Bajie	
 "AXE_119_04_H01_LV03":
@@ -237,6 +300,18 @@ Zhu Bajie
 Finni
 "AXE_130_01_H01_LV02":
 	- _DamageAdjustment: 4.5 -> 5.0
+
+Shingen:
+"AXE_SNG_CMB_01_H01":
+"_DamageAdjustment": 0.5 -> 2.0,
+"AXE_SNG_CMB_02_H01"
+"_DamageAdjustment": 0.5 -> 2.0,
+
+Sylas
+"LAN_107_04_H01_LV04"
+"_DamageAdjustment": 5.93 -> 7.5,
+"LAN_107_04_H02_LV04":
+"_DamageAdjustment": 5.93 -> 7.5,
 
 Xuan Zang:
 "LAN_113_04_H01_LV03"
@@ -270,10 +345,18 @@ Ryzarda:
 	- "_DamageAdjustment": 2.67 -> 4.0
 	- "_HpDrainRate": 0.0 -> 0.1
 	- "_HpDrainLimitRate": 0.0 -> 0.2
-	
+
+Halloween Melsa:
+"LAN_131_04_H01_LV02":
+"_DamageAdjustment": 1.4 -> 5.2,
+"LAN_131_04_H02_LV02":
+"_DamageAdjustment": 1.4 -> 5.2,
+
 Grimnir:
+"LAN_138_04_PLUS_H01_LV03":
+"_DamageAdjustment": 1.25 -> 2.5,
 "LAN_140_04_H01_LV01":
-	- _DamageAdjustment: 0.8 -> 8.0
+_DamageAdjustment: 0.8 -> 4.0
 
 Panther:
 "LAN_133_04_PLUS_H01_LV02":
@@ -294,6 +377,22 @@ Eleonora:
 "_ActionCondition1": 101020601 -> 1316
 "_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
 "_AdditionalRandomHitNum": 1,
+
+Louise:
+"BOW_003_04_H01_POISON_KILLER_LV03",:
+"_DamageAdjustment": 6.93 -> 11.0,
+"_CrisisLimitRate": 0.5 -> 0.01,
+"BOW_003_04_H02_POISON_KILLER_LV03",:
+"_DamageAdjustment": 6.93 -> 11.0,
+"_CrisisLimitRate": 0.5 -> 0.01,
+
+Hawk
+"BOW_104_04_H02_LV04":
+"_KillerStateDamageRate": 3.0 -> 4.3,
+"BOW_114_04_H01_LV03":
+"_DamageAdjustment": 3.16 -> 5.16,
+"BOW_114_04_H02_LV03":
+"_DamageAdjustment": 3.16 -> 5.16,
 
 Chelsea:
 "BOW_110_04_H01_LV03"
@@ -317,10 +416,20 @@ Joachim:
 
 Pinon:
 "BOW_116_04_H01_LV03":
-	-"_DamageAdjustment": 18.15 -> 25.41
+"_DamageAdjustment": 18.15 -> 25.41
 "BOW_PNN_CMB_06_H01":
-	-"_KillerState1": 0 -> 11
-	-"_KillerStateDamageRate": 0.0 -> 1.5
+"_KillerState1": 0 -> 11
+"_KillerStateDamageRate": 0.0 -> 1.5
+
+Meene:
+"BOW_MEN_CMB_01_H01":
+"_DamageAdjustment": 0.43 -> 1.5,
+"BOW_MEN_CMB_02_H01":
+"_DamageAdjustment": 0.43 -> 1.5,
+"BOW_MEN_CMB_03_H01":
+"_DamageAdjustment": 0.43 -> 2.5,
+"BOW_MEN_CHR_01_H01_LV02":
+"_DamageAdjustment": 0.43 -> 1.5,
 
 Xania:
 "ROD_002_02_H01_BURN_LV03":
@@ -387,7 +496,18 @@ Heinwald:
 Dragonyule Lily:
 "CAN_117_04_HEAL_LV03"
 "_RecoveryValue": 87 -> 130
-	
+
+Formal Joachim:
+"GUN_104_04_H01_LV03":
+"_KillerState1": 0 -> 1,
+"_KillerState2": 0 -> 13,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+"GUN_104_04_PLUS_H01_LV03":
+"_KillerState1": 0 -> 1,
+"_KillerState2": 0 -> 13,
+"_KillerStateDamageRate": 0.0 -> 2.0,
+
+
 Yoshitsune:
 "GUN_108_04_PLUS_H01_LV03"
 	- _DamageAdjustment: 15.72 -> 31.44
@@ -428,16 +548,17 @@ Dragonyule Jeanne:
 
 Pazuzu:
 "S026_000_00":
-	- _DamageAdjustment: 2.8 -> 5.6
+_DamageAdjustment: 2.8 -> 5.6
 "S026_000_01":
-	- _DamageAdjustment: 3.08 -> 6.16
+_DamageAdjustment: 3.08 -> 6.16
 "S026_000_02":
-	- _DamageAdjustment: 1.3 -> 2.6
+_DamageAdjustment: 1.3 -> 2.6
 "S026_000_03":
-	- _DamageAdjustment: 1.3 -> 2.6
-	- _ActionCondition1: 0 -> 1316
+_DamageAdjustment: 1.3 -> 2.6
 "S026_001_01_LV02":
-	- _DamageAdjustment: 1.82 -> 3.64
+_DamageAdjustment: 1.82 -> 4.64
+"S026_001_02_LV02":
+_DamageAdjustment: 1.82 -> 4.64
 
 Prometheus
 "S052_000_00"
@@ -459,7 +580,22 @@ Corsaint Phoenix:
 	- _ActionCondition1: 0 -> 857
 "S056_005_00_LV02":
 	- _DamageAdjustment: 2.6 -> 3.9
-	
+
+Long Long:
+"S080_000_00":
+"_AdditionCritical": 0.0 -> 0.8,
+"S080_000_01":
+"_AdditionCritical": 0.0 -> 0.8,
+"S080_000_02":
+"_AdditionCritical": 0.0 -> 0.8,
+"S080_000_03":
+"_AdditionCritical": 0.0 -> 0.8,
+"S080_000_04":
+"_AdditionCritical": 0.0 -> 0.8,
+"S080_001_00_LV02":
+"_DamageAdjustment": 1.86 -> 2.4,
+
+"_DamageAdjustment": 2.4,
 Konohana Sakuya:
 "S082_000_01"
 "_AdditionRecoverySp": 5 -> 10
@@ -532,6 +668,25 @@ Halloween Brunhilda:
 "_DamageAdjustment": 3.08 -> 4.62
 "_ActionCondition1": 0 -> 291,
 
+Ariel:
+"S116_000_01":
+"_DamageAdjustment": 4.18 -> 6.27,
+"S116_000_02":
+"_DamageAdjustment": 1.64 -> 3.28,
+"S116_000_03":
+"_DamageAdjustment": 1.64 -> 3.28,
+
+AC-011 Garland:
+"S117_000_00":
+"_DamageAdjustment": 3.6 -> 7.2,
+"S117_000_01":
+"_DamageAdjustment": 5.76 -> 7.82,
+"S117_000_02":
+"_DamageAdjustment": 5.94 -> 11.88,
+"S117_001_LV02":
+"_DamageAdjustment": 11.0 -> 25.0,
+
+
 Dreadking Rathalos
 "S122_000_00":
 "_DamageAdjustment": 4.4 -> 6.6,
@@ -558,6 +713,14 @@ Giovanni:
 "S135_002_00_LV02":
 	- _DamageAdjustment: 2.64 -> 4.62
 	
+Menoetius:
+"S137_002_LV02":
+"_DamageAdjustment":27.53 -> 45.0,
+
+Gala Reborn Zephyrus:
+"S143_001_00_LV02":
+"_DamageAdjustment": 19.23 24.03,
+
 Raphael:
 "S154_000_00":
 	- _DamageAdjustment: 6.0 -> 8.0
@@ -605,11 +768,14 @@ Gala Thor:
 
 
 
-Changed ActionCondition:
+Changed ActionCondition ######################################################################################################################################################################
+Welly Regen Zone:
+112:
+"_RateDamageCut": 0.0 -> 0.15,
+"_RateSkill": 0.0 -> 0.1,
 
-Hmym Def Down Zone:
+Def Down Zone:
 114
-
 
 120:
 "_Rate": 70 -> 100
@@ -660,8 +826,9 @@ Draconic Power III (Gala Mym):
 
 Heaven's Breath (Lin You):
 514:
-	- _CurseOfEmptinessInvalid: 0 -> 1
-	- _EnhancedCritical: 0.0 -> 0.5
+"_RateAttackSpeed": 0.2 -> 0.25,
+_CurseOfEmptinessInvalid: 0 -> 1
+
 Paralysis Resistance Down (Generic):
 857:
 	- _DurationSec: 20.0 -> 30.0
@@ -707,9 +874,13 @@ Eugene:
 	- _RateSkill: 0.0 -> 0.1
 	- _ValidRegeneSP: 0 -> 1
 	- _CurseOfEmptinessInvalid: 0 -> 1 
-	
-Snipe
-1055:
+
+(Summer Norwin):
+Doleful Spirit - 1020
+"_RateSkill": 0.0 -> 0.15,
+
+(Panther)
+Snipe - 1055:
 "_RateAttackSpeed": 0.0 -> 0.1,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
@@ -717,15 +888,53 @@ Luther:
 1081:
 "_RateBurst": 0.0 -> 0.5
 
+Smiling Flowers:
+1127:
+"_RateWater": 0.05 -> 0.0,
+"_EnhancedWind2": 0.0 -> 0.15,
+1149:
+"_RateSkill": 0.5 -> 0.75,
+1160:
+"_RateDefense": 0.2 -> 0.0,
+"_RateRecoverySp": 0.0 -> 0.2,
+
 Albert:
 1170:
 _SlipDamageRatio: 0.05 -> 0.0
+
+Forager Mitsuba:
+New Dish - 1372:
+_CurseOfEmptinessInvalid: 0 -> 1
+Fiend Porridge - 1410:
+"_RateSkill": 0.1 -> 0.2,
+"_CurseOfEmptinessInvalid": 1,
+
+Fiend Kebab - 1411:
+"_RateCritical": 0.1 -> 0.15,
+"_RateSkill": 0.1 -> 0.2,
+"_CurseOfEmptinessInvalid": 1,
+
+Fiend Rice Ball - 1412:
+"_RateAttack": 0.05 -> 0.1,
+"_RateCritical": 0.1 -> 0.15,
+"_RateSkill": 0.1 -> 0.2,
+"_RateAttackSpeed": 0.0 -> 0.15,
+"_CurseOfEmptinessInvalid": 1,
 
 
 Saint Starfall Lily (DYLily):
 1417:
 "_RateAttackSpeed": 0.0 -> 0.1,
 "_RateBurstSpeed": 0.0 -> 0.3
+
+New Year's Mochi (Kimono Luca):
+1484:
+"_RateWater": 0.03 -> 0.05,
+1485:
+"_RateWater": 0.05 -> 0.1,
+1486:
+"_RateBurstSpeed": 0.0 -> 0.2,
+
 Gabriel's Blessing (Pinon):
 1218:
  "_DurationNum": 0 -> 3
@@ -733,6 +942,11 @@ Gabriel's Blessing (Pinon):
 Sigil Released (Pinon):
 1276: 
 "_Rate": 40 -> 80
+
+Critical Vulnerability:
+1920:
+"_RateDamageCut": 0.0 -> -0.1,
+
 Giovanni: 
 1350:
 _EnhancedCritical: 0.1 -> 0.2
@@ -761,6 +975,10 @@ Radiant Scion (Gala Chelle)
 Gala Chelle:
 1526:
 "_RateDefense": 0.0 -> -0.3
+
+Force Strike Rate Up:
+1478:
+_CurseOfEmptinessInvalid: 0 -> 1
 
 Frigid Gift (DYCleo):
 1487:
@@ -806,6 +1024,10 @@ _RateDestroyFireKiller: 0 -> 0.1
 _RateDestroyFireKiller: 0 -> 0.2
 1975:
 _RateDestroyFireKiller: 0 -> 0.3
+
+Izumo Water Res
+2069:
+"_EnhancedWind2": 0.0 -> 0.15,
 
 Great Cascade (Styx):
 2184
@@ -874,7 +1096,7 @@ Maribelle (107503012):
 Konohana Sakuya (200501071):
 "_MaxUseNum": 0 -> 99,
 
-Changed DragonData:
+Changed DragonData####################################################################################################################################################
 Liger (20050407):
 "_Abilities11": 330000446,
 "_Abilities12": 330000447,
@@ -884,6 +1106,9 @@ Liger (20050407):
 "_Abilities16": 2220 -> 330000446,
 "_Abilities25": 0 -> 330000569,
 "_Abilities26": 2217 -> 330000569,
+
+Ariel (20050313):
+"_Abilities15": 330000347 -> 1591,
 
 Apollo (330000560):
 _Abilities16: 330000560 -> 1619
@@ -917,7 +1142,7 @@ RQ (20050318):
 
 Prometheus (20050106):
 
-Changed AbilityData:
+Changed AbilityData ######################################################################################################################################################################
 Primed Strength
 310:
 "_AbilityType2": 0 -> 14,
@@ -932,6 +1157,24 @@ Flame Blades' Protection:
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
+
+Energy = Skill Haste III
+1056:
+"_AbilityType1UpValue": 5.0 -> 10.0,
+1057:
+"_AbilityType1UpValue": 10.0 -> 20.0,
+1058:
+"_AbilityType1UpValue": 15.0 -> 30.0,
+1059:
+"_AbilityType1UpValue": 20.0 -> 40.0,
+1060:
+"_AbilityType1UpValue": 25.0 -> 50.0,
+
+Determination II
+1130:
+"_AbilityType1UpValue": 25.0 -> 40.0,
+1131:
+"_AbilityType1UpValue": 30.0 -> 60.0,
 
 (Flame) Attack Rate & Critical Rate V
 1237
@@ -971,6 +1214,19 @@ Team Amp = Skill Haste (1857):
 Grimnir - Forbidden Power Within (1914):
 _ConditionValue: 100.0 -> 50.0	
 
+Know Thine Enemy II (1947):
+1947:
+"_AbilityType1UpValue": 300.0 -> 1500.0
+1949:
+"_AbilityType1UpValue": 10.0 -> 30.0,
+"_AbilityType2UpValue": 10.0 -> 30.0,
+"_AbilityType3UpValue": 10.0 -> 30.0,
+
+Blessed Bloodline II (Nino):
+1981:
+"_AbilityType1UpValue": 15.0 -> 25.0,
+"_AbilityType2UpValue": 10.0 -> 15.0,
+
 Summer Mym - Summer Sparks (2060)
 "_AbilityType2": 0 -> 1,
 "_VariousId2a": 0 -> 10,
@@ -1002,13 +1258,19 @@ _MaxCount: 5 -> 10
 Wyrmbound Shell (Farren):
 2194:
 	- _VariousId3a: 0 -> 861
+	
+Ninja Bride - Wedding Aoi:
+2342:
+"_AbilityType2UpValue": 10.0 -> 50.0,
+
 The Sugary Star (Annelie):
 2508:
 	- _VariousId1a: 6 -> 4
 	- _AbilityType1UpValue: 10 -> 20
+
 (Wind) Michael's Favour (Michael):
 2591:
-	_ConditionValue2: 10.0 -> 20.0
+_ConditionValue2: 10.0 -> 30.0
 
 Energized = Strength (LV. 2)
 210002604:
@@ -1030,7 +1292,12 @@ _AbilityType1UpValue: 20.0 -> 40.0
 
 (Wind) Poisoned Punisher:
 330000189:
-	- _AbilityType1UpValue: 20.0 -> 40.0
+_AbilityType1UpValue: 20.0 -> 40.0
+"_VariousId2a": 0 -> 1,
+"_AbilityType2": 0 -> 3,
+"_AbilityLimitedGroupId2": 0 -> 100.0,
+
+
 (Light) Paralyzed Punisher: 
 330000191:
 	- _AbilityType1UpValue: 20.0 -> 40.0
@@ -1127,7 +1394,7 @@ GameObject PlayerAction_00721102 (Xania S2)
       },
       
       
-Changed TextLabel:
+Changed TextLabel ######################################################################################################################################################################
 "ABILITY_NAME_1862",
 "Strength Amp = Attack Rate +8%" - > "Strength Amp = Attack Rate +15%
 
