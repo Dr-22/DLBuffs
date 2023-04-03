@@ -298,6 +298,8 @@ Eleonora:
 Chelsea:
 "BOW_110_04_H01_LV03"
 "_DamageAdjustment": 2.176 -> 3.5
+"BOW_110_04_H03_LV03"
+"_DamageAdjustment": 2.176 -> 3.5
 
 Joachim:
 "BOW_111_03_1_H01_LV03"
