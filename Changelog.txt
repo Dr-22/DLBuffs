@@ -220,6 +220,18 @@ Wedding Aoi:
 Delphi: 
 "DAG_113_04_H01_LV03":
 	- _DamageCounterCoef: 11.0 -> 110.0
+	
+Summer Norwin:
+"DAG_128_04_1_H01_LV03":
+"_AdditionalRandomHitLabel": "" -> "LAN_104_04_1_TENSION_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
+"DAG_128_04_2_H01_LV03":
+"_AdditionalRandomHitLabel": "" -> "LAN_104_04_1_TENSION_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
+"DAG_128_04_3_H01_LV03":
+"_AdditionalRandomHitLabel": "" -> "LAN_104_04_1_TENSION_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
+
 Nevin:
 "DAG_133_04_H01_LV02":
 	-"_DamageAdjustment": 10.0 -> 20.0
