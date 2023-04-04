@@ -18,6 +18,10 @@ Ku Hai:
 	- _ToBreakDmgRate: 1.85 -> 1
 
 Gala Ranzal:
+"SWD_105_04_H01_LV04":
+"_DamageAdjustment": 3.09 -> 3.69,
+"SWD_105_04_H02_LV04":
+"_DamageAdjustment": 3.09 -> 3.69,
 "SWD_CHR_09_H01_LV01":
 _DamageAdjustment: 2.075 -> 4.15
 "SWD_CHR_09_H01_LV02":
@@ -321,9 +325,9 @@ Shingen:
 
 Sylas
 "LAN_107_04_H01_LV04"
-"_DamageAdjustment": 5.93 -> 7.5,
+"_DamageAdjustment": 5.93 -> 11.0,
 "LAN_107_04_H02_LV04":
-"_DamageAdjustment": 5.93 -> 7.5,
+"_DamageAdjustment": 5.93 -> 11.0,
 
 Xuan Zang:
 "LAN_113_04_H01_LV03"
@@ -434,6 +438,14 @@ Pinon:
 "_KillerStateDamageRate": 0.0 -> 1.5
 
 Meene:
+"BOW_117_04_H02_LV03":
+"_DamageAdjustment": 1.67 -> 3.34,
+"BOW_117_04_PLUS_H02_LV03":
+"_DamageAdjustment": 1.67 -> 3.34,
+"BOW_118_04_H02_LV02":
+"_DamageAdjustment": 1.67 -> 3.34,
+"BOW_118_04_PLUS_H02_LV02":
+"_DamageAdjustment": 1.67 -> 3.34,
 "BOW_MEN_CMB_01_H01":
 "_DamageAdjustment": 0.43 -> 1.5,
 "BOW_MEN_CMB_02_H01":
@@ -511,6 +523,7 @@ Dragonyule Lily:
 
 Formal Joachim:
 "GUN_104_04_H01_LV03":
+"_DamageAdjustment": 10.12 -> 15.12,
 "_KillerState1": 0 -> 1,
 "_KillerState2": 0 -> 13,
 "_KillerStateDamageRate": 0.0 -> 2.0,
@@ -605,7 +618,7 @@ Long Long:
 "S080_000_04":
 "_AdditionCritical": 0.0 -> 0.8,
 "S080_001_00_LV02":
-"_DamageAdjustment": 1.86 -> 2.4,
+"_DamageAdjustment": 1.86 -> 4.2,
 
 "_DamageAdjustment": 2.4,
 Konohana Sakuya:
@@ -727,7 +740,7 @@ Giovanni:
 	
 Menoetius:
 "S137_002_LV02":
-"_DamageAdjustment":27.53 -> 45.0,
+"_DamageAdjustment": 27.53 -> 90.0,
 
 Gala Reborn Zephyrus:
 "S143_001_00_LV02":
@@ -784,7 +797,7 @@ Changed ActionCondition ########################################################
 Welly Regen Zone:
 112:
 "_RateDamageCut": 0.0 -> 0.15,
-"_RateSkill": 0.0 -> 0.1,
+"_RateSkill": 0.0 -> 0.25,
 
 Def Down Zone:
 114
@@ -820,6 +833,10 @@ Delphi:
 449:
 	- _RatePoison: 0.0 -> -0.2
 	
+Sacred Blade - Tobias:
+452:
+"_CurseOfEmptinessInvalid": 0 -> 1,
+	
 456 (80% FS Damage Up - 1 Time):
 "_CurseOfEmptinessInvalid": 0 -> 1
 
@@ -838,6 +855,8 @@ Draconic Power III (Gala Mym):
 
 Heaven's Breath (Lin You):
 514:
+"_DurationSec": 15.0 -> 20.0,
+"_RateCritical": 0.0 -> 0.2,
 "_RateAttackSpeed": 0.2 -> 0.25,
 _CurseOfEmptinessInvalid: 0 -> 1
 
@@ -906,9 +925,11 @@ Smiling Flowers:
 "_EnhancedWind2": 0.0 -> 0.15,
 1149:
 "_RateSkill": 0.5 -> 0.75,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 1160:
 "_RateDefense": 0.2 -> 0.0,
 "_RateRecoverySp": 0.0 -> 0.2,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 Albert:
 1170:
@@ -917,21 +938,22 @@ _SlipDamageRatio: 0.05 -> 0.0
 Forager Mitsuba:
 New Dish - 1372:
 _CurseOfEmptinessInvalid: 0 -> 1
+
 Fiend Porridge - 1410:
-"_RateSkill": 0.1 -> 0.2,
-"_CurseOfEmptinessInvalid": 1,
+"_RateSkill": 0.1 -> 0.3,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 Fiend Kebab - 1411:
 "_RateCritical": 0.1 -> 0.15,
-"_RateSkill": 0.1 -> 0.2,
-"_CurseOfEmptinessInvalid": 1,
+"_RateSkill": 0.1 -> 0.3,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 Fiend Rice Ball - 1412:
-"_RateAttack": 0.05 -> 0.1,
+"_RateAttack": 0.05 -> 0.3,
 "_RateCritical": 0.1 -> 0.15,
-"_RateSkill": 0.1 -> 0.2,
+"_RateSkill": 0.1 -> 0.3,
 "_RateAttackSpeed": 0.0 -> 0.15,
-"_CurseOfEmptinessInvalid": 1,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 
 Saint Starfall Lily (DYLily):
@@ -954,6 +976,10 @@ Gabriel's Blessing (Pinon):
 Sigil Released (Pinon):
 1276: 
 "_Rate": 40 -> 80
+
+Grand Strategist (Kirsty):
+1887:
+"_RateSkill": 0.0 -> 0.3,
 
 Critical Vulnerability:
 1920:
@@ -1037,9 +1063,10 @@ _RateDestroyFireKiller: 0 -> 0.2
 1975:
 _RateDestroyFireKiller: 0 -> 0.3
 
-Izumo Water Res
+Amaterasu's Resilient Burst
 2069:
-"_EnhancedWind2": 0.0 -> 0.15,
+"_RatePoisonKiller": 0.0 -> 0.3,
+"_RateCrashWindKiller": 0.0 -> 0.3,
 
 Great Cascade (Styx):
 2184
@@ -1184,9 +1211,15 @@ Energy = Skill Haste III
 
 Determination II
 1130:
-"_AbilityType1UpValue": 25.0 -> 40.0,
+"_AbilityType1UpValue": 25.0 -> 80.0,
 1131:
-"_AbilityType1UpValue": 30.0 -> 60.0,
+"_AbilityType1UpValue": 30.0 -> 150.0,
+
+Summer Flowers V
+1155:
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 2,
+"_AbilityLimitedGroupId3": 0 -> 45.0,
 
 (Flame) Attack Rate & Critical Rate V
 1237
@@ -1238,6 +1271,10 @@ Blessed Bloodline II (Nino):
 1981:
 "_AbilityType1UpValue": 15.0 -> 25.0,
 "_AbilityType2UpValue": 10.0 -> 15.0,
+"_AbilityType3": 0 -> 6,
+"_VariousId3a": 0 -> 2,
+"_TargetAction3":0 -> 1,
+"_AbilityType3UpValue": 0 -> 50.0
 
 Summer Mym - Summer Sparks (2060)
 "_AbilityType2": 0 -> 1,
