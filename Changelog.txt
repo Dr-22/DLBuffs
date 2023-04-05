@@ -46,8 +46,8 @@ Alfonse:
 Wedding Elisanne:
 "SWD_111_04_H01_LV02":
 "_DamageAdjustment": 10.515 -> 21.03
-"_AuraId": 0 -> 20000,
-"_AuraMaxLimitLevel": 0 -> 1,
+"_AdditionalRandomHitLabel": "" -> "AURA_DEF_2",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Eugene:	
 "SWD_126_04_H01_LV02":
@@ -415,6 +415,9 @@ Hunter Vanessa:
 _DamageAdjustment": 1.94 -> 3.0,
 "LAN_117_04_H02_LV03":
 "_DamageAdjustment": 1.94 -> 3.0,
+"LAN_MH_CHR_01_H01_LV02_CHLV02":
+"_DamageAdjustment": 3.7 -> 7.4,
+"_ToBreakDmgRate": 6.2 -> 3.1,
 
 Sharena:
 "LAN_121_04_H01_LV03":
@@ -483,8 +486,10 @@ Louise:
 "_CrisisLimitRate": 0.5 -> 0.01,
 
 Summer Cleo
+"BOW_107_04_H01_LV04"
+"_DamageAdjustment": 1.07 -> 2.07,
 "BOW_107_04_H03_LV04":
-"_DamageAdjustment": 1.07 -> 3.57,
+"_DamageAdjustment": 1.07 -> 4.57,
 
 Hawk
 "BOW_104_04_H02_LV04":
@@ -553,15 +558,16 @@ Isaac:
 Xania:
 "ROD_002_02_H01_BURN_LV03":
 _ActionCondition1: 102040301 -> 2049
+
 Radiant Xuan Zang:
-"BUF_202_SGC_LV02":
-	- _RecoveryCP: 20 -> 30
 "ROD_116_04_PLUS_H01_LV03"
-	- _DamageAdjustment: 18.8 -> 26.32
+_DamageAdjustment: 18.8 -> 26.32
+"_AdditionalRandomHitLabel": "" -> "AURA_ATK_3",
+"_AdditionalRandomHitNum": 0 -> 1,
 "ROD_SAN_CHR_01_H01_LV02":
-	- _DamgeAdjustment: 2.22 -> 4.44
+_DamgeAdjustment: 2.22 -> 4.44
 "ROD_SAN_CHR_01_H02_LV02":
-	- _DamgeAdjustment: 2.22 -> 4.44
+_DamgeAdjustment: 2.22 -> 4.44
 
 Maribelle:
 "ROD_100_04_H01_LV04":
@@ -591,12 +597,12 @@ Student Maribelle:
 Peony:
 "ROD_112_04_H01_LV03":
 "_DamageAdjustment": 4.17 -> 15.17,
-"_AuraId": 0 -> 10000,
-"_AuraMaxLimitLevel": 0 -> 1,
+"_AdditionalRandomHitLabel": "" -> "AURA_ATK_1",
+"_AdditionalRandomHitNum": 0 -> 1,
 "ROD_112_04_H02_LV03":
 "_DamageAdjustment": 4.17 -> 15.17,
-"_AuraId": 0 -> 10000,
-"_AuraMaxLimitLevel": 0 -> 1,
+"_AdditionalRandomHitLabel": "AURA_ATK_1",
+"_AdditionalRandomHitNum": 1,
 
 Incognito Nefaria:
 "ROD_121_04_H01_LV03":
@@ -675,6 +681,12 @@ Summer Mym
 _DamageAdjustment: 0.99 -> 2.0
 
 Liger:
+"S043_000_00":
+"_DamageAdjustment": 3.3 -> 6.6,
+"S043_000_01":
+"_DamageAdjustment": 3.64 -> 7.28,
+"S043_000_02":
+"_DamageAdjustment": 4.62 -> 9.24,
 S043_001_00_LV02":
 _DamageAdjustment: 2.74 > 5.48
 "S043_001_01_LV02":
@@ -682,11 +694,22 @@ _DamageAdjustment: 2.74 > 5.48
 "_AdditionalRandomHitLabel": "" -> "S082_002_LV02",
 "_AdditionalRandomHitNum": 0 -> 1,
 
+Gilgamesh:
+"S048_000_00":
+"_DamageAdjustment": 1.6 -> 3.2,
+"S048_000_01":
+"_DamageAdjustment": 0.88 -> 1.76,
+"S048_000_02":
+"_DamageAdjustment": 0.74 -> 1.48
+"S048_001_LV02":
+"_DamageAdjustment": 11.2 -> 27.5,
+
+
 Dragonyule Jeanne:
 "S076_002_01_LV02":
-	- _DamageAdjustment: 4.08 > 7.14
-	- _KillerState: 0 -> 11
-	- _KillerStateDamageRate: 0.0 -> 1.3
+_DamageAdjustment: 4.08 > 7.14
+_KillerState: 0 -> 11
+_KillerStateDamageRate: 0.0 -> 1.3
 
 Pazuzu:
 "S026_000_00":
@@ -718,10 +741,8 @@ Prometheus
 "_AdditionalRandomHitNum": 0 -> 1,
 	
 Corsaint Phoenix:
-"S056_000_02:
-	- _ActionCondition1: 0 -> 857
 "S056_005_00_LV02":
-	- _DamageAdjustment: 2.6 -> 3.9
+_DamageAdjustment: 2.6 -> 3.9
 
 Long Long:
 "S080_000_00":
@@ -861,15 +882,23 @@ Menoetius:
 
 Gala Reborn Zephyrus:
 "S143_001_00_LV02":
-"_DamageAdjustment": 19.23 24.03,
+"_DamageAdjustment": 19.23 -> 24.03,
+
+Gala Reborn Jeanne:
+"S144_000_00":
+"_DamageAdjustment": 4.72 -> 6.72,
+"S144_000_01"
+"_DamageAdjustment": 5.2 -> 7.5,
+"S144_000_02"
+"_DamageAdjustment": 6.6 -> 9.9,
 
 Raphael:
 "S154_000_00":
-	- _DamageAdjustment: 6.0 -> 8.0
+_DamageAdjustment: 6.0 -> 8.0
 "S154_000_01":
-	- _DamageAdjustment: 6.9 -> 8.6
+_DamageAdjustment: 6.9 -> 8.6
 "S154_000_02":
-	- _DamageAdjustment: 9.0 -> 12.0
+_DamageAdjustment: 9.0 -> 12.0
 	
 High Chthonious:
 "S148_000_01"
@@ -880,6 +909,8 @@ High Chthonious:
 "_DamageAdjustment": 2.69 -> 4.05,
 "S148_000_04"
 "_DamageAdjustment": 2.89 -> 6.5,
+"S144_001_00_LV02":
+"_DamageAdjustment": 3.3 -> 5.5,
 
 Rose Queen:
 "S152_002_01_LV02"
@@ -900,9 +931,13 @@ Summer Marishiten:
 "S156_001_01_LV02":
 "_AuraMaxLimitLevel": 2 -> 3
 
+Summer Cat Sith:
+"S158_001_00_LV02"
+"_DamageAdjustment": 17.5 -> 35.0,
+
 Gala Thor:
 "S90018_000_02":
-_DamageAdjustment: 0.58 -> 2.32
+_DamageAdjustment: 0.58 -> 2.08
 "S90018_000_03":
 _DamageAdjustment: 0.58 -> 2.32
 "S90018_004_01_LV02":
@@ -1132,7 +1167,10 @@ Sigil Released (Pinon):
 Overclocked - Eirene
 1594:
 _DurationSec": 15.0 ->  25.0,
-"_RateFlashheatKiller": 0.1 -> 0.75,
+"_RateFlashheatKiller": 0.1 -> 0.5,
+1595:
+_DurationSec": 15.0 ->  25.0,
+"_RateFlashheatKiller": 0.1 -> 0.5,
 
 Verdure Blessing 
 1719 - (Red/Field):
@@ -1141,6 +1179,13 @@ Verdure Blessing
 "_RateAttack": 0.05 -> 0.15,
 1755 - (Yellow/Self):
 "_RateAttackSpeed": 0.05 -> 0.15,
+
+Raphael's Aid:
+1749:
+"_RateDefense": 0.0 -> 0.5,
+"_RatePoison": 0.0 -> 1.0,
+"_RateCurse": 0.0 -> 1.0,
+"_RateArmored": 0.0 -> 1.0,
 
 Sylvan Secret Arts:
 1779:
@@ -1320,6 +1365,9 @@ Maribelle (107503012):
 Konohana Sakuya (200501071):
 "_MaxUseNum": 0 -> 99,
 
+Liger (200504071),
+"_MaxUseNum": 0 -> 99
+
 Changed DragonData####################################################################################################################################################
 Liger (20050407):
 "_Abilities11": 330000446,
@@ -1349,9 +1397,6 @@ _Abilities26: 2025 -> 33000560
 Pazuzu (20050306):
 _Abilities16: 330000560 -> 1591
 
-Pop-Star Siren (20050409):
-_Abilities15: 330000408 -> 1761
-
 Raphael (20050415):
 _Abilities15: 330000416 -> 1761
 
@@ -1361,10 +1406,16 @@ Hastur (20050311):
 Kagutsuchi (20050110)
 "_Abilities26": 330000217 -> 330000219
 
+Takemikazuchi (20050408):
+"_Abilities16": 330000562 -> 330000408,
+
 RQ (20050318):
 "_Abilities15": 1591 -> 330000562
 
 Prometheus (20050106):
+
+Gilgamesh (20050404):
+"_Abilities26": 2216 -> 0,
 
 Changed AbilityData ######################################################################################################################################################################
 Primed Strength
@@ -1430,6 +1481,10 @@ Ramiel - Dprep 1279:
 "_ElementalType": 5 -> 0,
 "_AbilityIconName": "" -> "Icon_Ability_1010008",
 
+Chariot Rider (Thor)
+1298:
+"_AbilityType1UpValue": 50.0 -> 60.0,
+
 (Shadow) Strength and Critical Rate (1458):
 _AbilityType1UpValue: 45.0 -> 60.0
 _AbilityType2UpValue: 20.0 -> 30.0
@@ -1481,6 +1536,9 @@ Blessed Bloodline II (Nino):
 "_TargetAction3":0 -> 1,
 "_AbilityType3UpValue": 0 -> 50.0
 
+Guardsman of the Verdure II (Isaac):
+"_VariousId1str": "AURA_ATK_2" -> "AURA_ATK_3"
+
 Summer Mym - Summer Sparks (2060)
 "_AbilityType2": 0 -> 1,
 "_VariousId2a": 0 -> 10,
@@ -1488,8 +1546,6 @@ Summer Mym - Summer Sparks (2060)
 
 (Light) Raphael's Aid (2070):
 _VariousId1str: BUF_257_HEAL_LV02 -> BUF_162_REJENE_LV03
-_AbilityType3: 0 -> 14
-_VariousId3a: 0 -> 1582
 
 Yukata Cleo - Festival Fever II
 2090:
@@ -1503,6 +1559,9 @@ Dynamic Defense II
 2127:
 "_AbilityType1UpValue": 10.0 -> 25.0,
 
+ (Light) Tropical Troublemaker V - Summer Cat Sith:
+"_AbilityType1UpValue": 25.0 -> 75.0,
+
 Gala Audric - Undying Will (2150):
 _MaxCount: 5 -> 20
 "_AbilityType3": 0 -> 1,
@@ -1512,6 +1571,7 @@ _MaxCount: 5 -> 20
 Wyrmbound Shell (Farren):
 2194:
 _VariousId3a: 0 -> 861
+
 	
 Ninja Bride - Wedding Aoi:
 2342:
@@ -1526,13 +1586,20 @@ _AbilityType1UpValue: 10 -> 20
 2591:
 _ConditionValue2: 10.0 -> 30.0
 
+(Light) Critical Damage
+110390008:
+"_ConditionType": 0 -> 44,
+"_MaxCount": 0 -> 10,
+"_AbilityType2": 0 -> 52,
+"_AbilityLimitedGroupId2": 0 -> 10.0,
+
 Energized = Strength (LV. 2)
 210002604:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": "" -> "S082_002_LV02",
 
 Energized = Strength (III)
-210002604:
+210002605:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": "" -> "S082_002_LV02",
 
@@ -1559,10 +1626,16 @@ _AbilityType1UpValue: 20.0 -> 40.0
 
 (Light) Paralyzed Punisher: 
 330000191:
-	- _AbilityType1UpValue: 20.0 -> 40.0
+_AbilityType1UpValue: 20.0 -> 40.0
+"_AbilityType2": 0 -> 47,
+"_VariousId2a": 0 -> 4,
+"_AbilityType2UpValue": 0 -> 70.0,
+	
 Exhilaration (Pop-Star Siren):
 330000194:
-	- _AbilityType1UpValue: 3.0 > 5.0
+_AbilityType1UpValue: 3.0 -> 5.0
+"_AbilityType2": 0 -> 43,
+"_VariousId2a": 0 -> 1279,
 
 (Water) Primed Strength:
 330000219:
@@ -1570,9 +1643,13 @@ Exhilaration (Pop-Star Siren):
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
 
+(Light) Flurry Strength
+"_AbilityType2": 0 -> 7,
+"_AbilityLimitedGroupId2": 0 -> 31,
+"_AbilityType2UpValue": 0 -> 20.0,
+
 (Flame) Strength & Force Strike Damage
 330000108:
-
 "_AbilityType1UpValue": 55.0 -> 70.0,
 "_AbilityType3": 0 -> 1,
 "_VariousId3a": 0 -> 12,
@@ -1580,13 +1657,24 @@ Exhilaration (Pop-Star Siren):
 
 (Shadow) Poisoned Punisher:
 330000523:
-	- _AbilityType1UpValue: 20.0 -> 40.0
+_AbilityType1UpValue: 20.0 -> 40.0
+
+(Element) Overdrive Punisher:
+330000571:
+"_AbilityType1UpValue": 30.0 -> 120.0,
+"_AbilityType2": 0 -> 9,
+"_AbilityLimitedGroupId2": 0 -> 51,
+"_AbilityType2UpValue": 0.0 -> -70.0,
 
 (Shadow) Strength and High Dragon's Might:
 330000551
 "_AbilityType2": 0 -> 36
 "_AbilityLimitedGroupId2": 0 -> 113,
 "_AbilityType2UpValue": 0 -> 50.0,
+
+(Light) Strength & Dark Res
+"_AbilityType1UpValue": 55.0 -> 75.0,
+"_AbilityType2UpValue": 15.0 -> 25.0,
 
 (Flame) Strength & Wind Res
 330000567
