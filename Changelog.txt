@@ -251,6 +251,8 @@ Delphi:
 	- _DamageCounterCoef: 11.0 -> 110.0
 	
 Mitsuhide:
+"DAG_115_04_H01_LV03:
+"_DamageAdjustment": 0.88 -> 2.0,
 "DAG_115_04_H02_LV03":
 "_DamageAdjustment": 0.88 -> 2.0,
 "DAG_116_04_H01_LV02"
@@ -891,6 +893,8 @@ Gala Reborn Jeanne:
 "_DamageAdjustment": 5.2 -> 7.5,
 "S144_000_02"
 "_DamageAdjustment": 6.6 -> 9.9,
+"S144_001_00_LV02":
+"_DamageAdjustment": 3.3 -> 5.5,
 
 Raphael:
 "S154_000_00":
@@ -1588,10 +1592,8 @@ _ConditionValue2: 10.0 -> 30.0
 
 (Light) Critical Damage
 110390008:
-"_ConditionType": 0 -> 44,
-"_MaxCount": 0 -> 10,
-"_AbilityType2": 0 -> 52,
-"_AbilityLimitedGroupId2": 0 -> 10.0,
+"_AbilityType2": 0 -> 7,
+"_AbilityLimitedGroupId2": 0 -> 50.0,
 
 Energized = Strength (LV. 2)
 210002604:
