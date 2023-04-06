@@ -1114,9 +1114,7 @@ HVanessa Strength:
 Delphi:
 448:
 _SlipDamagePower: 3.0 -> 6.0
-449:
-"_RateDefenseB": -0.2 -> 0.0,
-"_RateDark": 0.0 -> -0.2,
+449:,
 _RatePoison: 0.0 -> -0.2
 	
 Sacred Blade - Tobias:
@@ -1244,12 +1242,15 @@ Pre Sigil - 1221:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Post Sigil - 1222:
+"_Text": "ACTION_CONDITION_4" -> "ACTION_CONDITION_0",
 "_UniqueIcon": 0 -> 20,
 "_BuffIconId": 0 -> 102,
 _SlipDamageIntervalSec: 0.0 > 1.0
 _SlipDamageRatio: 0 -> -0.02
+"_RateSkill": 0.0 -> 0.3,
 _ValidRegeneSP: 0 -> 1
 "_CurseOfEmptinessInvalid": 0 -> 1,
+"_UnifiedManagement": 0 -> 1,
 
 Forager Mitsuba:
 New Dish - 1372:
@@ -1453,6 +1454,7 @@ Flare Stance - Mikoto
 311010201:
 "_RateAttackSpeed": 0 -> 0.1,
 "_CurseOfEmptinessInvalid": 0 -> 1,
+
 Ruin Stance - Mikoto
 311010203:
 "_RateAttackSpeed": 0 -> 0.2,
@@ -1461,6 +1463,11 @@ Ruin Stance - Mikoto
 Stunning Beauty - Beautician Zardin
 313010401:
 "_CurseOfEmptinessInvalid": 0 -> 1,
+
+
+Ieyasu - Blade Formation:
+311050202:
+"_DurationSec": 15.0 -> 25.0,
 
 403040103 (Was Luther Def Down)
 "_Rate": 50 -> 100
@@ -1808,6 +1815,14 @@ _AbilityType1UpValue: 3.0 -> 5.0
 "_AbilityType3": 0 -> 1,
 "_VariousId3a": 0 -> 12,
 "_AbilityType3UpValue": 0.0 -> 30.0
+
+(Shadow) HP Below 30 = Strength & Defense
+330000198:
+"_ConditionType": 2 -> 0,
+"_ConditionValue": 30.0 -> 0,
+"_AbilityType1": 1 -> 77,
+"_VariousId1a": 2 -> 0,
+"_AbilityType1UpValue": 40.0 -> 300.0,
 
 (Shadow) Poisoned Punisher:
 330000523:
