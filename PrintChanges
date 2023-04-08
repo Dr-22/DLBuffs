@@ -1,0 +1,46 @@
+Changed AbilityLimitedGroupID (These are the print caps) ###############################################################################################################
+1 - Poisoned Punisher
+"_MaxLimitedValue": 30.0 -> 50.0,
+
+2 - Burning Punisher
+"_MaxLimitedValue": 30.0 -> 50.0,
+
+4 - Paralyzed Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+32 - Skill Damage
+"_MaxLimitedValue": 40.0 -> 50.0,
+
+44 - Dragon Haste
+"_MaxLimitedValue": 15.0 -> 30.0,
+
+45 - Dragon Time
+"_MaxLimitedValue": 20.0 -> 50.0,
+
+94 - Critical Damage
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+113 - (Dragon Damage)
+"_MaxLimitedValue": 18.0 -> 30.0,
+
+
+143 - Frostbitten Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+169 - Shadowblighted Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+175 - Scorchrent Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+176 - Stormlashed Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+177 - Flashburned Punisher
+"_MaxLimitedValue": 25.0 -> 50.0,
+
+192 - Strength
+"_MaxLimitedValue": 20.0 -> 30.0,
+
+193 - Critical Rate
+"_MaxLimitedValue": 15.0 -> 30.0,
