@@ -936,6 +936,11 @@ _DamageAdjustment: 1.82 -> 4.64
 "S026_001_02_LV02":
 _DamageAdjustment: 1.82 -> 4.64
 
+Nyarlathotep
+_DamageAdjustment": 2.94 -> 7.5,
+"S046_001_LV02":
+"_DamageAdjustment": 7.36 -> 14.0,
+
 Prometheus
 "S052_000_00"
 "_DamageAdjustment": 3.2 -> 6.4,
@@ -979,7 +984,6 @@ Long Long:
 "S080_001_00_LV02":
 "_DamageAdjustment": 1.86 -> 4.2,
 
-"_DamageAdjustment": 2.4,
 Konohana Sakuya:
 "S082_000_01"
 "_AdditionRecoverySp": 5 -> 10
@@ -987,6 +991,10 @@ Konohana Sakuya:
 "_AdditionRecoverySp": 5 -> 10
 S082_001_LV02":
 "_DamageAdjustment": 13.2 -> 19.3
+
+Shinobi:
+"S087_002_LV02"
+"_DamageAdjustment": 1.8 -> 7.5,
 
 Vayu:
 "S098_000_00":
@@ -1039,18 +1047,30 @@ Hastur:
 
 Epimetheus: 
 "S112_000_00":
-	- _DamageAdjustment: 3.6 -> 5.4
+_DamageAdjustment: 3.6 -> 5.4
 "S112_000_01"
-	- _DamageAdjustment: 3.96 -> 5.94
-"S112_000_02":
-	- _ActionCondition1: 0 -> 1316
+_DamageAdjustment: 3.96 -> 5.94
+"S112_000_02"
+"_DamageAdjustment": 5.04 -> 8.54,
 "S112_001_LV02":
-	- _DamageAdjustment: 12.6 ->  25.2
+_DamageAdjustment: 12.6 ->  25.2
 
 Halloween Brunhilda:
 "S113_001_LV02":
 "_DamageAdjustment": 3.08 -> 4.62
 "_ActionCondition1": 0 -> 291,
+
+Andromeda:
+"S115_000_00"
+"_CrisisLimitRate": 0.0 -> 3.0,
+"S115_000_01":
+"_CrisisLimitRate": 0.0 -> 3.0,
+"S115_000_02"
+"_CrisisLimitRate": 0.0 -> 3.0,
+"S115_001_00_LV02"
+_DamageAdjustment": 3.3 -> 6.6,
+"S115_001_01_LV02"
+"_DamageAdjustment": 3.3 -> 6.6,
 
 Ariel:
 "S116_000_01":
@@ -1083,6 +1103,27 @@ Dreadking Rathalos
 "S122_002_LV02":
 "_DamageAdjustment": 8.0 -> 16.0
 
+Fatalis:
+"S123_000_00"
+"_DamageAdjustment": 4.3 -> 8.6,
+"_AdditionalRandomHitLabel": "S053_001_DTC_LV02",
+"_AdditionalRandomHitNum": 1,
+"S123_000_01"
+"_DamageAdjustment": 5.16 -> 10.32
+"_AdditionalRandomHitLabel": "S053_001_DTC_LV02",
+"_AdditionalRandomHitNum": 1,
+"S123_000_02"
+"_DamageAdjustment": 2.2 -> 4.4,
+"_AdditionalRandomHitLabel": "S053_001_DTC_LV02",
+"_AdditionalRandomHitNum": 1,
+"S123_000_03"
+"_DamageAdjustment": 5.86 -> 11.72,
+"_AdditionalRandomHitLabel": "S053_001_DTC_LV02",
+"_AdditionalRandomHitNum": 1,
+"S123_001_LV02"
+"_DamageAdjustment": 3.34 -> 10.5,
+"_RecoveryDragonTime": 0.0 -> 15.0,
+
 Horus:
 "S124_001_LV02"
 "_DamageAdjustment": 0.88 -> 1.32,
@@ -1095,13 +1136,17 @@ Gala Reborn Poseidon
 
 Giovanni:
 "S135_000_00":
-	- _DamageAdjustment: 2.15 > 4.3
+_DamageAdjustment: 2.15 > 4.3
 "S135_000_01":
-	- _DamageAdjustment: 2.47 -> 4.94
+_DamageAdjustment: 2.47 -> 4.944
+"S135_000_02"
+"_AuraId": 0 -> 30000,
+"_AuraMaxLimitLevel": 0 -> 3,
+"_AuraTargetType": 0 -> 2,
 "S135_001_00_LV02":
-	- _DamageAdjustment: 2.2 -> 4.4
+_DamageAdjustment: 2.2 -> 4.4
 "S135_002_00_LV02":
-	- _DamageAdjustment: 2.64 -> 4.62
+_DamageAdjustment: 2.64 -> 4.28
 	
 Menoetius:
 "S137_002_LV02":
@@ -1132,6 +1177,7 @@ _DamageAdjustment: 6.0 -> 8.0
 _DamageAdjustment: 6.9 -> 8.6
 "S154_000_02":
 _DamageAdjustment: 9.0 -> 12.0
+
 	
 High Chthonious:
 "S148_000_01"
@@ -1149,6 +1195,18 @@ Rose Queen:
 "S152_002_01_LV02"
 "_AdditionalRandomHitLabel": " " -> "BUF_143_SPC_LV01/S082_002_LV02",
 "_AdditionalRandomHitNum": 0 -> 1,
+
+Gala Reborn Nidhogg
+"S155_000_03"
+"_DamageAdjustment": 4.86 -> 9.72,
+"S155_001_01_LV02":
+"_DamageAdjustment": 3.0 -> 5.0,
+"_KillerState1": 201 -> 0,
+"_KillerStateDamageRate": 0.75 -> 0.0,
+"S155_001_00_LV02"
+"_DamageAdjustment": 3.0 -> 5.0,
+"_KillerState1": 201 -> 0,
+"_KillerStateDamageRate": 0.75 -> 0.0,
 
 Summer Marishiten:
 "S156_000_00":
@@ -1226,6 +1284,12 @@ HMaritimus Zone
 "_RateSkill": 0.3 -> 0.6,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
+Bloody Tongue
+249
+"_DurationSec": 20.0 -> 30.0,
+"_DurationNum": 1 -> 3,
+"_RateRecoverySp": 0.0 -> 0.4,
+
 FS Damage Up (HSarisse)
 457:
 "_CurseOfEmptinessInvalid": 0 -> 1,
@@ -1241,6 +1305,10 @@ _SlipDamageRatio: -0.08 -> -0.1
 Crystalline Blades Buffed (Naveed):
 338:
 "_RateDefense": 0.0 -> 0.02,
+
+Fatalis Curse
+368
+"_DurationSec": 0.0 -> 40.0,
 
 HVanessa Strength:
 446:
@@ -1691,9 +1759,14 @@ Siren (200502041):
 Liger (200504071),
 "_MaxUseNum": 0 -> 99
 
+Shinobi (200505091)
+"_MaxUseNum": 0 -> 99
+
 Nyarlathotep (Lathna) (299000041)
 "_MaxUseNum": 0 -> 99
 
+Marishiten (200502161)
+"_MaxUseNum": 0 -> 2,
 Changed DragonData####################################################################################################################################################
 Liger (20050407):
 "_Abilities11": 330000446,
@@ -1714,11 +1787,8 @@ _Abilities16: 330000560 -> 1619
 Corsaint Phoenix (20050403):
 _Abilities16: 330000560 -> 1761
 
-Styx (20050212):
-_Abilities26: 2216 -> 330000325
-
 Epimetheus (20050514):
-_Abilities26: 2025 -> 33000560	
+_Abilities16: 33000560 -> 2025
 
 Pazuzu (20050306):
 _Abilities16: 330000560 -> 1591
@@ -1744,6 +1814,10 @@ Gilgamesh (20050404):
 "_Abilities26": 2216 -> 0,
 
 Changed AbilityData ######################################################################################################################################################################
+Moonlith Howl
+44
+"_ConditionValue": 30.0 -> 70.0,
+
 Primed Strength
 310:
 "_AbilityType2": 0 -> 14,
@@ -1827,7 +1901,7 @@ Chariot Rider (Thor)
 
 (Shadow) Strength and Critical Rate (1458):
 _AbilityType1UpValue: 45.0 -> 60.0
-_AbilityType2UpValue: 20.0 -> 30.0
+_AbilityType2UpValue: 20.0 -> 40.0
 
 DYLily - Saint's Calling (1524):
 "_AbilityType2": 0 -> 43
@@ -1949,6 +2023,10 @@ Dragonyule Blessing V:
 _AbilityType1UpValue: 45.0 -> 60.0
 _AbilityType2UpValue: 20.0 -> 40.0
 
+Strength & Ending Shapeshift = Curse V
+330000159:
+"_AbilityType1UpValue": 50.0 -> 70.0,
+
 (Flame) Burning Punisher:
 330000175:
 _AbilityType1UpValue: 20.0 -> 40.0
@@ -1997,11 +2075,11 @@ _AbilityType1UpValue: 3.0 -> 5.0
 
 (Shadow) HP Below 30 = Strength & Defense
 330000198:
-"_ConditionType": 2 -> 0,
-"_ConditionValue": 30.0 -> 0,
-"_AbilityType1": 1 -> 77,
-"_VariousId1a": 2 -> 0,
-"_AbilityType1UpValue": 40.0 -> 300.0,
+"_AbilityType2UpValue": 100.0 -> 200.0,
+"_AbilityType3": 0 -> 77,
+"_AbilityLimitedGroupId3": 0 -> 186,
+"_TargetAction3": 0 -> 6,
+"_AbilityType3UpValue": 0 -> 200.0
 
 (Shadow) Poisoned Punisher:
 330000523:
@@ -2017,6 +2095,9 @@ Great Cascade:
 "_AbilityType2": 0 -> 9,
 "_AbilityLimitedGroupId2": 0 -> 51,
 "_AbilityType2UpValue": 0.0 -> -70.0,
+ 
+ (Shadow) Shapeshift Prep & Strength
+"_ElementalType": 5 -> 0,
 
 (Shadow) Strength and High Dragon's Might:
 330000551
@@ -2103,4 +2184,7 @@ Changed TextLabel ##############################################################
 
 "ABILITY_NAME_330000174"
 "(Flame) Burning Punisher +{ability_val0}%" -> "(Flame) Burning Punisher & Sting +{ability_val0}%"
+
+"ABILITY_NAME_330000572"
+"(Shadow) Strength & Shapeshift Prep VI" -> "({element_owner}) Strength & Shapeshift Prep VI"
 
