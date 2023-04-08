@@ -8,8 +8,14 @@ Changed AbilityLimitedGroupID (These are the print caps) #######################
 4 - Paralyzed Punisher
 "_MaxLimitedValue": 25.0 -> 50.0,
 
+31 - Critical Rate
+"_MaxLimitedValue": 15.0 -> 30.0,
+
 32 - Skill Damage
-"_MaxLimitedValue": 40.0 -> 50.0,
+"_MaxLimitedValue": 40.0 -> 60.0,
+
+42 - Strength
+"_MaxLimitedValue": 20.0 -> 31.0,
 
 44 - Dragon Haste
 "_MaxLimitedValue": 15.0 -> 30.0,
@@ -23,9 +29,11 @@ Changed AbilityLimitedGroupID (These are the print caps) #######################
 113 - (Dragon Damage)
 "_MaxLimitedValue": 18.0 -> 30.0,
 
-
 143 - Frostbitten Punisher
 "_MaxLimitedValue": 25.0 -> 50.0,
+
+165 - Skill Damage (Crown's Boon)
+"_AbilityType1UpValue": 10.0 -> 20.0,
 
 169 - Shadowblighted Punisher
 "_MaxLimitedValue": 25.0 -> 50.0,
@@ -39,8 +47,28 @@ Changed AbilityLimitedGroupID (These are the print caps) #######################
 177 - Flashburned Punisher
 "_MaxLimitedValue": 25.0 -> 50.0,
 
-192 - Strength
+192 - Strength (Easy Hitter)
 "_MaxLimitedValue": 20.0 -> 30.0,
 
-193 - Critical Rate
+193 - Critical Rate (Lucky Hitter)
 "_MaxLimitedValue": 15.0 -> 30.0,
+
+Changed AbiltyData ####################################################################################################################################################
+
+Full HP = Str + 15% (210000306)
+"_AbilityType1UpValue": 15.0 -> 30.0,
+
+Full HP = Skill Damage + 40% (210000406)
+"_AbilityType1UpValue": 40.0 -> 60.0,
+
+Full HP = Critical Damage + 22% (341)
+"_AbilityType1UpValue": 22.0 -> 50.0,
+
+Axes' Boon (110080009)
+"_AbilityType1UpValue": 10.0 -> 20.0,
+"_AbilityType2": 0 -> 7,
+"_AbilityLimitedGroupId2": 0 -> 31,
+"_AbilityType2UpValue": 0 -> 10.0,
+
+Crown's Boon (110060009)
+"_AbilityType1UpValue": 10.0 -> 20.0,
