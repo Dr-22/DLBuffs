@@ -705,7 +705,7 @@ _ActionCondition1: 102040301 -> 2049
 Radiant Xuan Zang:
 "ROD_116_04_PLUS_H01_LV03"
 _DamageAdjustment: 18.8 -> 26.32
-"_AdditionalRandomHitLabel": "" -> "AURA_ATK_3",
+"_AdditionalRandomHitLabel": "" -> "BAURA_ATK_3",
 "_AdditionalRandomHitNum": 0 -> 1,
 "ROD_SAN_CHR_01_H01_LV02":
 _DamgeAdjustment: 2.22 -> 4.44
