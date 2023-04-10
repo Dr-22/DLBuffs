@@ -21,10 +21,11 @@ Xander:
 "SWD_004_04_H02_LV03"
 "_DamageAdjustment": 5.566 -> 7.1,
 "SWD_100_04_SHIFT1_H01_LV04"
-"_DamageUpRateByBuffCount": 0.05 -> 0.1,
+"_DamageAdjustment": 16.74 -> 18.9,
+"_DamageUpRateByBuffCount": 0.05 -> 0.15,
 "SWD_100_04_SHIFT2_H01_LV04"
 "_DamageAdjustment": 16.8 -> 19.9,
-"_DamageUpRateByBuffCount": 0.05 -> 0.15,
+"_DamageUpRateByBuffCount": 0.05 -> 0.2,
 
 Gala Ranzal:
 "SWD_105_04_H01_LV04":
@@ -428,9 +429,8 @@ _DamageAdjustment: 2.42 -> 3.63
 Summer Julietta:
 "AXE_106_04_H02_LV04"
 "_DamageAdjustment": 4.048 -> 8.096,
-"AXE_107_04_ATK_LV03":
 "AXE_107_04_ATK_LV03"
-"_AdditionRecoverySp": 0 -> 1000,
+"_AdditionRecoverySp": 0 -> 1500,
 
 Dragonyule Malora:
 "AXE_113_04_H01_LV03":
@@ -703,6 +703,8 @@ Xania:
 _ActionCondition1: 102040301 -> 2049
 
 Radiant Xuan Zang:
+"ROD_116_04_H01_LV03"
+"_RecoveryCP": 0 -> 20,
 "ROD_116_04_PLUS_H01_LV03"
 _DamageAdjustment: 18.8 -> 26.32
 "_AdditionalRandomHitLabel": "" -> "BAURA_ATK_3",
@@ -766,7 +768,7 @@ ROD_122_04_H01_LV02":
 
 Forager Cleo:
 "ROD_123_04_H01_LV03"
-"_DamageAdjustment": 1.53 -> 2.53,
+"_DamageAdjustment": 1.53 -> 3.53,
 "ROD_CHR_12_H01_LV02"
 "_DamageAdjustment": 1.98 -> 4.0,
 "ROD_CHR_12_H02_LV02"
@@ -818,6 +820,13 @@ Dragonyule Lily:
 "CAN_117_04_HEAL_LV03"
 "_RecoveryValue": 87 -> 130
 
+Ilia:
+"GUN_100_04_PLUS_H01_LV03":
+"_DamageAdjustment": 3.48 -> 4.5,
+"GUN_101_04_PLUS_H02_LV02":
+"_DamageAdjustment": 2.35 -> 10.35,
+"_ActionCondition1": 0 -> 1817,
+ 
 Formal Joachim:
 "GUN_104_04_H01_LV03":
 "_DamageAdjustment": 10.12 -> 15.12,
@@ -836,10 +845,8 @@ Yoshitsune:
 "GUN_108_04_PLUS_H02_LV03"
 "_DamageAdjustment": 2.13 -> 4.13,
 "GUN_109_04_H03_LV02"
-"_DamageAdjustment": 0.88 -> 2.0,
+"_DamageAdjustment": 0.88 -> 2.5,
 "_ActionCondition1": 0 -> 1321,
-"_AdditionalRandomHitLabel": "" -> "AURA_ATK_2",
-"_AdditionalRandomHitNum": 0 -> 1,
 
 Eirene:
 "GUN_113_04_H01_LV03":
@@ -1268,7 +1275,7 @@ Finni:
 231:
 _SlipDamageRatio: -0.08 -> -0.15
 
-Dream Boost
+Dream Boost - HMym
 241:
 "_RateCritical": 0.05 -> 0.15,
 "_RateAttackSpeed": 0.0 -> 0.05,
@@ -1284,11 +1291,19 @@ HMaritimus Zone
 "_RateSkill": 0.3 -> 0.6,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
-Bloody Tongue
+Bloody Tongue- Nyarlathotep
 249
 "_DurationSec": 20.0 -> 30.0,
 "_DurationNum": 1 -> 3,
 "_RateRecoverySp": 0.0 -> 0.4,
+
+Born Ruler Strength - Xander
+254
+"_RateAttack": 0.05 -> 0.0,
+"_RateSkill": 0.0 -> 0.05,
+"_EnhancedWater2": 0.0 -> 0.05,
+"_RateRecoverySp": 0.0 -> 0.05,
+"_CurseOfEmptinessInvalid": 0 -> 1,
 
 FS Damage Up (HSarisse)
 457:
@@ -1461,19 +1476,6 @@ _SlipDamageRatio: 0 -> -0.02
 _ValidRegeneSP: 0 -> 1
 "_CurseOfEmptinessInvalid": 0 -> 1,
 "_UnifiedManagement": 0 -> 1,
-
-Defense Reduced = Debuff Edge (Halloween Akasha) - 1252
-"_ConditionType": 43 -> 0,
-"_CoolTime": 5.0 -> 0.0,
-"_AbilityType1": 14 -> 19,
-"_VariousId1a": 1287 -> 0,
-"_AbilityLimitedGroupId1": 0 -> 167,
-"_TargetAction1": 0 -> 6,
-"_AbilityType1UpValue": 0.0 -> 100.0,
-
-Bleeding = HP Recovery (Halloween Akasha) - 1254
-"_AbilityType2": 0 -> 14,
-"_VariousId2str": 0 -> "S082_002_LV02",
 
 Forager Mitsuba:
 New Dish - 1372:
@@ -1819,7 +1821,13 @@ Moonlith Howl
 "_ConditionValue": 30.0 -> 70.0,
 
 Primed Strength
+Lv. 2
 310:
+"_AbilityType2": 0 -> 14,
+"_VariousId2str":  "" -> "AURA_ATK_1",
+
+Lv. 3
+1080
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
 
@@ -1886,6 +1894,19 @@ Floral Knight
 Albert - Thunderous Impulse (1189):
 _AbilityType1UpValue: 10.0 -> 50.0
 
+Defense Reduced = Debuff Edge (Halloween Akasha) - 1252
+"_ConditionType": 43 -> 0,
+"_CoolTime": 5.0 -> 0.0,
+"_AbilityType1": 14 -> 19,
+"_VariousId1a": 1287 -> 0,
+"_AbilityLimitedGroupId1": 0 -> 167,
+"_TargetAction1": 0 -> 6,
+"_AbilityType1UpValue": 0.0 -> 100.0,
+
+Bleeding = HP Recovery (Halloween Akasha) - 1254
+"_AbilityType2": 0 -> 14,
+"_VariousId2str": 0 -> "S082_002_LV02",
+
 Poised Obliteration II
 1270
 "_AbilityType2": 0 -> 7,
@@ -1906,6 +1927,11 @@ _AbilityType2UpValue: 20.0 -> 40.0
 DYLily - Saint's Calling (1524):
 "_AbilityType2": 0 -> 43
 "_VariousId2a": 0 ->  110120004
+
+Nimble Riposte II
+1545:
+"_AbilityType2": 0 -> 14,
+"_VariousId2str": 0 -> "AURA_ATK_1",
 
 Humanity's Companion - (Sophie/Persona)
 1668:
@@ -1936,11 +1962,11 @@ Waterwyrm's Nature - 1877
 Grimnir - Forbidden Power Within (1914):
 _ConditionValue: 100.0 -> 50.0	
 
-Know Thine Enemy II (1947):
+Know Thine Enemy II:
 1947:
 "_AbilityType1UpValue": 300.0 -> 1500.0
 1949:
-"_AbilityType1UpValue": 10.0 -> 30.0,
+"_AbilityType1UpValue": 10.0 -> 150.0,
 "_AbilityType2UpValue": 10.0 -> 30.0,
 "_AbilityType3UpValue": 10.0 -> 30.0,
 
