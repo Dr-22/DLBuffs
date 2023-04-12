@@ -192,9 +192,11 @@ Victor:
 
 Nobunaga:
 "KAT_111_04_H01_LV02"
-"_DamageAdjustment": 13.56 -> 16.5,
+"_DamageAdjustment": 13.56 -> 20.34,
 "_ActionCondition1": 0 -> 21,
 "_KillerStateDamageRate": 1.5 -> 2.0,
+"KAT_112_04_ADDDAMAGE_LV03"
+"_DamageAdjustment": 15.65 -> 20.65,
 
 Tobias:
 "KAT_117_04_2_H01_LV02":
@@ -224,6 +226,12 @@ Forager Mitsuba:
 "_DamageAdjustment": 1.55 -> 2.5,
 "KAT_124_04_H02_LV03":
 "_DamageAdjustment": 1.55 -> 2.5,
+
+Armored Yachiyo:
+"KAT_CHR_16_H01_LV02"
+"_DamageAdjustment": 3.3 -> 6.6,
+"KAT_CHR_16_H02_LV02_CHLV02"
+"_DamageAdjustment": 4.15 -> 9.3,
 
 Harle:
 "KAT_135_04_H01_LV03":
@@ -404,9 +412,11 @@ _DamageAdjustment: 8.42 -> 11.42
 Ramona
 "AXE_102_04_H01_LV03":
 "_AdditionalRandomHitLabel": "" -> "AXE_001_03_SA_LV04",
-"_AdditionalRandomHitNum": 1,
+"_AdditionalRandomHitNum": 0 -> 1,
 "AXE_102_04_H02_LV03":
 "_DamageAdjustment": 2.93 -> 3.76
+"_AdditionalRandomHitLabel": "" -> "BUF_196_SPC1_LV01"
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Curran
 "AXE_105_04_H01_LV04"
@@ -415,7 +425,10 @@ Curran
 "_KillerStateDamageRate": 2.0 -> 3.0,
 
 Halloween Mym:
+"AXE_108_04_H01_LV03"
+"_DamageAdjustment": 2.8 -> 9.5,
 "AXE_108_04_H02_LV03"
+"_DamageAdjustment": 2.8 -> 9.5,
 "_AdditionRecoveryDpLv1": 0 -> 50,
 "AXE_109_04_DB_LV02":
 "_TargetGroup": 1 -> 6,
@@ -697,6 +710,11 @@ Meene:
 Isaac:
 "BOW_128_04_H01_LV02":
 "_DamageAdjustment": 15.0 -> 20.0,
+
+Summer Alex:
+"BOW_129_04_H01_LV03":
+ "_AdditionalRandomHitLabel": "" -> "ROD_108_04_ATK_DOWN_LV03",
+ "_AdditionalRandomHitNum": 0 -> 1,
 
 Xania:
 "ROD_002_02_H01_BURN_LV03":
@@ -1277,8 +1295,9 @@ _SlipDamageRatio: -0.08 -> -0.15
 
 Dream Boost - HMym
 241:
-"_RateCritical": 0.05 -> 0.15,
-"_RateAttackSpeed": 0.0 -> 0.05,
+"_DurationSec": 15.0 -> 20.0,
+"_RateCritical": 0.05 -> 0.25,
+"_RateAttackSpeed": 0.0 -> 0.15,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Obsession (Chlesea)
@@ -1319,7 +1338,9 @@ _SlipDamageRatio: -0.08 -> -0.1
 
 Crystalline Blades Buffed (Naveed):
 338:
-"_RateDefense": 0.0 -> 0.02,
+"_MaxDuplicatedCount": 5 -> 10,
+"_RateDefense": 0.0 -> 0.05,
+"_EnhancedFire2": 0.0 -> 0.05,
 
 Fatalis Curse
 368
@@ -1631,7 +1652,7 @@ _DurationNum": 1 -> 3,
 
 Fluorescent Fish (Yukata Cassandra) 
 1718:
-"_RateAttack": 0 -> 0.15,
+"_RateAttack": 0 -> 0.3,
 "_MaxDuplicatedCount": 0 -> 1,
 "_Overwrite": 1 -> 0,
 "_OverwriteIdenticalOwner": 0 -> 1,
@@ -1941,7 +1962,8 @@ _VariousId3a": 1 -> 2,
 
 
 Child Ranzal - Power Hitter (1840):
-_AbilityType2UpValue: 40.0 -> 300.0
+"_AbilityType1UpValue": 10.0 -> 15.0,
+_AbilityType2UpValue: 40.0 -> 400.0
 
 Team Str. Amp = Attack Rate
 1862:
