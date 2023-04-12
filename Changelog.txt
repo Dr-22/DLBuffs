@@ -107,6 +107,11 @@ Lea:
 "_DamageCounterCoef": 11.0 -> 55.0
 
 Hunter Berserker:
+"SWD_117_04_H01_LV03
+"_DamageAdjustment": 2.67 -> 5.34,
+"_ToBreakDmgRate": 1.0 -> 2.5,
+"SWD_117_04_H02_LV02"
+"_ToBreakDmgRate": 1.0 -> 2.5,
 "SWD_MH_CHR_01_H01_LV02":
 "_DamageAdjustment": 4.74 -> 7.11
 "_ToBreakDmgRate": 2.15 -> 1.45
@@ -114,7 +119,7 @@ Hunter Berserker:
 "_DamageAdjustment": 6.78 -> 10.17,
 "_ToBreakDmgRate": 1.95 -> 1.25,
 "SWD_MH_CHR_01_H01_LV02_CHLV03"
-"_DamageAdjustment": 8.77 -> 13.06,
+"_DamageAdjustment": 8.77 -> 16.06,
 "_ToBreakDmgRate": 1.75 -> 1.25,
 
 Civillian Leif:
@@ -162,6 +167,7 @@ Rena:
 "_KillerStateDamageRate": 1.8 -> 2.0
 "_AdditionCritical": 0.0 -> 0.5,
 "KAT_106_04_3_H02_LV03"
+"_ActionCondition1": 102040901 -> 2049,
 "_KillerStateDamageRate": 1.8 -> 2.0
 "_AdditionCritical": 0.0 -> 0.5,
 "KAT_106_04_CRITICAL_LV03"
@@ -231,7 +237,7 @@ Armored Yachiyo:
 "KAT_CHR_16_H01_LV02"
 "_DamageAdjustment": 3.3 -> 6.6,
 "KAT_CHR_16_H02_LV02_CHLV02"
-"_DamageAdjustment": 4.15 -> 9.3,
+"_DamageAdjustment": 4.15 -> 6.6,
 
 Harle:
 "KAT_135_04_H01_LV03":
@@ -1497,6 +1503,10 @@ _SlipDamageRatio: 0 -> -0.02
 _ValidRegeneSP: 0 -> 1
 "_CurseOfEmptinessInvalid": 0 -> 1,
 "_UnifiedManagement": 0 -> 1,
+
+Seimei Shikigami Def Down
+1235
+"_RateAttack": 0.0 -> -0.1,
 
 Forager Mitsuba:
 New Dish - 1372:
