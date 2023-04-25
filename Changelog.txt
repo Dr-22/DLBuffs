@@ -1183,6 +1183,14 @@ Horus:
 "S124_001_LV02"
 "_DamageAdjustment": 0.88 -> 1.32,
 
+Styx:
+"S130_001_01_LV02"
+"_DamageAdjustment": 1.8 -> 2.0,
+"S130_001_02_LV02"
+"_DamageAdjustment": 1.8 -> 2.4,
+"S130_001_03_LV02"
+"_DamageAdjustment": 1.8 -> 3.0,
+
 Gala Reborn Poseidon
 "S134_000_01"
 "_DamageAdjustment": 5.94 -> 8.5,
@@ -1537,6 +1545,11 @@ Seimei Shikigami Def Down
 1235
 "_RateAttack": 0.0 -> -0.1,
 
+GRP Water Ele. Atk. Up
+1367:
+"_EnhancedWater2": 0.3 -> 0.45,
+"_EnhancedNoElement": 0.3 -> 0.45,
+
 Forager Mitsuba:
 New Dish - 1372:
 _CurseOfEmptinessInvalid: 0 -> 1
@@ -1575,6 +1588,7 @@ Gabriel's Blessing (Pinon):
 1218:
 "_DurationNum": 0 -> 3
 "_RateDamageShield2": 0.15 -> 0.30
+
 Sigil Released (Pinon):
 1276: 
 "_Rate": 40 -> 80
@@ -1687,6 +1701,7 @@ Sphere of Protection (Humanoid Mercury) - 1592
 Gabriel's Love (Gabriel) - 1598
 _DurationNum": 1 -> 3,
 "_RateAttack": 0.1 -> 0.3,
+"_RateAttackSpeed": 0.0 -> 0.15,
 "_RateDamageShield3": 0.1 -> 0.25,
 
 Calculated Shots (Saiga) - 1687
@@ -2117,7 +2132,7 @@ Energized = Strength (III)
 
 Dragonyule Blessing V: 
 330000122:
-_AbilityType1UpValue: 45.0 -> 60.0
+_AbilityType1UpValue: 45.0 -> 75.0
 _AbilityType2UpValue: 20.0 -> 40.0
 
 Strength & Ending Shapeshift = Curse V
