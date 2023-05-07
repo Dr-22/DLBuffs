@@ -928,6 +928,14 @@ Sharpshooter Sarisee:
 "_DamageAdjustment": 0.32 -> 0.8,
 "GUN_118_04_HEAL_LV02":
 "_AdditionRecoverySp": 0 -> 500,
+GUN_118_04_H01_LV02"
+"_DamageAdjustment": 3.3 -> 6.6,
+"GUN_118_04_H02_LV02"
+"_DamageAdjustment": 1.49 -> 3.0
+"GUN_118_04_H03_LV02"
+"_DamageAdjustment": 1.49 -> 3.0
+"GUN_118_04_H04_LV02"
+"_DamageAdjustment": 1.49 -> 3.0
 
 Summer Mym	
 "GUN_MM_CMB2_01_H01":
@@ -1616,6 +1624,12 @@ Raphael's Aid:
 "_RateCurse": 0.0 -> 1.0,
 "_RateArmored": 0.0 -> 1.0,
 
+SSarisse Def Down
+1761:
+"_DurationSec": 12.0 -> 20.0,
+"_RateDefense": -0.07 -> -0.05,
+"_RateWater": 0.0 -> -0.05,
+
 Sylvan Secret Arts:
 1779:
 _CurseOfEmptinessInvalid: 0 -> 1
@@ -1817,6 +1831,9 @@ Sharena (10550404):
 
 Summer Mym (10950502):
 "_ExAbilityData5": 109000009 -> 106070008
+
+Sharpshooter Sarisse (10950203):
+"_Abilities32": 210001204 -> 310001702,
 
 Changed SkillData ###################################################################################### :
 
@@ -2129,6 +2146,21 @@ Energized = Strength (III)
 210002605:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": "" -> "S082_002_LV02",
+
+Sylvan Strength (II) - 310001702
+"_ConditionType": 21 -> 95,
+"_ConditionValue2": 0.0 -> 20.0,
+"_AbilityType2": 14 -> 7,
+"_VariousId2a": 23 -> 0,
+"_AbilityType2UpValue": 0.0 -> 1.0,
+
+Sylvan Strength (III) - 310001703
+"_ConditionType": 21 -> 95,
+"_ConditionValue2": 0.0 -> 20.0,
+"_AbilityType2": 14 -> 7,
+"_VariousId2a": 23 -> 0,
+"_AbilityType2UpValue": 0.0 -> 1.0,
+
 
 Dragonyule Blessing V: 
 330000122:
