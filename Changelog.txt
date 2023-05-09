@@ -6,16 +6,38 @@ Naveed:
 
 Ku Hai: 
 "SWD_001_03_KGI_H01_LV03":
-	- _DamageAdjustment: 4.14 -> 6.21
+_DamageAdjustment: 4.14 -> 6.21
 "SWD_001_03_KGI_H02_LV03":
-	- _DamageAdjustment: 4.14 -> 6.21
+_DamageAdjustment: 4.14 -> 6.21
 "SWD_001_03_KGI_H03_LV03":
-	- _DamageAdjustment: 4.14 -> 6.21
+_DamageAdjustment: 4.14 -> 6.21
 "SWD_001_03_KGI_H04_LV03":
-	- _DamageAdjustment: 4.14 -> 6.21
+_DamageAdjustment: 4.14 -> 6.21
 "SWD_CHR_05_H01_LV02":
-	- _DamageAdjustment: 1.66 -> 4.98
-	- _ToBreakDmgRate: 1.85 -> 1
+_DamageAdjustment: 1.66 -> 4.98
+_ToBreakDmgRate: 1.85 -> 1
+	
+Serena:
+SWD_002_03_H01_180_SERENA_LV04",
+"_DamageAdjustment": 6.02 -> 8.52,
+SWD_002_03_H02_180_SERENA_LV04":
+"_DamageAdjustment": 6.02 -> 8.52,
+"SWD_001_03_H01_180_LV03"
+"_DamageAdjustment": 2.9 -> 4.5,
+"SWD_001_03_H02_180_LV03",
+"_DamageAdjustment": 2.9 -> 4.5,
+"SWD_001_03_H03_180_LV03",
+"_DamageAdjustment": 2.9 -> 4.5,
+"SWD_001_03_H04_180_LV03",
+"_DamageAdjustment": 2.9 -> 4.5,
+
+Karl:
+"SWD_004_03_H01_KA_LV04"
+"_DamageAdjustment": 5.782 - > 11.562,
+"_ActionCondition1": 0 -> 251,
+"SWD_004_03_H02_KA_LV04"
+"_DamageAdjustment": 5.782 - > 11.562,
+"_ActionCondition1": 0 -> 251,
 
 Xander:
 "SWD_004_04_H02_LV03"
@@ -204,6 +226,14 @@ Nobunaga:
 "KAT_112_04_ADDDAMAGE_LV03"
 "_DamageAdjustment": 15.65 -> 20.65,
 
+Hanabusa:
+"KAT_113_03_H01_LV03"
+"_DamageAdjustment": 11.3 -> 22.6,
+"KAT_113_03_H01_STANCE1_LV02"
+"_DamageAdjustment": 12.43 -> 24.86,
+"KAT_113_03_H01_STANCE2_LV02"
+"_DamageAdjustment": 14.69 -> 26.27,
+
 Tobias:
 "KAT_117_04_2_H01_LV02":
 "_DamageAdjustment": 0.13 -> 3.0,
@@ -272,6 +302,24 @@ Luther:
 "DAG_001_03_H02_LUTA_DEF_LV03"
 "_ActionCondition1": 403040103 -> 1246
 
+Orsem:
+"DAG_002_03_H01_ORUSEM_LV03"
+"_AdditionCritical": 0.0 -> 0.4,
+"DAG_002_03_H02_ORUSEM_LV03"
+"_AdditionCritical": 0.0 -> 0.4,
+"DAG_004_03_H01_FREEZE_180_LV02"
+"_DamageAdjustment": 3.18 -> 6.18,
+
+Melsa:
+"DAG_002_03_H01_LV03"
+"_DamageAdjustment": 1.9 -> 2.4,
+"DAG_002_03_H02_LV03"
+"_DamageAdjustment": 1.9 -> 2.4,
+"DAG_004_03_H01_180_LV02"
+"_DamageAdjustment": 2.51 -> 3.5,
+"DAG_004_03_H02_180_LV02"
+"_DamageAdjustment": 2.51 -> 3.5,
+
 Fritz: 
 "DAG_001_03_H01_FRITZ_LV03"
 "_ActionCondition1": 403040102 -> 1246
@@ -296,6 +344,10 @@ Wedding Aoi:
 Delphi: 
 "DAG_113_04_H01_LV03":
 _DamageCounterCoef: 11.0 -> 110.0
+
+Yuya:
+"DAG_114_04_BKF01_LV04":
+"_DamageAdjustment": 1.683 -> 2.83,
 	
 Mitsuhide:
 "DAG_115_04_H01_LV03:
@@ -406,6 +458,12 @@ Joker
 "_DamageAdjustment": 2.56 -> 10.0,
 "DAG_EJ_CMB2_12_H01"
 "_DamageAdjustment": 2.9 -> 5.8,
+
+Yue:
+"AXE_001_03_H01_180_YUE_LV03"
+"_DamageAdjustment": 10.78 -> 18.0,
+"AXE_001_03_H02_180_YUE_LV03"
+"_DamageAdjustment": 10.78 -> 18.0,
 
 Vanessa:
 "AXE_001_03_H02_LV04":
@@ -644,6 +702,14 @@ Nefaria:
 "_DamageAdjustment": 1.144 -> 2.244,
 "BOW_100_04_H02_LV04"
 "_DamageAdjustment": 1.144 -> 2.244,
+
+Valentine's Ezelith:
+"BOW_105_03_H01_LV03"
+"_DamageAdjustment": 1.17 -> 2.2,
+"BOW_105_03_H02_LV03"
+"_DamageAdjustment": 1.17 -> 2.2,
+"BOW_001_03_H01_DEF_DOWN2_LV02"
+"_DamageAdjustment": 14.32 -> 23.32,
 
 Laranoa:
 "BOW_106_04_H01_LV04"
@@ -1370,8 +1436,15 @@ Born Ruler Strength - Xander
 "_RateRecoverySp": 0.0 -> 0.05,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
-FS Damage Up (HSarisse)
-457:
+Dragon Dance (Hayabusa) - 339
+"_RateCritical": 0.0 -> 0.15,
+"_RateAttackSpeed": 0.0 -> 0.15,
+
+Tiger Dance (Hayabusa) - 340
+"_RateCritical": 0.0 -> 0.3,
+"_RateAttackSpeed": 0.0 -> 0.15,
+
+FS Damage Up (HSarisse) -> 457:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Akasha Debuff Rate:
@@ -1579,10 +1652,12 @@ Fiend Rice Ball - 1412:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 
-Saint Starfall Lily (DYLily):
-1417:
+Saint Starfall Lily (DYLily) - 1417:
 "_RateAttackSpeed": 0.0 -> 0.1,
 "_RateBurstSpeed": 0.0 -> 0.3
+
+Chicken At Heart III Skill Damage - 1456:
+"_RateSkill": 0.05 -> 0.1,
 
 New Year's Mochi (Kimono Luca):
 1484:
@@ -1592,8 +1667,7 @@ New Year's Mochi (Kimono Luca):
 1486:
 "_RateBurstSpeed": 0.0 -> 0.2,
 
-Gabriel's Blessing (Pinon):
-1218:
+Gabriel's Blessing (Pinon) - 1218:
 "_DurationNum": 0 -> 3
 "_RateDamageShield2": 0.15 -> 0.30
 
@@ -1817,6 +1891,9 @@ Fleur (10340402):
 Nevin (10350504):
 "_Abilities32": 110390006 -> 1972,
 
+Yue (10440102):
+"_Abilities31": 110100004 -> 310000506,
+
 Dragonyule Malora (10450402):
 "_Abilities12": 110350006 -> 704,
 
@@ -1915,16 +1992,17 @@ Moonlith Howl
 44
 "_ConditionValue": 30.0 -> 70.0,
 
-Primed Strength
-Lv. 2
-310:
+Primed Strength Lv. 2 - 310:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
 
-Lv. 3
-1080
+Primed Strength Lv. 3 - 1080
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
+
+System Overload - 624
+"_ConditionValue": 30.0 -> 60.0,
+"_AbilityType1UpValue": 30.0 -> 60.0,
 
 Flame Blades' Protection:
 695
@@ -2027,6 +2105,16 @@ Nimble Riposte II
 1545:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": 0 -> "AURA_ATK_1",
+
+Barrage Obliteration 7% - 1585
+"_MaxCount": 3 -> 8,
+"_AbilityType2": 0 -> 26,
+"_AbilityType2UpValue": 0 -> 5.0,
+
+Barrage Devastation 5% - 1586:
+"_MaxCount": 3 -> 8,
+"_AbilityType2": 0 -> 7,
+"_AbilityType2UpValue": 0 -> 2.0,
 
 Humanity's Companion - (Sophie/Persona)
 1668:
@@ -2131,6 +2219,12 @@ _AbilityType1UpValue: 10 -> 20
 (Wind) Michael's Favour (Michael):
 2591:
 _ConditionValue2: 10.0 -> 30.0
+
+Physian's Bane + 25% - 110050203:
+"_AbilityType2": 0 -> 8,
+"_VariousId2a": 0 -> 2,
+"_AbilityLimitedGroupId2": 0 -> 11,
+"_AbilityType2UpValue": 0 -> 20.0,
 
 (Light) Critical Damage
 110390008:
