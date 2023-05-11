@@ -3,3 +3,15 @@
 "_Atk": 11070 -> 22140
 "_BaseOD": 3588687 -> 10766061,
 "_BaseBreak": 8971719 -> 26915157,
+
+Legend Lilith (Fire) - 232051401
+"_HP": 25200000 -> 45000000,
+"_BaseOD": 5191200 -> 1000000,
+"_BaseBreak": 15553440 -> 27505000,
+"_RegistAbnormalRate04": 90 -> 0,
+
+Legend Lilith Wing (L) - 232050402
+"_HP": 5191200 -> 10800000,
+
+Legend Lilith Wing (R) - 232050403
+"_HP": 8400780 -> 10800000,
