@@ -2162,9 +2162,9 @@ Know Thine Enemy II:
 1947:
 "_AbilityType1UpValue": 300.0 -> 3000.0
 1949:
-"_AbilityType1UpValue": 10.0 -> 300.0,
+"_AbilityType1UpValue": 10.0 -> 100.0,
 "_AbilityType2UpValue": 10.0 -> 30.0,
-"_AbilityType3UpValue": 10.0 -> 30.0,
+"_AbilityType3UpValue": 10.0 -> 15.0,
 
 Blessed Bloodline II (Nino):
 1981:
@@ -2227,7 +2227,11 @@ _AbilityType1UpValue: 10 -> 20
 
 (Wind) Michael's Favour (Michael):
 2591:
-_ConditionValue2: 10.0 -> 30.0
+_ConditionValue2: 10.0 -> 15.0
+"_AbilityType3": 0 -> 6,
+"_VariousId3a": 0 -> 2,
+"_AbilityLimitedGroupId3": 0 -> 1,
+"_AbilityType3UpValue": 0 -> 2.0
 
 Physian's Bane + 25% - 110050203:
 "_AbilityType2": 0 -> 8,
