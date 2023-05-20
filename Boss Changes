@@ -20,3 +20,29 @@ Legend Lilith Wing (R) - 232050403
 
 (A.C.) Legend Lilith Def Up - 303041701
 "_RateCritical": 0.0 -> 0.2,
+
+Legend Iblis
+Hell's Melody - 304
+"_Count03": 11 -> 6,
+Heaven's Melody - 305
+"_Count03": 11 -> 6,
+
+
+Legend Ciella ############################################################################################################################################
+
+Ciella - 225021402
+"_HP": 22429296, -> 44,858,592
+"_Atk": 7743 -> 10453,
+"_BaseBreak": 11,214,648 -> 22,429,296
+
+Vulnerability - 835
+"_MaxDuplicatedCount": 3 -> 5,
+"_RateDefense": -0.15 -> -0.1,
+"_RatePoisonAdd": 0.0 -> -0.2,
+"_RateCrashWindAdd": 0.0 -> -0.2,
+
+Berserk (Enemy Ability) - 115
+"_BerserkBreakLimit": 4485859.0, -> 5,383,030
+"_BerserkODAtkRate": 250 -> 150,
+"_BerserkODDefRate": 400 -> 300,
+
