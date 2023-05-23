@@ -1847,6 +1847,9 @@ Amaterasu's Resilient Burst
 "_RatePoisonKiller": 0.0 -> 0.3,
 "_RateCrashWindKiller": 0.0 -> 0.3,
 
+Primal Dragalia - 2082
+"_DurationSec": 90.0 -> 0.0,
+
 Great Cascade (Styx):
 2184
 "_DurationNum": 1 -> 0,
@@ -2049,6 +2052,21 @@ Energy = Skill Haste III
 1060:
 "_AbilityType1UpValue": 25.0 -> 50.0,
 
+(Shadow) Tai Yi Shen Shu
+1414:
+"_AbilityType2": 0 -> 7,
+"_AbilityLimitedGroupId2": 0 -> 31,
+"_AbilityType2UpValue": 0 -> 18.0,
+"_AbilityType3": 0 -> 43,
+"_VariousId3a": 0 -> 938,
+
+1415:
+"_AbilityType2": 0 -> 7,
+"_AbilityLimitedGroupId2": 0 -> 31,
+"_AbilityType2UpValue": 0 -> 18.0,
+"_AbilityType3": 0 -> 43,
+"_VariousId3a": 0 -> 938,
+
 Determination II
 1130:
 "_AbilityType1UpValue": 25.0 -> 80.0,
@@ -2098,13 +2116,55 @@ Ramiel - Dprep 1279:
 "_ElementalType": 5 -> 0,
 "_AbilityIconName": "" -> "Icon_Ability_1010008",
 
-Chariot Rider (Thor)
-1298:
+Chariot Rider (Thor) - 1298
 "_AbilityType1UpValue": 50.0 -> 60.0,
+
+(Flame) Svalinn
+1410:
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 2,
+"_AbilityType2UpValue": 0.0 -> 30.0,
+
+1411:
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 2,
+"_AbilityType2UpValue": 0.0 -> 30.0,
 
 (Shadow) Strength and Critical Rate (1458):
 _AbilityType1UpValue: 45.0 -> 60.0
 _AbilityType2UpValue: 20.0 -> 40.0
+
+(Wind) Holy Grail
+1428:
+"_AbilityType2": 0 -> 43,
+"_VariousId2a": 0 -> 938,
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 2,
+"_AbilityType3UpValue": 0 -> 20.0
+
+1429
+"_AbilityType2": 0 -> 43,
+"_VariousId2a": 0 -> 938,
+"_AbilityType3": 0 -> 1,
+"_VariousId3a": 0 -> 2,
+"_AbilityType3UpValue": 0 -> 20.0
+
+(Water) Sakimitama
+1488:
+"_AbilityType2": 0 -> 26,
+"_AbilityLimitedGroupId2": 0 -> 94,
+"_AbilityType2UpValue": 0 -> 60.0,
+"_AbilityType3": 0 -> 7,
+"_AbilityLimitedGroupId3": 0 -> 31,
+"_AbilityType3UpValue": 0 -> 12.0,
+
+1489
+"_AbilityType2": 0 -> 26,
+"_AbilityLimitedGroupId2": 0 -> 94,
+"_AbilityType2UpValue": 0 -> 60.0,
+"_AbilityType3": 0 -> 7,
+"_AbilityLimitedGroupId3": 0 -> 31,
+"_AbilityType3UpValue": 0 -> 12.0,
 
 DYLily - Saint's Calling (1524):
 "_AbilityType2": 0 -> 43
