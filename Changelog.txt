@@ -1842,6 +1842,9 @@ _RateDestroyFireKiller: 0 -> 0.2
 1975:
 _RateDestroyFireKiller: 0 -> 0.3
 
+Divine Sting (DYNevin) - 2037
+"_RateDefense": 0.0 -> -0.02,
+
 Amaterasu's Resilient Burst
 2069:
 "_RatePoisonKiller": 0.0 -> 0.3,
