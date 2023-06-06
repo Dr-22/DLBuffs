@@ -31,6 +31,12 @@ SWD_002_03_H02_180_SERENA_LV04":
 "SWD_001_03_H04_180_LV03",
 "_DamageAdjustment": 2.9 -> 4.5,
 
+Berserker:
+"SWD_004_03_H01_ATK_DOWN_LV03"
+"_DamageAdjustment": 7.37 -> 14.74,
+"SWD_004_03_H02_ATK_DOWN_LV03"
+"_DamageAdjustment": 7.37 -> 14.74,
+
 Karl:
 "SWD_004_03_H01_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
@@ -38,6 +44,10 @@ Karl:
 "SWD_004_03_H02_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
 "_ActionCondition1": 0 -> 251,
+
+Halloween Odetta:
+"SWD_002_03_H02_HALLOWEEN_LV04"
+
 
 Xander:
 "SWD_004_04_H02_LV03"
@@ -325,10 +335,14 @@ Melsa:
 "_DamageAdjustment": 2.51 -> 3.5,
 
 Fritz: 
+"DAG_CHR_05_H03_180_LV02":
+"_DamageAdjustment": 0.58 -> 1.58,
 "DAG_001_03_H01_FRITZ_LV03"
 "_ActionCondition1": 403040102 -> 1246
+"_DamageAdjustment": 4.18 -> 5.2,
 "DAG_001_03_H02_FRITZ_LV03"
 "_ActionCondition1": 403040102 -> 1246
+"_DamageAdjustment": 4.18 -> 5.2,
 
 DYCleo:
 "DAG_104_04_3_H01_LV04"
@@ -650,6 +664,20 @@ Sharena:
 Forte:
 "LAN_123_04_H01_LV03"
 "_DamageAdjustment": 5.67 -> 8.67,
+
+Sha Wujing:
+"LAN_125_03_1_H01_LV03"
+"_DamageAdjustment": 3.37 -> 6.74,
+"LAN_125_03_1_H02_LV03"
+_DamageAdjustment": 3.53 -> 7.06,
+"LAN_125_03_2_H01_LV03"
+"_DamageAdjustment": 3.7 -> 7.4,
+"LAN_125_03_2_H02_LV03"
+"_DamageAdjustment": 3.87 -> 7.74,
+"LAN_125_03_3_H01_LV03"
+_DamageAdjustment": 4.04 -> 8.08,
+"LAN_125_03_3_H02_LV03"
+"_DamageAdjustment": 4.21 -> 8.42,
 
 Nadine:
 "LAN_127_04_H02_1_LV03"
@@ -1525,6 +1553,11 @@ Unhealable
 899:
 "_RateDamageCut": 0.0 -> 0.8
 
+Ascending Skill Skill Damage - 901:
+"_RateSkill": 0.06 -> 0.03,
+"_RateRecoverySp": 0.0 -> 0.02,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
 Passionate Photographer (Nadine):
 909:
 "_UniqueIcon": 0 -> 40,
@@ -1895,6 +1928,9 @@ Ieyasu - Blade Formation:
 "_RateFreeze": 0.0 -> -0.1
 
 Changed CharaData##############################################################################################:
+Berserker:
+"_Abilities12": 210001005 -> 721,
+"_Abilities31": 210001304 -> 2129,
 
 Beautician Zardin (10250401):
 _Abilities12: 217 -> 297
@@ -1902,6 +1938,10 @@ _Abilities12: 217 -> 297
 Fleur (10340402):
 "_Abilities31": 110160404 -> 110160406
 "_ExAbility2Data5": 400000516 -> 400000529
+
+Fritz (10340401):
+"_Abilities12": 210001005 -> 10001502,
+"_Abilities31": 210000604 -> 110070006,
 
 Nevin (10350504):
 "_Abilities32": 110390006 -> 1972,
@@ -2010,6 +2050,13 @@ Moonlith Howl
 Primed Strength Lv. 2 - 310:
 "_AbilityType2": 0 -> 14,
 "_VariousId2str":  "" -> "AURA_ATK_1",
+
+Assailant's Strength - 980
+"_AbilityType1UpValue": 8.0 -> 15.0,
+
+Ascending Skill - 981
+"_OccurenceNum": 3 -> 15,
+"_MaxCount": 3 -> 15,
 
 Primed Strength Lv. 3 - 1080
 "_AbilityType2": 0 -> 14,
