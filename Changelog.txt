@@ -13,7 +13,7 @@ _DamageAdjustment: 4.14 -> 6.21
 _DamageAdjustment: 4.14 -> 6.21
 "SWD_001_03_KGI_H04_LV03":
 _DamageAdjustment: 4.14 -> 6.21
-"SWD_CHR_05_H01_LV02":
+"SWD_CHR_05_H01_LV02":ryst
 _DamageAdjustment: 1.66 -> 4.98
 _ToBreakDmgRate: 1.85 -> 1
 	
@@ -61,9 +61,9 @@ Xander:
 
 Gala Ranzal:
 "SWD_105_04_H01_LV04":
-"_DamageAdjustment": 3.09 -> 3.69,
+"_DamageAdjustment": 3.09 -> 3.63,
 "SWD_105_04_H02_LV04":
-"_DamageAdjustment": 3.09 -> 3.69,
+"_DamageAdjustment": 3.09 -> 3.63,
 "SWD_CHR_09_H01_LV01":
 _DamageAdjustment: 2.075 -> 4.15
 "SWD_CHR_09_H01_LV02":
@@ -101,7 +101,7 @@ Summer Celliera
 
 Eugene:	
 "SWD_126_04_H01_LV02":
-	- _DamageAdjustment: 25.0 -> 75.0
+_DamageAdjustment: 25.0 -> 75.0
 
 Alberius
 "SWD_131_04_H01_LV03":
@@ -133,7 +133,7 @@ Lea:
 "SWD_CHR_14_H01_LV02"
 "_DamageAdjustment": 1.65 ->  5.15
 "_AdditionRecoverySp": 350 ->  500
-"_ToBreakDmgRate": 8.0 -> 2.75
+"_ToBreakDmgRate": 8.0 -> 2.0
 "SWD_103_04_H01_LV03"
 "_CrisisLimitRate": 0 -> 2.5,
 "_DamageCounterCoef": 11.0 -> 55.0
@@ -152,7 +152,7 @@ Hunter Berserker:
 "_ToBreakDmgRate": 1.95 -> 1.25,
 "SWD_MH_CHR_01_H01_LV02_CHLV03"
 "_DamageAdjustment": 8.77 -> 16.06,
-"_ToBreakDmgRate": 1.75 -> 1.25,
+"_ToBreakDmgRate": 1.75 -> 1.05,
 
 Civillian Leif:
 "SWD_137_04_H01_LV03"
@@ -234,7 +234,7 @@ Nobunaga:
 "_ActionCondition1": 0 -> 21,
 "_KillerStateDamageRate": 1.5 -> 2.0,
 "KAT_112_04_ADDDAMAGE_LV03"
-"_DamageAdjustment": 15.65 -> 20.65,
+"_DamageAdjustment": 15.65 -> 19.56,
 
 Hanabusa:
 "KAT_113_03_H01_LV03"
@@ -246,9 +246,9 @@ Hanabusa:
 
 Tobias:
 "KAT_117_04_2_H01_LV02":
-"_DamageAdjustment": 0.13 -> 3.0,
+"_DamageAdjustment": 0.13 -> 3.5,
 "KAT_117_04_2_H02_LV02":
-"_DamageAdjustment": 0.13 -> 3.0,
+"_DamageAdjustment": 0.13 -> 3.5,
 
 Linnea:
 "KAT_CHR_09_H01_LV02":
@@ -269,9 +269,9 @@ Halloween Akasha:
 
 Forager Mitsuba:
 "KAT_124_04_H01_LV03":
-"_DamageAdjustment": 1.55 -> 2.5,
+"_DamageAdjustment": 1.55 -> 2.55,
 "KAT_124_04_H02_LV03":
-"_DamageAdjustment": 1.55 -> 2.5,
+"_DamageAdjustment": 1.55 -> 2.55,
 
 Armored Yachiyo:
 "KAT_CHR_16_H01_LV02"
@@ -406,7 +406,7 @@ Yukata Curran:
 "DAG_130_04_H01_LV03":
 "_DamageAdjustment": 1.65 -> 4.0
 "DAG_130_04_PLUS_H01_LV03":
-"_DamageAdjustment": 1.83 -> 4.5
+"_DamageAdjustment": 1.82 -> 4.5
 "DAG_131_04_PLUS_H01_LV02"
 "_DamageAdjustment": 0.9 -> 1.8
 
@@ -424,22 +424,16 @@ Nevin:
 Fleur:
 "DAG_106_03_1_H01_LV03":
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_1_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_2_H01_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_2_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_3_H01_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 "DAG_106_03_3_H02_LV03"
 "_DamageAdjustment": 3.33 -> 6.685
-"_KillerStateDamageRate": 2 -> 1.5
 
 Mitsuba
 "DAG_118_04_1_H01_LV03"
@@ -496,7 +490,6 @@ Ramona
 "_AdditionalRandomHitLabel": "" -> "AXE_001_03_SA_LV04",
 "_AdditionalRandomHitNum": 0 -> 1,
 "AXE_102_04_H02_LV03":
-"_DamageAdjustment": 2.93 -> 3.76
 "_AdditionalRandomHitLabel": "" -> "BUF_196_SPC1_LV01"
 "_AdditionalRandomHitNum": 0 -> 1,
 
@@ -545,6 +538,8 @@ Dragonyule Malora:
 
 Valentine's Melody:
 "AXE_114_04_H01_LV03":
+"_DamageAdjustment": 1.39 -> 2.78,
+AXE_114_04_H02_LV03:
 "_DamageAdjustment": 1.39 -> 2.78,
 "AXE_115_04_H01_LV02":
 "_DamageAdjustment": 8.64 -> 17.28,
@@ -613,7 +608,7 @@ Halloween Elisanne:
 "LAN_103_04_H02_LV04":
 "_DamageAdjustment": 1.872 -> 2.5,
 "LAN_001_04_H02_SP_LV03"
-"_DamageAdjustment": 13.6 -> 20.6,
+"_DamageAdjustment": 13.6 -> 18.6,
 "_AdditionRecoverySp": 700 -> 1000,
 
 Sylas
@@ -703,7 +698,7 @@ Halloween Melsa:
 
 Grimnir:
 "LAN_138_04_PLUS_H01_LV03":
-"_DamageAdjustment": 1.25 -> 2.5,
+"_DamageAdjustment": 1.25 -> 1.75,
 "LAN_140_04_H01_LV01":
 _DamageAdjustment: 0.8 -> 4.0
 
@@ -730,10 +725,10 @@ Eleonora:
 Louise:
 "BOW_003_04_H01_POISON_KILLER_LV03",:
 "_DamageAdjustment": 6.93 -> 11.0,
-"_CrisisLimitRate": 0.5 -> 0.01,
+"_CrisisLimitRate": 0.5 -> 0.05,
 "BOW_003_04_H02_POISON_KILLER_LV03",:
 "_DamageAdjustment": 6.93 -> 11.0,
-"_CrisisLimitRate": 0.5 -> 0.01,
+"_CrisisLimitRate": 0.5 -> 0.05,
 
 Nefaria:
 "BOW_100_04_H01_LV04"
@@ -794,6 +789,8 @@ Valentine's Addis
 "_DamageAdjustment": 3.87 -> 8.87,
 "_AdditionalRandomHitLabel": "" -> "BUF_201_BAN_LV03",
 "_AdditionalRandomHitNum": 0 -> 1,
+"_KillerState1": 0 -> 1,
+"_KillerStateDamageRate": 0.0 -? 1.2,
 
 Summer Mikoto:
 "BOW_115_04_H01_LV03":
@@ -860,7 +857,7 @@ Maribelle:
 "_DamageAdjustment": 4.26 -> 6.0,
 "ROD_001_04_H02_LV03":
 "_DamageAdjustment": 4.26 -> 6.0
-"_AdditionalRandomHitLabel": "S082_002_LV02/S082_002_LV02/S082_002_LV01",
+"_AdditionalRandomHitLabel": "S082_002_LV02/S082_002_LV02/S082_002_LV03",
 "_AdditionalRandomHitNum": 0 -> 3,
 
 Lucretia:
@@ -917,6 +914,7 @@ Incognito Nefaria:
 "_DamageAdjustment": 1.32 -> 2.5,
 ROD_122_04_H01_LV02":
 "_DamageAdjustment": 30.78 -> 45.0,
+"_AdditionCritical": 0.0 -> 0.2,
 
 Forager Cleo:
 "ROD_123_04_H01_LV03"
@@ -936,9 +934,8 @@ Seimei:
 "ROD_125_04_OPT2_LV01:
 "_DamageAdjustment": 4.86 -> 6.0,
 "ROD_125_04_BARRIER_LV03"
-"_AuraId": 0 -> 1000,
+"_AuraId": 0 -> 10000,
 "_AuraMaxLimitLevel": 0 -> 1,
-
 "ROD_129_04_PLUS_H02_LV03"
 "_DamageAdjustment": 10.4 -> 15.4,
 
@@ -1014,16 +1011,16 @@ Gala Chelle:
 
 Faris:
 "GUN_112_04_H01_LV03":
-	- _KillerState1: 0 -> 15
-	- _KillerStateDamageRate: 0.0 -> 1.5
+_KillerState1: 0 -> 15
+_KillerStateDamageRate: 0.0 -> 1.5
 "GUN_112_04_PLUS_H01_LV03":
-	- _KillerState1: 0 -> 15
-	- _KillerStateDamageRate: 0.0 -> 1.7
+_KillerState1: 0 -> 15
+ _KillerStateDamageRate: 0.0 -> 1.7
 "GUN_FUA_CMB_01_H01":
-	- _DamageAdjustment: 0.97 -> 1.5
-	- _KillerStateDamageRate: 1.35 -> 1.5
+_DamageAdjustment: 0.97 -> 1.5
+_KillerStateDamageRate: 1.35 -> 1.5
 "GUN_FUA_CHR_01_PLUS_H01_LV02":
-	- _KillerStateDamageRate: 1.35 -> 1.5
+ _KillerStateDamageRate: 1.35 -> 1.5
 	
 Sharpshooter Sarisee:
 "GUN_117_04_H01_LV03"
@@ -1104,6 +1101,7 @@ _DamageAdjustment: 1.82 -> 4.64
 _DamageAdjustment: 1.82 -> 4.64
 
 Nyarlathotep
+S046_000_02"
 _DamageAdjustment": 2.94 -> 7.5,
 "S046_001_LV02":
 "_DamageAdjustment": 7.36 -> 14.0,
@@ -1118,8 +1116,6 @@ Prometheus
 "S052_001_LV02
 "_DamageAdjustment": 11.2 -> 22.4
 "_ActionCondition1": 0 -> 291
-"_AuraId": 0 -> 20000,
-"_AuraMaxLimitLevel": 0 -> 1,
 "_AdditionalRandomHitLabel": "" -> "KAT_115_04_2_DEBUF_LV04",
 "_AdditionalRandomHitNum": 0 -> 1,
 	
@@ -1495,9 +1491,8 @@ _SlipDamageRatio: -0.08 -> -0.1
 
 Crystalline Blades Buffed (Naveed):
 338:
-"_MaxDuplicatedCount": 5 -> 10,
 "_RateDefense": 0.0 -> 0.05,
-"_EnhancedFire2": 0.0 -> 0.05,
+"_EnhancedFire2": 0.0 -> 0.06,
 
 Fatalis Curse
 368
@@ -1535,7 +1530,7 @@ Obsessive Love II (Chelsea):
 
 Draconic Power III (Gala Mym):
 513:
-"_RateAttackSpeed": 0.0 -> 0.15,
+"_RateAttackSpeed": 0.0 -> 0.1,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Heaven's Breath (Lin You):
@@ -1562,6 +1557,7 @@ Passionate Photographer (Nadine):
 909:
 "_UniqueIcon": 0 -> 40,
 "_BuffIconId": 0 -> 137,
+"_UnifiedManagement": 0 -> 1,
 "_RateSkill": 0.0 -> 0.2,
 _CurseOfEmptinessInvalid: 0 -> 1
 910:
@@ -1577,7 +1573,7 @@ Radiant Xuan Zang:
 	
 Summer Mikoto:
 Illuminating Sunlight:
-970:
+977:
 "_RateCritical": 0.0 -> 0.2,
 Celestial Wavelight:
 978:
@@ -1670,8 +1666,8 @@ Seimei Shikigami Def Down
 
 GRP Water Ele. Atk. Up
 1367:
-"_EnhancedWater2": 0.3 -> 0.45,
-"_EnhancedNoElement": 0.3 -> 0.45,
+"_EnhancedWater2": 0.3
+"_EnhancedNoElement": 0.3
 
 Forager Mitsuba:
 New Dish - 1372:
@@ -1713,7 +1709,8 @@ New Year's Mochi (Kimono Luca):
 1485:
 "_RateWater": 0.05 -> 0.1,
 1486:
-"_RateBurstSpeed": 0.0 -> 0.2,
+"_RateWater": 0.05 -> 0.15,
+"_RateBurstSpeed": 0.0 -> 0.25,
 
 Gabriel's Blessing (Pinon) - 1218:
 "_DurationNum": 0 -> 3
@@ -1764,7 +1761,7 @@ _CurseOfEmptinessInvalid: 0 -> 1
 
 Grand Strategist (Kirsty):
 1887:
-"_RateSkill": 0.0 -> 0.3,
+"_RateSkill": 0.0 -> 0.1,
 
 Critical Vulnerability:
 1920:
@@ -1926,9 +1923,13 @@ Stunning Beauty - Beautician Zardin
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 
-Ieyasu - Blade Formation:
-311050202:
+Ieyasu - Blade Formation - 384:
 "_DurationSec": 15.0 -> 25.0,
+311050202
+"_DurationSec": 15.0 -> 25.0,
+"_RateAttack": 0.0 -> 0.15,
+"_RateDefense": 0.0 -> 0.25,
+"_RateCritical": 0.15 -> 0.3,
 
 403040103 (Was Luther Def Down)
 "_Rate": 50 -> 100
@@ -2083,6 +2084,11 @@ Flame Blades' Protection:
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
+
+Poisom = Team Strength - 773 
+"_CoolTime": 5.0 -> 15.0,
+"_AbilityType2": 0 -> 14,
+"_VariousId2str": "" -> "BOW_134_04_SPC_LV02",
 
 Skills = Shapeshift Prep II:
 924,
@@ -2295,7 +2301,7 @@ Blessed Bloodline II (Nino):
 "_AbilityType3": 0 -> 6,
 "_VariousId3a": 0 -> 2,
 "_TargetAction3":0 -> 1,
-"_AbilityType3UpValue": 0 -> 50.0
+"_AbilityType3UpValue": 0 -> 30.0
 
 Guardsman of the Verdure II (Isaac):
 "_VariousId1str": "AURA_ATK_2" -> "AURA_ATK_3"
