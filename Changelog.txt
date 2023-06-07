@@ -1701,6 +1701,12 @@ Saint Starfall Lily (DYLily) - 1417:
 Chicken At Heart III Skill Damage - 1456:
 "_RateSkill": 0.05 -> 0.1,
 
+Shikigami Enchantment (Kuzunoha) - 1464:
+"_RateRecoverySp": 0.0 -> 0.1,
+"_RateDefense": 0.0 -> 0.15,
+"_RateSwoon": 0.0 -> 1.0,
+"_RateSleep": 0.0 -> 1.0,
+
 New Year's Mochi (Kimono Luca):
 1484:
 "_RateWater": 0.03 -> 0.05,
@@ -1839,7 +1845,9 @@ Calculated Shots (Saiga) - 1687
 
 Fluorescent Fish (Yukata Cassandra) 
 1718:
-"_RateAttack": 0 -> 0.3,
+"_RateAttack": 0 -> 0.2,
+"_RateWind": 0 -> 0.1,
+-
 "_MaxDuplicatedCount": 0 -> 1,
 "_Overwrite": 1 -> 0,
 "_OverwriteIdenticalOwner": 0 -> 1,
@@ -2219,6 +2227,10 @@ _AbilityType2UpValue: 20.0 -> 40.0
 DYLily - Saint's Calling (1524):
 "_AbilityType2": 0 -> 43
 "_VariousId2a": 0 ->  110120004
+
+Shikigami Vivifier II - 1543
+ "_AbilityType2": 0 -> 14,
+"_VariousId2str": 0 -> "BUF_152_SPC_LV01",
 
 Nimble Riposte II
 1545:
