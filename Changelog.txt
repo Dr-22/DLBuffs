@@ -1491,8 +1491,8 @@ _SlipDamageRatio: -0.08 -> -0.1
 
 Burning Ambition - 314:
 "_DurationSec": 30.0 -> 10.0,
-"_ConditionDebuff": 0 -> 314,
-"_RateDamageCut": 0.0 -> -0.25,
+"_RateSkill": 0.0 -> 0.25,
+"_RateBurst": 0.0 -> 2.5,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Crystalline Blades Buffed (Naveed):
