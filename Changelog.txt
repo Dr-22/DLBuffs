@@ -1489,6 +1489,12 @@ Armament Charger (Finni)
 1566:
 _SlipDamageRatio: -0.08 -> -0.1
 
+Burning Ambition - 314:
+"_DurationSec": 30.0 -> 10.0,
+"_ConditionDebuff": 0 -> 314,
+"_RateDamageCut": 0.0 -> -0.25,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
 Crystalline Blades Buffed (Naveed):
 338:
 "_RateDefense": 0.0 -> 0.05,
@@ -1565,6 +1571,12 @@ Trendsetting Photographer (Nadine):
 _CurseOfEmptinessInvalid: 0 -> 1
 
 World's Dream (Nobunaga)
+"_ConditionType": 9 -> 87,
+"_ConditionValue": 15.0 -> 0.0,
+"_AbilityType1": 25 -> 43,
+"_VariousId1a": 7 -> 2029,
+"_AbilityType2": 0 -> 14,
+"_VariousId2a": 0 -> 314,
 
 
 Radiant Xuan Zang:
@@ -1689,6 +1701,8 @@ Fiend Rice Ball - 1412:
 "_RateAttackSpeed": 0.0 -> 0.15,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
+Crystalline Power - 1415:
+"_RateAttack": 0.0 -> 0.25,
 
 Saint Starfall Lily (DYLily) - 1417:
 "_RateAttackSpeed": 0.0 -> 0.1,
@@ -1698,6 +1712,7 @@ Chicken At Heart III Skill Damage - 1456:
 "_RateSkill": 0.05 -> 0.1,
 
 Shikigami Enchantment (Kuzunoha) - 1464:
+"_UnifiedManagement": 0 -> 1,
 "_RateRecoverySp": 0.0 -> 0.1,
 "_RateDefense": 0.0 -> 0.15,
 "_RateSwoon": 0.0 -> 1.0,
@@ -1723,10 +1738,15 @@ Sigil Released (Pinon):
 Overclocked - Eirene
 1594:
 _DurationSec": 15.0 ->  25.0,
-"_RateFlashheatKiller": 0.1 -> 0.5,
+"_RateFlashheatKiller": 0.1 -> 0.25,
 1595:
 _DurationSec": 15.0 ->  25.0,
-"_RateFlashheatKiller": 0.1 -> 0.5,
+"_RateFlashheatKiller": 0.1 -> 0.25,
+
+Blood Pact (Vania) - 1690
+"_UnifiedManagement": 0 -> 1,
+"_RateSkill": 0.0 -> 0.07,
+"_RateRecovery": 0.0 -> 0.1,
 
 Verdure Blessing 
 1719 - (Red/Field):
