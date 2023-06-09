@@ -48,6 +48,20 @@ Karl:
 Halloween Odetta:
 "SWD_002_03_H02_HALLOWEEN_LV04"
 
+Marty:
+"SWD_004_02_H01_BURN_LV04"
+"_DamageAdjustment": 4.54 -> 10.05,
+"_AdditionalRandomHitLabel": 0 -> "SWD_102_04_DISPEL_LV04",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"SWD_004_02_H02_BURN_LV04"
+"_DamageAdjustment": 4.54 -> 10.05,
+"_AdditionalRandomHitLabel": 0 -> "SWD_102_04_DISPEL_LV04",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"BUF_ALL_PROTECT_MARTY_LV03"
+"_AuraId": 0 -> 20000,
+"_AuraMaxLimitLevel": 0 -> 2,
 
 Xander:
 "SWD_004_04_H02_LV03"
@@ -158,6 +172,13 @@ Civillian Leif:
 "SWD_137_04_H01_LV03"
 "_DamageAdjustment": 17.83 -> 24.83,
 
+Aoi:
+"KAT_002_02_H01_BURN_LV03"
+"_AdditionCritical": 0.0 -> 1.0,
+"KAT_003_02_H01_BURN_LV04"
+"_AdditionCritical": 0.0 -> 1.0,
+
+
 Beautician Zardin:
 "KAT_104_04_H01_LV03":
 _DamageAdjustment: 4.424 -> 7.424
@@ -233,8 +254,10 @@ Nobunaga:
 "_DamageAdjustment": 13.56 -> 20.34,
 "_ActionCondition1": 0 -> 21,
 "_KillerStateDamageRate": 1.5 -> 2.0,
+
 "KAT_112_04_ADDDAMAGE_LV03"
 "_DamageAdjustment": 15.65 -> 19.56,
+"_ActionCondition1": 0 -> 21,
 
 Hanabusa:
 "KAT_113_03_H01_LV03"
@@ -299,6 +322,28 @@ _TargetGroup": 1 -> 6
 Humanoid Jupiter:
 "KAT_137_04_H02_LV03"
 "_DamageAdjustment": 3.0 -> 6.0
+
+Renelle:
+"DAG_004_02_H02_BURN_LV04"
+"_DamageAdjustment": 2.85 -> 3.45,
+"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"DAG_004_02_H02_BURN_LV04"
+"_DamageAdjustment": 2.85 -> 3.45,
+"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"DAG_001_02_H01_DEF_DOWN_BURN_LV03"
+"_DamageAdjustment": 3.32 -> 6.64,
+"_AdditionalRandomHitLabel": 0 -> "KAT_116_04_2_SPC_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"DAG_001_02_H02_DEF_DOWN_BURN_LV03"
+"_DamageAdjustment": 3.32 -> 6.64,
+"_AdditionalRandomHitLabel": 0 -> "KAT_116_04_2_SPC_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
+
 
 Luther:
 "DAG_004_03_H01_LV04"
@@ -479,11 +524,13 @@ Yue:
 
 Vanessa:
 "AXE_001_03_H02_LV04":
-_DamageAdjustment: 8.42 -> 11.42
+_DamageAdjustment: 8.42 -> 14.42
 "AXE_003_03_H01_DEF_DOWN_LV03":
 "_DamageAdjustment": 5.47 -> 8.42
+"_HpDrainRate": 0.0 -> 0.03,
 "AXE_003_03_H02_DEF_DOWN_LV03":
 "_DamageAdjustment": 5.47 -> 8.42
+"_HpDrainRate": 0.0 -> 0.03,
 
 Ramona
 "AXE_102_04_H01_LV03":
@@ -587,7 +634,6 @@ Dragonyule Victor
 "AXE_123_04_H02_LV02":
 "_DamageAdjustment": 5.0 -> 10.0,
 
-
 Finni
 "AXE_130_01_H01_LV02":
 _DamageAdjustment: 4.5 -> 5.5
@@ -601,6 +647,15 @@ Shingen:
 Sophie:
 "AXE_ES_CMB3_10_H01":
 "_DamageAdjustment": 6.23 -> 19.23,
+
+Alain
+"LAN_001_02_H01_BURN2_LV04"
+"_DamageAdjustment": 4.11 -> 6.11,
+"LAN_001_02_H02_BURN2_LV04"
+"_DamageAdjustment": 4.11 -> 6.11,
+"LAN_002_02_H01_BURN2_LV03"
+"_DamageAdjustment": 6.165 -> 8.165,
+"_ActionCondition1": 102040301 -> 1923,
 
 Halloween Elisanne:
 "LAN_103_04_H01_LV04":
@@ -721,6 +776,14 @@ Eleonora:
 "_ActionCondition1": 101020601 -> 1316
 "_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
 "_AdditionalRandomHitNum": 1,
+
+Joe:
+"BOW_003_02_H01_BURN2_LV04
+"_DamageAdjustment": 4.32 -> 6.32,
+"BOW_003_02_H02_BURN2_LV04"
+"_DamageAdjustment": 4.32 -> 6.32,
+"BOW_001_02_H01_BURN2_LV03"
+"_DamageAdjustment": 10.515 -> 15.515,
 
 Louise:
 "BOW_003_04_H01_POISON_KILLER_LV03",:
@@ -950,6 +1013,12 @@ Origa
 "_DamageAdjustment": 0.1 -> 0.5,
 "ROD_ORI_CMB_05_H02"
 "_DamageAdjustment": 0.1 -> 0.4,
+
+Aurien:
+"CAN_003_02_H01_20_LV03"
+"_DamageAdjustment": 12.48 -> 20.48,
+"_AdditionalRandomHitLabel": "" -> "CAN_001_02_H01_REJENE_LV01/AURA_ATK_1/AURA_DEF_1/KAT_116_04_2_SPC_LV03",
+"_AdditionalRandomHitNum": 0 -> 2,
 
 Heinwald:
 "CAN_104_04_H01_LV04":
@@ -2104,6 +2173,11 @@ Flame Blades' Protection:
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
+
+Full HP = Burn + 70% - 716
+"_AbilityType2": 0 -> 47,
+"_VariousId2a": 0 -> 2,
+"_AbilityType2UpValue": 0 -> 100.0,
 
 Poisom = Team Strength - 773 
 "_CoolTime": 5.0 -> 15.0,
