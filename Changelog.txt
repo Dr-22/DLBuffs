@@ -2026,9 +2026,13 @@ Ieyasu - Blade Formation - 384:
 "_RateFreeze": 0.0 -> -0.1
 
 Changed CharaData##############################################################################################:
+
 Berserker:
 "_Abilities12": 210001005 -> 721,
 "_Abilities31": 210001304 -> 2129,
+
+Seimei (10750104) :
+"_UniqueDragonId": 0 -> 20050116,
 
 Beautician Zardin (10250401):
 _Abilities12: 217 -> 297
@@ -2327,6 +2331,11 @@ _AbilityType2UpValue: 20.0 -> 40.0
 DYLily - Saint's Calling (1524):
 "_AbilityType2": 0 -> 43
 "_VariousId2a": 0 ->  110120004
+
+Master Of Shikigami II - 1541
+"_AbilityType3": 0 -> 56,
+"_VariousId3a": 0 -> 1,
+"_VariousId3str": "" -> "1800/560/65",
 
 Shikigami Vivifier II - 1543
  "_AbilityType2": 0 -> 14,
