@@ -2409,6 +2409,9 @@ Blessed Bloodline II (Nino):
 Guardsman of the Verdure II (Isaac):
 "_VariousId1str": "AURA_ATK_2" -> "AURA_ATK_3"
 
+Bleeding Devastator - 2052
+"_AbilityType1UpValue": 15.0 -> 30.0,
+
 Summer Mym - Summer Sparks (2060)
 "_AbilityType2": 0 -> 1,
 "_VariousId2a": 0 -> 10,
