@@ -502,11 +502,27 @@ Summer Prince:
 
 Farren:
 "DAG_145_04_PLUS_H01_LV02":
-_DamageAdjustment: 32.5 -> 40.0
+"_AttrDragon": 0 -> 1,
 "DAG_144_04_PLUS_H01_LV03":
-_DamageAdjustmet: 5.2 -> 6.0
+"_AttrDragon": 0 -> 1,
 "DAG_144_04_PLUS_H02_LV03":
-_DamageAdjustmet: 5.2 -> 6.0
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_01_H01"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_02_H01"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_03_H01"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_04_H01"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_04_H02"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CMB1_04_H03"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CHR1_01_H01_LV01"
+"_AttrDragon": 0 -> 1,
+"DAG_FAL_CHR1_01_H01_LV02"
+"_AttrDragon": 0 -> 1,
 
 Joker
 "DAG_EJ_CMB2_10_H01"
@@ -1202,6 +1218,9 @@ Nyarlathotep (Lathna):
 "S071_001_HAS_LV02":
 "_DamageAdjustment": 3.64 -> 10.0,
 
+Marishiten:
+"S077_001_00_LV02"
+"_DamageAdjustment": 2.08 -> 3.08,
 Long Long:
 "S080_000_00":
 "_AdditionCritical": 0.0 -> 0.8,
@@ -2442,8 +2461,17 @@ _MaxCount: 5 -> 20
 "_AbilityType3UpValue": 0 -> 3.0
 
 Wyrmbound Shell (Farren):
-2194:
-_VariousId3a: 0 -> 861
+2196:
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 10,
+"_AbilityLimitedGroupId2": 0 -> 15.0,
+
+Right Hand Dragon (Farren) - 2198
+"_AbilityType1UpValue": 1.5 -> 3.0,
+"_AbilityType2": 0 -> 11,
+"_AbilityLimitedGroupId2": 0 -> 117,
+"_TargetAction2": 0 -> 2,
+"_AbilityType2UpValue": 0 -> 1.0,
 
 Hits = Overdamage
 2281:
