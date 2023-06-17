@@ -1,21 +1,21 @@
 Changed AbilityLimitedGroupID (These are the print caps) ###############################################################################################################
 1 - Poisoned Punisher
-"_MaxLimitedValue": 30.0 -> 50.0,
+"_MaxLimitedValue": 30.0
 
 2 - Burning Punisher
-"_MaxLimitedValue": 30.0 -> 50.0,
+"_MaxLimitedValue": 30.0
 
 4 - Paralyzed Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 31 - Critical Rate
 "_MaxLimitedValue": 15.0 -> 30.0,
 
 32 - Skill Damage
-"_MaxLimitedValue": 40.0 -> 60.0,
+"_MaxLimitedValue": 40.0
 
 42 - Strength
-"_MaxLimitedValue": 20.0 -> 31.0,
+"_MaxLimitedValue": 20.0 -> 30.0,
 
 44 - Dragon Haste
 "_MaxLimitedValue": 15.0 -> 30.0,
@@ -30,22 +30,22 @@ Changed AbilityLimitedGroupID (These are the print caps) #######################
 "_MaxLimitedValue": 18.0 -> 30.0,
 
 143 - Frostbitten Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 165 - Skill Damage (Crown's Boon)
 "_AbilityType1UpValue": 10.0 -> 20.0,
 
 169 - Shadowblighted Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 175 - Scorchrent Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 176 - Stormlashed Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 177 - Flashburned Punisher
-"_MaxLimitedValue": 25.0 -> 50.0,
+"_MaxLimitedValue": 25.0 -> 30.0,
 
 192 - Strength (Easy Hitter)
 "_MaxLimitedValue": 20.0 -> 30.0,
@@ -59,16 +59,124 @@ Full HP = Str + 15% (210000306)
 "_AbilityType1UpValue": 15.0 -> 30.0,
 
 Full HP = Skill Damage + 40% (210000406)
-"_AbilityType1UpValue": 40.0 -> 60.0,
+"_AbilityType1UpValue": 40.0 
 
 Full HP = Critical Damage + 22% (341)
 "_AbilityType1UpValue": 22.0 -> 50.0,
 
-Axes' Boon (110080009)
+Dragonyule Dreaming - 40050124
+Bleeding Punisher III - 110400004
 "_AbilityType1UpValue": 10.0 -> 20.0,
+
+Extreme Teamwork - 40050130
+Flashburned Punisher + 25% - 1772
+"_AbilityType1UpValue": 25.0 -> 30.0,
+
+The Cutie Competition - 40050125
+Scorchrent Punisher - 1657
+"_AbilityType1UpValue": 25.0 -> 30.0,
+
+ Going Undercover - 40050146
+Stormlashed Punisher + 25% - 1708
+"_AbilityType1UpValue": 25.0 -> 30.0,
+
+Welcome to the Opera - 40050120,
+Shadowblighted Punisher + 25% - 1517
+"_AbilityType1UpValue": 25.0 -> 30.0,
+
+Wings of Rebellion at Rest = 40050148
+Frostbitten Punisher + 25% - 855
+"_AbilityType1UpValue": 25.0 -> 30.0,
+
+Spirit of the Season = 40050084,
+Paralyzed Punisher + 20% - 110160404
+"_AbilityType1UpValue": 20.0 -> 30.0,
+
+ Dragon Brethren = 40050006
+Dragon Time + 20% - 110010806
+"_AbilityType1UpValue": 20.0 -> 30.0,
+
+Evening of Luxury = 40050003,
+Full HP = 15% Str
+"_AbilityType1UpValue": 15.0 -> 30.0,
+
+KungFuMasters = 40050038,
+Axe = 14% Crit - 148
+"_AbilityType1UpValue": 14.0 -> 20.0,
+
+DearDiary = 40050076
+Bow = 14% Crit - 568
+"_AbilityType1UpValue": 14.0 -> 20.0,
+
+BloodyLittleQueen = 40050133
+Wand = 14% Crit - 1994
+"_AbilityType1UpValue": 14.0 -> 20.0,
+
+AdventureinthePast = 40050145,
+Sword = 14% Crit - 2394
+"_AbilityType1UpValue": 14.0 -> 20.0,
+
+SeasidePrincess = 40050067
+Critical Damage +  20% - 110390006
+"_AbilityType1UpValue": 20.0 -> 25.0,
+
+Axes' Boon (110080009)
 "_AbilityType2": 0 -> 7,
 "_AbilityLimitedGroupId2": 0 -> 31,
 "_AbilityType2UpValue": 0 -> 10.0,
 
 Crown's Boon (110060009)
 "_AbilityType1UpValue": 10.0 -> 20.0,
+
+Sword's Boon - 120010236
+"_AbilityType1UpValue": 8.0 -> 15.0,
+
+Changed UnionAbility ###################################################################################################################################################
+
+Affinities ("_UnionAbilityGroupId")
+1 - Crown (SD)
+2 - Axe (Broken Punisher)
+3 - Sword (Strength)
+4 - Bow (Skill Haste) 
+5 - Dragon (Dragon Damage)
+6 - Lance (FS)
+7 - Eagle (Burn Res)
+8 - Wolf (Stun Res)
+9 - Bull (Para Res)
+10 - Serpent (Curse Res)
+11 - Staff (Buff Time)
+12 - Spider (Poison Res)
+13 - Deer (Freeze Res)
+14 - Bat (Blind Res)
+15 - Fish (Bog Res)
+16 - Butterfly (Sleep Res)
+
+
+
+Changed AbilityCrest ##############################################################################################################################################
+Lord of the Skies = 40040008
+"_UnionAbilityGroupId": 0 -> 1,
+
+ Heralds of Hinomoto = 40050033
+"_UnionAbilityGroupId": 1 -> 2,
+
+The Wyrmclan Duo = 40050085
+"_UnionAbilityGroupId": 1 -> 3,
+
+Valiant Crown = 40050001
+"_UnionAbilityGroupId": 1 -> 5,
+
+Lucas Prank = 40050007,
+"_UnionAbilityGroupId": 1 -> 4,
+
+Nightstalker = 40050010,
+"_UnionAbilityGroupId": 6 -> 1,
+
+The Lurker in the Woods = 40050091
+"_UnionAbilityGroupId": 6 -> 2,
+
+Here Come the Sealers = 40050106,
+"_UnionAbilityGroupId": 6 -> 3,
+
+An Indelible Date = 40050049,
+"_UnionAbilityGroupId": 0 -> 1,
