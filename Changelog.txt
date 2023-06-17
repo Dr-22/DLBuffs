@@ -1099,7 +1099,7 @@ Eirene:
 
 Gala Chelle:
 "GUN_110_04_H02_LV03":
-"_DamageAdjustment": 0.25 -> 1.25
+"_DamageAdjustment": 0.25 -> 1.75
 
 Faris:
 "GUN_112_04_H01_LV03":
