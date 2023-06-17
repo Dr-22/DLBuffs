@@ -457,7 +457,7 @@ Yukata Curran:
 
 Nevin:
 "DAG_133_04_H01_LV02":
-"_DamageAdjustment": 10.0 -> 20.0
+"_DamageAdjustment": 10.0 -> 25.0
 "DAG_133_04_PLUS_H01_LV02":
 "_DamageAdjustment": 3.0 -> 5.0
 "DAG_133_04_PLUS_H02_LV02":
@@ -786,6 +786,13 @@ Panther:
 "_DamageAdjustment": 6.0 -> 8.0
 "_AddUtp": 0 -> 150,
 
+Summer Leonidas
+"LAN_143_04_H01_LV03"
+"_DamageAdjustment": 15.48 -> 20.48,
+"LAN_143_04_PLUS_H01_LV03"
+"_DamageAdjustment": 20.22 -> 25.22,
+"LAN_144_04_H01_LV02"
+"_DamageAdjustment": 8.54 -> 10.54,
 
 Eleonora:
 "BOW_001_03_H01_POISON2_LV02:
@@ -1755,6 +1762,7 @@ Post Sigil - 1222:
 "_BuffIconId": 0 -> 102,
 _SlipDamageIntervalSec: 0.0 > 1.0
 _SlipDamageRatio: 0 -> -0.02
+"_RateCritical": 0.0 -> 0.2,
 "_RateSkill": 0.0 -> 0.3,
 _ValidRegeneSP: 0 -> 1
 "_CurseOfEmptinessInvalid": 0 -> 1,
@@ -2029,7 +2037,6 @@ Ruin Stance - Mikoto
 Stunning Beauty - Beautician Zardin
 313010401:
 "_CurseOfEmptinessInvalid": 0 -> 1,
-
 
 Ieyasu - Blade Formation - 384:
 "_DurationSec": 15.0 -> 25.0,
