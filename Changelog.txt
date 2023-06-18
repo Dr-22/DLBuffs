@@ -287,9 +287,6 @@ Mordecai:
 "KAT_120_04_H01_LV03"
 "_DamageAdjustment": 17.1 -> 24.1,
 
-Halloween Akasha:
-"_DamageAdjustment": 20.0,
-
 Forager Mitsuba:
 "KAT_124_04_H01_LV03":
 "_DamageAdjustment": 1.55 -> 2.55,
@@ -1022,8 +1019,10 @@ Seimei:
 "ROD_125_04_BARRIER_LV03"
 "_AuraId": 0 -> 10000,
 "_AuraMaxLimitLevel": 0 -> 1,
+
+Vania
 "ROD_129_04_PLUS_H02_LV03"
-"_DamageAdjustment": 10.4 -> 15.4,
+"_ActionCondition1": 291 -> 1364,
 
 Origa
 "ROD_138_04_H01_LV03"
@@ -1841,7 +1840,7 @@ _DurationSec": 15.0 ->  25.0,
 
 Blood Pact (Vania) - 1690
 "_UnifiedManagement": 0 -> 1,
-"_RateSkill": 0.0 -> 0.07,
+"_RateSkill": 0.0 -> 0.05,
 "_RateRecovery": 0.0 -> 0.1,
 
 Verdure Blessing 
