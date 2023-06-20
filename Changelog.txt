@@ -376,6 +376,10 @@ Melsa:
 "DAG_004_03_H02_180_LV02"
 "_DamageAdjustment": 2.51 -> 3.5,
 
+Su Fang:
+"DAG_005_03_HANABI_H02_LV04"
+"_DamageAdjustment": 0.56 -> 5.6,
+
 Fritz: 
 "DAG_CHR_05_H03_180_LV02":
 "_DamageAdjustment": 0.58 -> 1.58,
@@ -797,6 +801,14 @@ Eleonora:
 "_AdditionalRandomHitLabel": "SWD_123_04_1_POISON_LV04",
 "_AdditionalRandomHitNum": 1,
 
+Luca: 
+"BOW_002_03_H01_PARALYSIS_LV04"
+"_DamageAdjustment": 11.21 -> 16.24,
+"BOW_002_03_H01_PARALYSIS2_LV04"
+"_DamageAdjustment": 11.21 -> 16.24,
+"BOW_001_03_H01_RY_LV03"
+"_DamageAdjustment": 11.73 -> 15.73,
+
 Joe:
 "BOW_003_02_H01_BURN2_LV04
 "_DamageAdjustment": 4.32 -> 6.32,
@@ -919,6 +931,10 @@ Summer Alex:
 Xania:
 "ROD_002_02_H01_BURN_LV03":
 _ActionCondition1: 102040301 -> 2049
+
+Amane:
+"ROD_002_03_PUR_AMANE_LV04",
+ "_DamageAdjustment": 1.05 -> 2.5,
 
 Radiant Xuan Zang:
 "ROD_116_04_H01_LV03"
@@ -2298,6 +2314,11 @@ Defense Reduced = Debuff Edge (Halloween Akasha) - 1252
 Bleeding = HP Recovery (Halloween Akasha) - 1254
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": 0 -> "S082_002_LV02",
+
+Full HP = Strength & Paralyzing Edge (Luca) - 1258
+"_AbilityType2": 0 -> 47,
+"_VariousId2a": 0 -> 4,
+"_AbilityType2UpValue": 0 -> 100.0,
 
 Poised Obliteration II
 1270
