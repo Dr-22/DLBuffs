@@ -1640,6 +1640,10 @@ Heaven's Breath (Lin You):
 "_RateAttackSpeed": 0.2 -> 0.25,
 _CurseOfEmptinessInvalid: 0 -> 1
 
+
+Gale Slice Buffed (Su Fang) - 542
+"_RateCritical": 0.0 -> 0.3,
+
 Paralysis Resistance Down (Generic):
 857:
 	- _DurationSec: 20.0 -> 30.0
@@ -1722,6 +1726,7 @@ Snipe - 1055:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Passionate Dancer (Buff) (Luther) - 1081:
+"_UnifiedManagement": 0 -> 1,
 "_RateBurst": 0.0 -> 1.0
 
 Lily:
