@@ -1742,7 +1742,6 @@ Snipe - 1055:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Passionate Dancer (Buff) (Luther) - 1081:
-"_UnifiedManagement": 0 -> 1,
 "_RateBurst": 0.0 -> 1.0
 
 Lily:
