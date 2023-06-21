@@ -326,11 +326,6 @@ Renelle:
 "_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
 "_AdditionalRandomHitNum": 0 -> 1,
 
-"DAG_004_02_H02_BURN_LV04"
-"_DamageAdjustment": 2.85 -> 3.45,
-"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
-"_AdditionalRandomHitNum": 0 -> 1,
-
 "DAG_001_02_H01_DEF_DOWN_BURN_LV03"
 "_DamageAdjustment": 3.32 -> 6.64,
 "_AdditionalRandomHitLabel": 0 -> "KAT_116_04_2_SPC_LV03",
@@ -1065,9 +1060,11 @@ _DamageAdjustmet: 5.41 -> 7.5
 _DamageAdjustmet: 5.41 -> 7.5
 "CAN_104_04_H01_PLUS_LV04":
 _DamageAdjustmet: 5.41 -> 10.82
+"_ActionCondition1": 0 -> 291,
 _HpDrainLimitRate: 0.08 -> 0.2
 "CAN_104_04_H02_PLUS_LV04:
 _DamageAdjustmet: 5.41 -> 10.82
+"_ActionCondition1": 0 -> 291,
 _HpDrainLimitRate: 0.08 -> 0.2
 "CAN_104_04_HEAL_LV04":
 "_RecoveryValue": 36 -> 72,
@@ -1114,7 +1111,7 @@ Eirene:
 
 Gala Chelle:
 "GUN_110_04_H02_LV03":
-"_DamageAdjustment": 0.25 -> 1.75
+"_DamageAdjustment": 0.25 -> 1.5
 
 Faris:
 "GUN_112_04_H01_LV03":
