@@ -141,6 +141,12 @@ Crown's Boon (110060009)
 Sword's Boon - 120010236
 "_AbilityType1UpValue": 8.0 -> 15.0,
 
+Happy Dragonyule! - 16
+"_AbilityType1": 21 -> 6,
+"_VariousId1a": 0 -> 2,
+"_TargetAction1": 0 -> 1,
+"_AbilityType1UpValue": 10.0 -> 20.0,
+
 Changed UnionAbility ###################################################################################################################################################
 
 Affinities ("_UnionAbilityGroupId")
