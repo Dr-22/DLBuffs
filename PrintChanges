@@ -26,6 +26,9 @@ Changed AbilityLimitedGroupID (These are the print caps) #######################
 49 - Bleeding Punisher
 "_MaxLimitedValue": 15.0 -> 20.0,
 
+52 - Player EXP. (Now Standard Attack Damage)
+"_MaxLimitedValue": 10.0 -> 20.0,
+
 94 - Critical Damage
 "_MaxLimitedValue": 25.0 -> 50.0,
 
