@@ -645,6 +645,7 @@ Dragonyule Victor
 "_DamageAdjustment": 4.0 -> 4.5,
 "AXE_123_04_H02_LV02":
 "_DamageAdjustment": 5.0 -> 10.0,
+"AXE_123_04_H03_LV02"
 
 Finni
 "AXE_130_01_H01_LV02":
@@ -1657,15 +1658,22 @@ _CurseOfEmptinessInvalid: 0 -> 1
 Gale Slice Buffed (Su Fang) - 542
 "_RateCritical": 0.0 -> 0.3,
 
-Paralysis Resistance Down (Generic):
-857:
-	- _DurationSec: 20.0 -> 30.0
+Dragon's Skill I/II/III
+597
+_CurseOfEmptinessInvalid: 0 -> 1
+598
+_CurseOfEmptinessInvalid: 0 -> 1
+599
+_CurseOfEmptinessInvalid: 0 -> 1
+"_RateSkill": 0.08 -> 0.1,
+
+Paralysis Resistance Down - 857
+_DurationSec: 20.0 -> 30.0
 	
-Unhealable
-899:
+Unhealable - 899:
 "_RateDamageCut": 0.0 -> 0.8
 
-Ascending Skill Skill Damage - 901:
+Ascending Skill - 901:
 "_RateSkill": 0.06 -> 0.03,
 "_RateRecoverySp": 0.0 -> 0.02,
 "_CurseOfEmptinessInvalid": 0 -> 1,
@@ -1690,16 +1698,13 @@ World's Dream (Nobunaga)
 "_VariousId2a": 0 -> 314,
 
 
-Radiant Xuan Zang:
-943:
-	- _CurseOfEmptinessInvalid: 0 -> 1
+Radiant Xuan Zang - 943
+_CurseOfEmptinessInvalid: 0 -> 1
 	
 Summer Mikoto:
-Illuminating Sunlight:
-977:
+Illuminating Sunlight - 977:
 "_RateCritical": 0.0 -> 0.2,
-Celestial Wavelight:
-978:
+Celestial Wavelight - 978:
 "_EnhancedCritical": 0.0 -> 0.3,
 
 Eugene:  
@@ -2210,8 +2215,7 @@ System Overload - 624
 "_ConditionValue": 30.0 -> 60.0,
 "_AbilityType1UpValue": 30.0 -> 60.0,
 
-Flame Blades' Protection:
-695
+Flame Blades' Protection - 695
 "_AbilityType3": 0 -> 1,
 "_VariousId3a": 0 -> 2,
 "_AbilityType3UpValue": 0.0 -> 20.0
@@ -2230,19 +2234,34 @@ Poisom = Team Strength - 773
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": "" -> "BOW_134_04_SPC_LV02",
 
-Skills = Shapeshift Prep II:
-924,
+Renegade Queen II (Bellina)
+861:
+"_CoolTime": 0.0 -> 10.0,
+"_AbilityType2": 0 -> 1,
+"_VariousId2a": 0 -> 3,
+"_AbilityType2UpValue": 0 -> 75.0,
+"_AbilityType3": 0 -> 14,
+"_VariousId3a": 0 -> 899,
+
+Skills = Shapeshift Prep II - 924,
 "_AbilityType1UpValue": 4.0 -> 5.0,
 
-Last Bravery
-929
+Last Bravery - 929
 "_AbilityType3": 0 -> 14,
 "_VariousId3str": "" -> "BAURA_ATK_3",
 
-Last Burst III
-936:
+Last Burst III - 936:
 "_AbilityType3": 0 -> 14,
 "_VariousId3str": "" -> "BUF_193_SPC_LV02"
+
+Abyssal Dragon II (Yurius) - 952
+"_VariousId2a": 861 -> 983,
+"_AbilityType3": 43 -> 0,
+"_VariousId3a": 983 -> 0,
+983:
+"_AbilityType2": 0 -> 6,
+"_TargetAction2": 0 -> 6,
+"_AbilityType2UpValue": 0 -> 35.0,
 
 Energy = Skill Haste III
 1056:
@@ -2495,11 +2514,7 @@ Wyrmbound Shell (Farren):
 "_AbilityLimitedGroupId2": 0 -> 15.0,
 
 Right Hand Dragon (Farren) - 2198
-"_AbilityType1UpValue": 1.5 -> 3.0,
-"_AbilityType2": 0 -> 11,
-"_AbilityLimitedGroupId2": 0 -> 117,
-"_TargetAction2": 0 -> 2,
-"_AbilityType2UpValue": 0 -> 1.0,
+"_AbilityType1UpValue": 1.5 -> 2.0,
 
 Hits = Overdamage
 2281:
