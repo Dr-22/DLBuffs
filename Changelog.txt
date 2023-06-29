@@ -670,7 +670,13 @@ Dragonyule Victor
 "_DamageAdjustment": 4.0 -> 4.5,
 "AXE_123_04_H02_LV02":
 "_DamageAdjustment": 5.0 -> 10.0,
+"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
 "AXE_123_04_H03_LV02"
+"_DamageAdjustment": 5.0 -> 10.0,
+"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+AXE_CHR_11_H01_LV02
 
 Finni
 "AXE_130_01_H01_LV02":
@@ -748,6 +754,9 @@ Sharena:
 "LAN_122_04_H02_LV02":
 "_DamageAdjustment": 10.217 -> 13.4
 "_ActionCondition1": 891 -> 857
+"BUF_198_CRT_LV02"
+"_AdditionalRandomHitLabel": "" -> "BUF_203_INSP_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Forte:
 "LAN_123_04_H01_LV03"
@@ -912,15 +921,15 @@ Summer Mikoto:
 "BOW_115_04_H01_LV03":
 "_DamageAdjustment": 4.27 -> 11.2,
 "BOW_115_04_PLUS_H01_LV03"
-"_AuraId": 0 -> 30000,
-"_AuraMaxLimitLevel": 0 -> 1,
+"_AdditionalRandomHitLabel": "" ->  "BAURA_DEF_2",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Pinon:
 "BOW_116_04_H01_LV03":
 "_DamageAdjustment": 18.15 -> 25.41
 "BOW_PNN_CMB_06_H01":
 "_KillerState1": 0 -> 11
-"_KillerStateDamageRate": 0.0 -> 1.5
+"_KillerStateDamageRate": 0.0 -> 1.2
 
 Meene:
 "BOW_117_04_H02_LV03":
@@ -939,6 +948,11 @@ Meene:
 "_DamageAdjustment": 0.43 -> 2.5,
 "BOW_MEN_CHR_01_H01_LV02":
 "_DamageAdjustment": 0.43 -> 1.5,
+
+Opera Karina:
+BOW_121_04_H01_LV03
+"_AdditionalRandomHitLabel": "" -> "BUF_196_SPC1_LV01/BUF_196_SPC2_LV01",
+"_AdditionalRandomHitNum": 0 -> 2,
 
 Isaac:
 "BOW_128_04_H01_LV02":
@@ -1085,7 +1099,7 @@ _DamageAdjustmet: 5.41 -> 7.5
 "CAN_104_04_H02_LV04":
 _DamageAdjustmet: 5.41 -> 7.5
 "CAN_104_04_H01_PLUS_LV04":
-_DamageAdjustmet: 5.41 -> 10.82
+_DamageAdjustmet: 5.41 -> 7.5
 "_ActionCondition1": 0 -> 291,
 _HpDrainLimitRate: 0.08 -> 0.2
 "CAN_104_04_H02_PLUS_LV04:
@@ -1695,6 +1709,14 @@ _CurseOfEmptinessInvalid: 0 -> 1
 "_RateSkill": 0.08 -> 0.1,
 
 Rightful King (Chrom)
+88
+_CurseOfEmptinessInvalid: 0 -> 1
+751:
+_CurseOfEmptinessInvalid: 0 -> 1
+752
+_CurseOfEmptinessInvalid: 0 -> 1
+753
+_CurseOfEmptinessInvalid: 0 -> 1
 754
 _CurseOfEmptinessInvalid: 0 -> 1
 870
@@ -2466,7 +2488,7 @@ DYLily - Saint's Calling (1524):
 "_VariousId2a": 0 ->  110120004
 
 Holiday Aid II (Dragonyule Victor) - 1539
-"_AbilityType2": 0 -> 14,
+"_AbilityType2": 0 -> 17,
 "_VariousId2str": 0 -> "BUF_152_SPC_LV01",
 
 Master Of Shikigami II - 1541
@@ -2548,9 +2570,6 @@ Blessed Bloodline II (Nino):
 "_VariousId3a": 0 -> 2,
 "_TargetAction3":0 -> 1,
 "_AbilityType3UpValue": 0 -> 30.0
-
-Guardsman of the Verdure II (Isaac):
-"_VariousId1str": "AURA_ATK_2" -> "AURA_ATK_3"
 
 Bleeding Devastator - 2052
 "_AbilityType1UpValue": 15.0 -> 30.0,
