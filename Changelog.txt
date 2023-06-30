@@ -987,6 +987,8 @@ Amane:
 "ROD_002_03_PUR_AMANE_LV04",
  "_DamageAdjustment": 1.05 -> 2.5,
 
+Sinoa:
+
 Radiant Xuan Zang:
 "ROD_116_04_H01_LV03"
 "_RecoveryCP": 0 -> 20,
@@ -2848,7 +2850,22 @@ GameObject PlayerAction_00721102 (Xania S2)
           "m_PathID": 1768489605851628118
         }
       },
-      
+
+Sinoa S1 - Strength (GameObject PlayerAction_00782002)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2679334810298330016
+        }
+      },
+
+Sinoa S1 - Defense (GameObject PlayerAction_00782003)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 7506441396222131733
+        }
+      },
       
 Changed TextLabel ######################################################################################################################################################################
 "ABILITY_NAME_1862",
