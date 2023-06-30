@@ -988,6 +988,14 @@ Amane:
  "_DamageAdjustment": 1.05 -> 2.5,
 
 Sinoa:
+"ROD_002_03_H01_SI_LV02"
+"_DamageAdjustment": 11.52 -> 15.52,
+"_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02/AURA_ATK_1/AURA_DEF_1",
+"_AdditionalRandomHitNum": 0 -> 2,
+
+"ROD_002_03_H02_SI_LV02"
+"_DamageAdjustment": 11.52 -> 15.52,
+
 
 Radiant Xuan Zang:
 "ROD_116_04_H01_LV03"
@@ -2863,7 +2871,15 @@ Sinoa S1 - Defense (GameObject PlayerAction_00782003)
 {
         "component": {
           "m_FileID": 0,
-          "m_PathID": 7506441396222131733
+          "m_PathID": 2191310638188089855
+        }
+      },
+
+Sinoa S1 - Crit Rate (GameObject PlayerAction_00782004)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1755258622314211500
         }
       },
       
