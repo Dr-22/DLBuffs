@@ -40,10 +40,13 @@ Berserker:
 Karl:
 "SWD_004_03_H01_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
-"_ActionCondition1": 0 -> 251,
+"_AdditionalRandomHitLabel": 0 -> "KAT_116_04_1_INSP_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
+
 "SWD_004_03_H02_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
-"_ActionCondition1": 0 -> 251,
+"_AdditionalRandomHitLabel": "" -> "KAT_116_04_1_INSP_LV01",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Halloween Odetta:
 "SWD_002_03_H02_HALLOWEEN_LV04"
@@ -556,17 +559,23 @@ Joker
 Yue:
 "AXE_001_03_H01_180_YUE_LV03"
 "_DamageAdjustment": 10.78 -> 18.0,
+"_AdditionalRandomHitLabel": "" -> "AXE_001_03_SA_LV04",
+"_AdditionalRandomHitNum": "" -> 1,
+"_CrisisLimitRate": 0.0 -> 2.0,
 "AXE_001_03_H02_180_YUE_LV03"
 "_DamageAdjustment": 10.78 -> 18.0,
+"_AdditionalRandomHitLabel": "" -> "AXE_001_03_SA_LV04",
+"_AdditionalRandomHitNum": "" -> 1,
+"_CrisisLimitRate": 0.0 -> 2.0,
 
 Vanessa:
 "AXE_001_03_H02_LV04":
 _DamageAdjustment: 8.42 -> 14.42
 "AXE_003_03_H01_DEF_DOWN_LV03":
-"_DamageAdjustment": 5.47 -> 8.42
+"_DamageAdjustment": 5.47 -> 10.42
 "_HpDrainRate": 0.0 -> 0.03,
 "AXE_003_03_H02_DEF_DOWN_LV03":
-"_DamageAdjustment": 5.47 -> 8.42
+"_DamageAdjustment": 5.47 -> 10.42
 "_HpDrainRate": 0.0 -> 0.03,
 
 Ramona
@@ -719,6 +728,13 @@ Sylas
 Fjorm
 "LAN_109_04_H01_LV03"
 "_DamageCounterCoef": 8.0 -> 80.0,
+
+Emma
+"BUF_160_ATK_FIRE_LV03"
+"_AdditionalRandomHitLabel": "" -> "KAT_116_04_1_INSP_LV01/LAN_104_04_1_TENSION_LV01/LAN_104_04_1_TENSION_LV01",
+"_AdditionalRandomHitNum": 0 -> 3,
+"_AuraId": 0 -> 30000,
+"_AuraMaxLimitLevel": 0 -> 1,
 
 Xuan Zang:
 "LAN_113_04_H01_LV03"
@@ -2774,7 +2790,14 @@ Great Cascade (Styx):
 "_AbilityType1UpValue": 45.0 -> 60.0
 
 Added To Master Asset
-################################################################################################################################################################# 
+#################################################################################################################################################################
+Karl S2 (GameObject PlayerAction_00012006)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 606787670743785909
+        }
+      },
 GameObject PlayerAction_00191260 (Eugene S2):
 {
         "component": {
