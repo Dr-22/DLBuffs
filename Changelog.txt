@@ -49,9 +49,16 @@ Halloween Odetta:
 "SWD_002_03_H01_HALLOWEEN_LV04"
 "_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 4.54 -> 8.54,
+"_ToBreakDmgRate": 1.0 -> 2.0,
+
 "SWD_002_03_H02_HALLOWEEN_LV04"
 "_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 4.54 -> 8.54,
+"_ToBreakDmgRate": 1.0 -> 2.0,
+
+"SWD_109_04_DRAIN_LV01"
+"_AdditionRecoverySp": 0 -> 200,
+"_TargetGroup": 1 -> 6,
 
 Marty:
 "SWD_004_02_H01_BURN_LV04"
@@ -213,6 +220,29 @@ Aoi:
 "KAT_003_02_H01_BURN_LV04"
 "_AdditionCritical": 0.0 -> 1.0,
 
+Addis:
+"KAT_001_03_H01_POISON_LV03"
+"_DamageAdjustment": 2.81 -> 4.21,
+"KAT_001_03_H02_POISON_LV03"
+"_DamageAdjustment": 2.81 -> 7.2,
+"KAT_001_03_H01_ADIS_SR_LV03
+_DamageAdjustment": 2.81 -> 4.21,
+"KAT_001_03_H01_ADIS_SR_LV03
+"_DamageAdjustment": 2.81 -> 7.2,
+
+Musashi
+"KAT_002_03_H01_POIZON_KILL_LV03"
+"_AttrIgnoreDefense": 0 -> 1,
+"_ToOdDmgRate": 1.0 -> 4.0,
+"_ToBreakDmgRate": 1.0 -> 0.25,
+"_DamageAdjustment": 4.84 -> 8.5,
+"_KillerState2": 0 -> 16,
+"KAT_002_03_H02_POIZON_KILL_LV03"
+_AttrIgnoreDefense": 0 -> 1,
+"_ToOdDmgRate": 1.0 -> 4.0,
+"_ToBreakDmgRate": 1.0 -> 0.25,
+"_DamageAdjustment": 4.84 -> 8.5,
+"_KillerState2": 0 -> 16,
 
 Beautician Zardin:
 "KAT_104_04_H01_LV03":
@@ -420,6 +450,8 @@ Melsa:
 Su Fang:
 "DAG_005_03_HANABI_H02_LV04"
 "_DamageAdjustment": 0.56 -> 5.6,
+DAG_005_03_H03_LV04"
+_AdditionCritical": 0.0 -> 1.0,
 
 Fritz: 
 "DAG_CHR_05_H03_180_LV02":
@@ -735,16 +767,25 @@ Alain
 Elisanne
 LAN_001_03_H01_ELF_LV04
 "_DamageAdjustment": 1.5 -> 3.5,
-"_AdditionalRandomHitLabel": "" -> "BOW_134_04_SPC_LV02",
-"_AdditionalRandomHitNum": 0 -> 1,
+
 LAN_001_03_H02_ELF_LV04
 "_DamageAdjustment": 1.5 -> 3.5,
+"_AdditionalRandomHitLabel": "BOW_134_04_SPC_LV02",
+"_AdditionalRandomHitNum": 1,
 
 LAN_003_03_H01_LV03
 "_DamageAdjustment": 8.38 -> 18.38,
 "_AdditionalRandomHitLabel": "" -> "KAT_116_04_3_ATK_WTR_LV03",
 "_AdditionalRandomHitNum": "" -> 1,
 "_ActionCondition1": 0 -> 291,
+
+Aeleen
+"LAN_003_03_H01_EI_LV03"
+"_ActionCondition1": 0 -> 291,
+
+Pia
+"LAN_003_03_H01_21_LV03"
+"_ActionCondition1": 0 -> 1,
 
 Halloween Elisanne:
 "LAN_103_04_H01_LV04":
@@ -947,17 +988,23 @@ Chelsea:
 
 Joachim:
 "BOW_111_03_1_H01_LV03"
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
 "BOW_111_03_1_H02_LV03"
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
 "BOW_111_03_2_H01_LV03",
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
+"_ToBreakDmgRate": 1.0 -> 1.5,
 "BOW_111_03_2_H02_LV03"
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
+"_ToBreakDmgRate": 1.0 -> 1.5,
 "BOW_111_03_3_H01_LV03"
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
+"_ToBreakDmgRate": 1.0 -> 1.5,
+"_AdditionCritical": 0.0 -> 0.3,
 "BOW_111_03_3_H02_LV03"
-"_DamageAdjustment": 2.21 -> 5.5
+"_DamageAdjustment": 2.21 -> 4.21
+"_ToBreakDmgRate": 1.0 -> 1.5,
+"_AdditionCritical": 0.0 -> 0.3,
 
 Valentine's Addis
 "BOW_113_04_H01_LV03"
@@ -1013,6 +1060,19 @@ Summer Alex:
  "_AdditionalRandomHitLabel": "" -> "ROD_108_04_ATK_DOWN_LV03",
  "_AdditionalRandomHitNum": 0 -> 1,
 
+
+Summer Estelle:
+"ROD_002_03_H01_DEF_DOWN2_LV03"
+"_DamageAdjustment": 6.6 -> 9.9,
+"_KillerState1": 0 -> 103,
+"_KillerStateDamageRate": 0.0 -> 1.2,
+"ROD_002_03_H02_DEF_DOWN2_LV03"
+"_DamageAdjustment": 6.6 -> 9.9,
+"_KillerState1": 0 -> 103,
+"_KillerStateDamageRate": 0.0 -> 1.2,
+BUF_156_ATK_WTR_LV02",
+"_AdditionRecoverySp": 0 -> 1000,
+
 Xania:
 "ROD_002_02_H01_BURN_LV03":
 _ActionCondition1: 102040301 -> 2049
@@ -1021,15 +1081,23 @@ Amane:
 "ROD_002_03_PUR_AMANE_LV04",
  "_DamageAdjustment": 1.05 -> 2.5,
 
+Dragonyule Xander
+"ROD_002_03_H01_Xmas_LV03"
+"_DamageUpRateByBuffCount": 0.0 -> 0.08,
+"ROD_002_03_H02_Xmas_LV03"
+"_DamageUpRateByBuffCount": 0.0 -> 0.08,
+
 Sinoa:
 "ROD_002_03_H01_SI_LV02"
 "_DamageAdjustment": 11.52 -> 15.52,
 "_AdditionalRandomHitLabel": "" -> "BUF_148_SPC_LV02/AURA_ATK_1/AURA_DEF_1",
 "_AdditionalRandomHitNum": 0 -> 2,
-
 "ROD_002_03_H02_SI_LV02"
 "_DamageAdjustment": 11.52 -> 15.52,
 
+Noelle:
+"ROD_002_03_H01_LV02
+"_DamageAdjustment": 4.43 -> 10.21,
 
 Radiant Xuan Zang:
 "ROD_116_04_H01_LV03"
@@ -1760,7 +1828,7 @@ _CurseOfEmptinessInvalid: 0 -> 1
 
 
 Gale Slice Buffed (Su Fang) - 542
-"_RateCritical": 0.0 -> 0.3,
+"_EnhancedCritical": 0.0 -> 0.5,
 
 Dragon's Skill I/II/III
 597
@@ -1788,7 +1856,7 @@ _CurseOfEmptinessInvalid: 0 -> 1
 _CurseOfEmptinessInvalid: 0 -> 1
 
 Ardent Stream Upgraded - 853
-"_RateFrostbiteKiller": 0.0 -> 0.3,
+"_RateFrostbiteKiller": 0.0 -> 0.15,
 "_RateAttackSpeed": 0.0 -> 0.2,
 
 Paralysis Resistance Down - 857
@@ -2200,6 +2268,12 @@ Stunning Beauty - Beautician Zardin
 313010401:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
+Bamboo Cutter Buffed - Addis (311050102):
+"_DurationSec": 10.0 -> 15.0,
+"_RatePoisonKiller": 0.0 -> 0.3,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
+
 Ieyasu - Blade Formation - 384:
 "_DurationSec": 15.0 -> 25.0,
 311050202
@@ -2214,6 +2288,9 @@ Ieyasu - Blade Formation - 384:
 "_RateFreeze": 0.0 -> -0.1
 
 Changed CharaData##############################################################################################:
+ 
+Addis - 10240302,
+"_Abilities12": 110400003 -> 2052,
 
 Berserker:
 "_Abilities12": 210001005 -> 721,
@@ -2224,6 +2301,10 @@ Celliera - 10240201
 
 Chrom - 10150105
 "_Abilities12": 210000307 -> 1170,
+
+Dragonyule Xander - 10740201
+"_Abilities12": 210002802 -> 382,
+"_Abilities31": 110010404 -> 1056,
 
 Eugene - 10150203
 "_Abilities32": 210000206 -> 1972,
@@ -2245,6 +2326,9 @@ Fritz (10340401):
 Melsa (10340101)
 "_Abilities31": 310000504 -> 310001703,
 
+Musashi (10240301),
+"_Abilities31": 11035000 -> 110350006
+
 Nevin (10350504):
 "_Abilities32": 110390006 -> 1972,
 
@@ -2259,9 +2343,20 @@ Xuan Zang (10540102):
 "_Abilities12": 110050303 -> 1857
 "_Abilities31": 210001604 -> 720
 
+Pia (10540302)
+"_Abilities12": 210000205 -> 871
+
+Saiga (10950302):
+"_ModeChangeType": 0 -> 2,
+"_ModeId2": 0 -> 40,
+
 Sharena (10550404):
 "_Abilities11": 901 -> 186
 "_Abilities12": 902 -> 187
+
+Summer Estelle (10740202):
+"_Abilities12": 110050303 -> 956,
+"_Abilities22": 110020604 -> 110020606,
 
 Summer Mym (10950502):
 "_ExAbilityData5": 109000009 -> 106070008
@@ -2437,6 +2532,10 @@ Abyssal Dragon II (Yurius) - 952
 "_AbilityType2": 0 -> 6,
 "_TargetAction2": 0 -> 6,
 "_AbilityType2UpValue": 0 -> 35.0,
+
+Enhanced Last Defense I (Ranzal) - 972
+"_AbilityType3": 0 -> 14,
+"_VariousId3a": 0 -> 1742,
 
 Energy = Skill Haste III
 1056:
@@ -2982,7 +3081,44 @@ Halloween Odetta S2 - (GameObject PlayerAction_PlayerAction_00182002)
           "m_PathID": 2679334810298330016
         }
       },
-      
+
+Summer Estelle S2 (GameObject PlayerAction_00782006)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 6300195213795930930
+        }
+      },
+
+Musashi S2 (GameObject PlayerAction_00282019)
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -2452716421411718668
+        }
+      },
+
+Aeleen S2 (GameObject PlayerAction_00581010)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 3153399338078039725
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2679334810298330016
+        }
+      },
+
+Noelle S1 (GameObject PlayerAction_00782007)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 4082858490524483581
+        }
+      },
 Changed TextLabel ######################################################################################################################################################################
 "ABILITY_NAME_1862",
 "Strength Amp = Attack Rate +8%" - > "Strength Amp = Attack Rate +15%
