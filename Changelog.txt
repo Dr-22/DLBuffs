@@ -40,16 +40,18 @@ Berserker:
 Karl:
 "SWD_004_03_H01_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
-"_AdditionalRandomHitLabel": 0 -> "KAT_116_04_1_INSP_LV01",
+"_AdditionalRandomHitLabel": "" -> "DAG_119_04_1_INSP_LV01",
 "_AdditionalRandomHitNum": 0 -> 1,
-
 "SWD_004_03_H02_KA_LV04"
 "_DamageAdjustment": 5.782 - > 11.562,
-"_AdditionalRandomHitLabel": "" -> "KAT_116_04_1_INSP_LV01",
-"_AdditionalRandomHitNum": 0 -> 1,
 
 Halloween Odetta:
+"SWD_002_03_H01_HALLOWEEN_LV04"
+"_AttrIgnoreDefense": 0 -> 1,
+"_DamageAdjustment": 4.54 -> 8.54,
 "SWD_002_03_H02_HALLOWEEN_LV04"
+"_AttrIgnoreDefense": 0 -> 1,
+"_DamageAdjustment": 4.54 -> 8.54,
 
 Marty:
 "SWD_004_02_H01_BURN_LV04"
@@ -132,6 +134,15 @@ Summer Celliera
 "SWD_114_04_ATK_LV03"
 "_AuraId": 0 -> 20000,
 "_AuraMaxLimitLevel": 0 -> 1,
+
+Euden
+SWD_117_03_H01_LV04"
+_DamageAdjustment": 8.26 -> 11.26,
+SWD_117_03_H02_LV04
+_DamageAdjustment": 8.26 -> 11.26,
+SWD_101_03_H01_LV03
+"_DamageAdjustment": 14.74 -> 22.74,
+"_AdditionRecoveryDpLv1": 0 -> 50,
 
 Eugene:	
 "SWD_126_04_H01_LV02":
@@ -258,6 +269,17 @@ Natalie
 "_AdditionalRandomHitNum": 0 -> 1,
 "KAT_105_04_TENSION_LV03"
 "_ActionCondition1": 1 -> 2
+
+Summer Ranzal:
+"KAT_107_03_H01_LV03"
+"_DamageAdjustment": 6.74 -> 7.74,
+"_AdditionalRandomHitLabel": "" -> "AURA_DEF_2",
+"_AdditionalRandomHitNum": 0 -> 1,
+
+"KAT_107_03_H02_LV03"
+"_DamageAdjustment": 6.74 -> 7.74,
+"_AdditionalRandomHitLabel": "" -> "AURA_DEF_2",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Victor:
 "KAT_108_04_1_H01_LV04"
@@ -710,6 +732,20 @@ Alain
 "_DamageAdjustment": 6.165 -> 8.165,
 "_ActionCondition1": 102040301 -> 1923,
 
+Elisanne
+LAN_001_03_H01_ELF_LV04
+"_DamageAdjustment": 1.5 -> 3.5,
+"_AdditionalRandomHitLabel": "" -> "BOW_134_04_SPC_LV02",
+"_AdditionalRandomHitNum": 0 -> 1,
+LAN_001_03_H02_ELF_LV04
+"_DamageAdjustment": 1.5 -> 3.5,
+
+LAN_003_03_H01_LV03
+"_DamageAdjustment": 8.38 -> 18.38,
+"_AdditionalRandomHitLabel": "" -> "KAT_116_04_3_ATK_WTR_LV03",
+"_AdditionalRandomHitNum": "" -> 1,
+"_ActionCondition1": 0 -> 291,
+
 Halloween Elisanne:
 "LAN_103_04_H01_LV04":
 "_DamageAdjustment": 1.872 -> 2.5,
@@ -731,8 +767,6 @@ Fjorm
 
 Emma
 "BUF_160_ATK_FIRE_LV03"
-"_AdditionalRandomHitLabel": "" -> "KAT_116_04_1_INSP_LV01/LAN_104_04_1_TENSION_LV01/LAN_104_04_1_TENSION_LV01",
-"_AdditionalRandomHitNum": 0 -> 3,
 "_AuraId": 0 -> 30000,
 "_AuraMaxLimitLevel": 0 -> 1,
 
@@ -1112,6 +1146,9 @@ Origa
 "_DamageAdjustment": 0.1 -> 0.5,
 "ROD_ORI_CMB_05_H02"
 "_DamageAdjustment": 0.1 -> 0.4,
+
+Verica
+CAN_001_02_H01_SEARCH_LV02
 
 Aurien:
 "CAN_003_02_H01_20_LV03"
@@ -1750,6 +1787,10 @@ _CurseOfEmptinessInvalid: 0 -> 1
 871
 _CurseOfEmptinessInvalid: 0 -> 1
 
+Ardent Stream Upgraded - 853
+"_RateFrostbiteKiller": 0.0 -> 0.3,
+"_RateAttackSpeed": 0.0 -> 0.2,
+
 Paralysis Resistance Down - 857
 _DurationSec: 20.0 -> 30.0
 	
@@ -1989,6 +2030,14 @@ Critical Vulnerability:
 1920:
 "_RateDamageCut": 0.0 -> -0.1,
 
+Cooling Master (Renee) - 1371
+"_UnifiedManagement": 0 -> 1,
+"_DurationNum": 1 ->  0,
+"_DurationSec": 0 -> 15.0,
+"_RateDefense": 0.0 -> 0.1,
+"_RateCritical": 0.0 -> 0.2,
+"_EnhancedWater2": 0.0 -> 0.5,
+
 Giovanni: 
 1350:
 _EnhancedCritical: 0.1 -> 0.2
@@ -2059,6 +2108,9 @@ _DurationNum": 1 -> 3,
 "_RateAttack": 0.1 -> 0.3,
 "_RateAttackSpeed": 0.0 -> 0.15,
 "_RateDamageShield3": 0.1 -> 0.25,
+
+Queen of Smiles (Dragonyule Nefaria) - 1620
+"_AbilityType2UpValue": 10.0 -> 30.0,
 
 Calculated Shots (Saiga) - 1687
 "_DurationSec": 30.0 -> 60.0,
@@ -2167,6 +2219,9 @@ Berserker:
 "_Abilities12": 210001005 -> 721,
 "_Abilities31": 210001304 -> 2129,
 
+Celliera - 10240201
+"_Abilities32": 746 -> 210000106
+
 Chrom - 10150105
 "_Abilities12": 210000307 -> 1170,
 
@@ -2186,6 +2241,9 @@ Fleur (10340402):
 Fritz (10340401):
 "_Abilities12": 210001005 -> 10001502,
 "_Abilities31": 210000604 -> 110070006,
+
+Melsa (10340101)
+"_Abilities31": 310000504 -> 310001703,
 
 Nevin (10350504):
 "_Abilities32": 110390006 -> 1972,
@@ -2314,6 +2372,9 @@ System Overload - 624
 "_ConditionValue": 30.0 -> 60.0,
 "_AbilityType1UpValue": 30.0 -> 60.0,
 
+Dragon's Dominance (Euden) - 689
+"_AbilityType2": 0 -> 87,
+
 Flame Blades' Protection - 695
 "_AbilityType3": 0 -> 1,
 "_VariousId3a": 0 -> 2,
@@ -2322,6 +2383,12 @@ Flame Blades' Protection - 695
 Luther - Passionate Dancer 
 "_AbilityType3": 0 -> 43,
 "_VariousId3a": 0 -> 210001606,
+
+Thaumian's Bane + 35% - 715
+"_ConditionType": 0 -> 120,
+"_ConditionValue": 0 -> 11.0,
+"_CoolTime": 0.0 -> 15.0,
+"_AbilityType1": 5 -> 17,
 
 Full HP = Burn + 70% - 716
 "_AbilityType2": 0 -> 47,
@@ -2332,9 +2399,15 @@ Resilient Offense + 15% - 726
 "_AbilityType2": 0 -> 14,
 "_VariousId2a": 0 -> 597,
 
-Poisom = Team Strength - 773 
+Poison = Team Strength - 773 
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": "" -> "BOW_134_04_SPC_LV02",
+
+Standard Attack Damage - 854
+"_AbilityType1": 0 -> 6
+"_VariousId1a": 0 -> 2,
+"_TargetAction1": 0 -> 1,
+"_AbilityType1UpValue":0.0 -> 30.0,
 
 Renegade Queen II (Bellina)
 861:
@@ -2661,10 +2734,15 @@ _ConditionValue2: 10.0 -> 15.0
 "_AbilityType3UpValue": 0 -> 2.0
 
 Physian's Bane + 25% - 110050203:
-"_AbilityType2": 0 -> 8,
-"_VariousId2a": 0 -> 2,
-"_AbilityLimitedGroupId2": 0 -> 11,
-"_AbilityType2UpValue": 0 -> 20.0,
+"_AbilityType1": 5 -> 14,
+"_VariousId1a": 2 -> 0,
+"_VariousId1str": "" -> "BUF_196_SPC3_LV01",
+"_AbilityLimitedGroupId1": 11 -> 0,
+"_AbilityType1UpValue": 25.0 -> 0.0,
+"_AbilityType2": 0 -> 25,
+"_VariousId2a": 0 -> 8,
+"_AbilityType3": 0 -> 43,
+"_VariousId3a": 0 -> 310001703,
 
 (Light) Critical Damage
 110390008:
@@ -2801,11 +2879,19 @@ Great Cascade (Styx):
 
 Added To Master Asset
 #################################################################################################################################################################
+Emma S1 (GameObject PlayerAction_00582001)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2679334810298330016
+        }
+      },
+
 Karl S2 (GameObject PlayerAction_00012006)
 {
         "component": {
           "m_FileID": 0,
-          "m_PathID": 606787670743785909
+          "m_PathID": -2452716421411718668
         }
       },
 GameObject PlayerAction_00191260 (Eugene S2):
@@ -2880,6 +2966,20 @@ Sinoa S1 - Crit Rate (GameObject PlayerAction_00782004)
         "component": {
           "m_FileID": 0,
           "m_PathID": 1755258622314211500
+        }
+      },
+
+Halloween Odetta S2 - (GameObject PlayerAction_PlayerAction_00182002)
+{
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2191310638188089855
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2679334810298330016
         }
       },
       
