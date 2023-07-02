@@ -556,6 +556,8 @@ Mitsuhide:
 Alex:
 DAG_117_03_H01_180_SHANON_LV03
 "_DamageAdjustment": 1.79 -> 5.1,
+DAG_117_03_H02_180_SHANON_LV03
+"_DamageAdjustment": 1.79 -> 5.1,
 DAG_102_03_H01_LV02
 "_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 1.82 -> 3.52,
@@ -1209,7 +1211,7 @@ Amane:
 "ROD_002_03_H01_AMANE_LV04"
 "_DamageAdjustment": 8.856 -> 9.75,
 "_KillerState1": 4 -> 201,
-"_KillerStateDamageRate": 1.1 -> 2.0,
+"_KillerStateDamageRate": 1.1 -> 1.5,
 "ROD_002_03_PUR_AMANE_LV04",
 "_AttrIgnoreDefense": 0 -> 1,
  "_DamageAdjustment": 1.05 -> 2.5,
@@ -2658,7 +2660,7 @@ Full HP = Burn + 70% - 716
 
 Resilient Offense + 15% - 726
 "_AbilityType2": 0 -> 14,
-"_VariousId2a": 0 -> 597,
+"_VariousId2a": 0 -> 599,
 
 Poison = Team Strength - 773 
 "_AbilityType2": 0 -> 14,
