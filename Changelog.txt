@@ -104,10 +104,10 @@ Xander:
 "_DamageAdjustment": 5.566 -> 7.1,
 "SWD_100_04_SHIFT1_H01_LV04"
 "_DamageAdjustment": 16.74 -> 18.9,
-"_DamageUpRateByBuffCount": 0.05 -> 0.15,
+"_DamageUpRateByBuffCount": 0.05 -> 0.06,
 "SWD_100_04_SHIFT2_H01_LV04"
 "_DamageAdjustment": 16.8 -> 19.9,
-"_DamageUpRateByBuffCount": 0.05 -> 0.2,
+"_DamageUpRateByBuffCount": 0.05 -> 0.07,
 
 Gala Ranzal:
 "SWD_105_04_H01_LV04":
@@ -528,11 +528,12 @@ Fritz:
 "_ActionCondition1": 403040102 -> 1246
 "_DamageAdjustment": 4.18 -> 5.2,
 
-DYCleo:
+Dragonyule Cleo:
 "DAG_104_04_3_H01_LV04"
 "_ActionCondition1": 103020112 -> 403040103
 "DAG_104_04_3_TENSION_LV04":
 "_Attributes02": 1 -> 0,
+"_TargetGroup": 2 -> 6,
 "_ActionCondition1": 1 -> 2
 "DAG_001_04_H01_SANTA_LV03"
 "_DamageAdjustment": 4.21 -> 6.21,
@@ -1102,8 +1103,12 @@ Valentine's Ezelith:
 
 Laranoa:
 "BOW_106_04_H01_LV04"
+"_AttrIgnoreDefense": 0 -> 1,
+"_AdditionCritical": 0.0 -> 0.2,
 "_DamageAdjustment": 1.41 -> 1.61,
 "BOW_106_04_H02_LV04"
+"_AttrIgnoreDefense": 0 -> 1,
+"_AdditionCritical": 0.0 -> 0.2,
 "_DamageAdjustment": 1.41 -> 1.61,
 
 Summer Cleo
@@ -1895,12 +1900,10 @@ Bloody Tongue- Nyarlathotep
 "_DurationNum": 1 -> 3,
 "_RateRecoverySp": 0.0 -> 0.4,
 
-Born Ruler Strength - Xander
-254
+Born Ruler Strength (Xander) - 254
 "_RateAttack": 0.05 -> 0.0,
 "_RateSkill": 0.0 -> 0.05,
 "_EnhancedWater2": 0.0 -> 0.05,
-"_RateRecoverySp": 0.0 -> 0.05,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Durant Self Def Down - 298
@@ -2097,6 +2100,9 @@ Snipe - 1055:
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
 Passionate Dancer (Buff) (Luther) - 1081:
+"_UniqueIcon": 0 -> 21,
+"_BuffIconId": 0 -> 103,
+"_UnifiedManagement": 0 -> 1,
 "_RateBurst": 0.0 -> 1.0
 
 Lily:
@@ -2318,9 +2324,13 @@ Force Strike Rate Up:
 1478:
 _CurseOfEmptinessInvalid: 0 -> 1
 
-Frigid Gift (DYCleo):
-1487:
-"_RateBurst": 0.0 -> 0.5,
+Frigid Gift (DYCleo) - 1487:
+"_UniqueIcon": 0 -> 21,
+"_BuffIconId": 0 -> 103,
+"_UnifiedManagement": 0 ->  1,
+"_DurationSec": 0.0 -> 20.0,
+"_DurationNum": 1 -> 0,
+
 
 Raphael's Steel (Ryszarda):
 1540:
@@ -2735,6 +2745,23 @@ Energy = Skill Haste III
 1060:
 "_AbilityType1UpValue": 25.0 -> 50.0,
 
+
+Born Ruler (Xander) - 1103
+"_ConditionValue": 3.0. -> 5.0,
+"_MaxCount": 5 -> 10,
+"_ConditionType": 11 -> 45
+"_VariousId1a": 507 -> 597,
+"_AbilityLimitedGroupId1": 55 -> 0,
+
+Force Strike +55%/Royal Rivalry (Xander) - 110070007
+"_AbilityType2": 0 -> 20,
+"_VariousId2a": 0  -> 11,
+"_AbilityType2UpValue": 0 -> 30.0,
+"_AbilityType3": 0 -> 9,
+"_AbilityLimitedGroupId3": 0 -> 51,
+"_TargetAction3": 0 -> 2,
+"_AbilityType3UpValue": 0.0 -> 20.0
+
 Ramiel's Covenant (Nevin)
 1217
 _AbilityType1UpValue": -400.0 -> -500.0,
@@ -2906,6 +2933,12 @@ Barrage Devastation 5% - 1586:
 "_AbilityType2": 0 -> 7,
 "_AbilityType2UpValue": 0 -> 2.0,
 
+Belle Bestower (Dragonyule Cleo) - 1621
+"_ConditionType": 1 -> 48,
+"_ConditionValue": 70.0 -> 1621.0,
+"_AbilityType1UpValue": 13.0 -> 30.0,
+"_AbilityType2UpValue": 13.0 -> 30.0,
+
 Humanity's Companion - (Sophie/Persona)
 1668:
 _VariousId3a": 1 -> 2,
@@ -2999,6 +3032,38 @@ Wyrmbound Shell (Farren):
 
 Right Hand Dragon (Farren) - 2198
 "_AbilityType1UpValue": 1.5 -> 2.0,
+
+Mechanized Blacksmith (Lazry) - 2272
+"_AbilityType1": 17 -> 6,
+"_AbilityLimitedGroupId1": 30 -> 32,
+"_TargetAction1": 0 -> 6,
+"_AbilityType1UpValue": 0.0 -> 40.0,
+
+HP 70 = Skill Damage & Flame Res (Lazry) 
+2273
+"_ConditionType": 1 -> 115,
+"_ConditionValue": 70.0 -> 1.0,
+"_AbilityType1": 6 -> 11,
+"_AbilityLimitedGroupId1": 32 -> 0,
+"_TargetAction1": 6 -> 1,
+"_AbilityType1UpValue": 35.0 -> 25.0,
+"_AbilityType3": 0 -> 19,
+"_AbilityType3UpValue": 0.0 -> 100.0
+
+2274
+"_ConditionType": 1 -> 115,
+"_ConditionValue": 70.0 -> 1.0,
+"_ConditionValue2": 0.0 -> 1.0,
+"_AbilityType1": 28 -> 1,
+"_VariousId1a": 1 -> 10,
+"_AbilityLimitedGroupId1": 76 -> 0,
+"_AbilityType1UpValue": 10.0 -> 40.0,
+"_AbilityType2": 0 -> 43,
+"_VariousId2a": 0 -> 2273,
+"_AbilityType3": 0 -> 6,
+"_VariousId3a": 0 -> 2,
+"_TargetAction3": 0 -> 1,
+"_AbilityType3UpValue": 0.0 -> 40.0
 
 Hits = Overdamage
 2281:
@@ -3332,15 +3397,38 @@ Ryozen S2 (GameObject PlayerAction_00012007)
       },
 
 Changed TextLabel ######################################################################################################################################################################
+Child Ranzal
 "ABILITY_NAME_1862",
 "Strength Amp = Attack Rate +8%" - > "Strength Amp = Attack Rate +15%
 
 "ABILITY_NAME_330000219"
 "(Water) Primed Strength +15%" -> "({element_owner}) Primed Strength +15%"
 
+Apollo
 "ABILITY_NAME_330000174"
 "(Flame) Burning Punisher +{ability_val0}%" -> "(Flame) Burning Punisher & Sting +{ability_val0}%"
 
 "ABILITY_NAME_330000572"
 "(Shadow) Strength & Shapeshift Prep VI" -> "({element_owner}) Strength & Shapeshift Prep VI"
 
+
+Dragonyule Cleo
+"_Id": "ABILITY_DETAIL_1621",
+"_Text": "Increases strength and defense by 13%\\nwhen HP is 70% or above." -> "Increases strength and defense by 30%\\nwhen the user has 'Frigid Gift'."
+
+Xander
+"_Id": "ABILITY_NAME_110070007",
+"_Text": "Force Strike +55%" -> "Royal Rivalry"
+_Id": "ABILITY_DETAIL_110070007",
+"_Text": "Increases force strike damage by 55%" -> "Increases force strike damage by 55%, damage to frostbitten foes by 30%, and speeds the mode gauge decrease from Force Strikes by 20%."
+"_Id": "ABILITY_DETAIL_1103",
+"_Text": "Increases strength by 6% for every three enemies\\ndefeated with force strikes (up to five times per quest).\\nAlso increases strength by a further 5% while the user\\nhas the \"Born Ruler\" effect." ->  "Increases skill damage by 4% for every 5 critical hits\\ncaused by force strikes (up to ten times per quest).\\nAlso increases water-attuned and skill damage by a further 5% while the user\\nhas the \"Born Ruler\" effect."
+
+
+Lazry
+"_Id": "ABILITY_DETAIL_2272",
+"_Text": "Increases damage to frostbitten enemies by 30%.\\nIn addition, using a skill will grant the user a\\nstrength amp with a maximum team amp level\\nof two. After this amp is granted, this ability will\\nnot grant it again for 30 seconds." -> "Increases damage to frostbitten enemies by 30% and skill damage by 40%.\\nIn addition, using a skill will grant the user a\\nstrength amp with a maximum team amp level\\nof two. After this amp is granted, this ability will\\nnot grant it again for 30 seconds."
+"_Id": "ABILITY_NAME_2273",
+"_Text": "HP 70% = Skill Damage & Flame Res I" -> "Proper Maintenance"
+_Id": "ABILITY_DETAIL_2273",
+"_Text": "When HP is 70% or above, increases attack\\nskill damage by 35% and adds 10% to flame\\nresistance." -> "Increases skill gauge fill rate of normal attacks by 25% and duration of debuffs from skills by 100% in Low Power Mode. Increases damage of normal attacks and attack rate of skills by 40% in High Power Mode"
