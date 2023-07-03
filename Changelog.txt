@@ -2735,6 +2735,10 @@ Energy = Skill Haste III
 1060:
 "_AbilityType1UpValue": 25.0 -> 50.0,
 
+Ramiel's Covenant (Nevin)
+1217
+_AbilityType1UpValue": -400.0 -> -500.0,
+
 Bleeding = User Strength II - 1354
 "_AbilityType2": 0 -> 14,
 "_VariousId2a": 1357 -> 0,
