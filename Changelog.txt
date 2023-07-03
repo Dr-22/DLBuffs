@@ -76,14 +76,12 @@ Halloween Odetta:
 "_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 4.54 -> 8.54,
 "_ToBreakDmgRate": 1.0 -> 2.0,
-
 "SWD_002_03_H02_HALLOWEEN_LV04"
 "_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 4.54 -> 8.54,
 "_ToBreakDmgRate": 1.0 -> 2.0,
-
 "SWD_109_04_DRAIN_LV01"
-"_AdditionRecoverySp": 0 -> 200,
+"_AdditionRecoverySp": 0 -> 300,
 "_TargetGroup": 1 -> 6,
 
 Marty:
@@ -164,9 +162,14 @@ Wedding Elisanne:
 Summer Celliera
 "SWD_114_04_H01_LV03"
 "_DamageAdjustment": 13.3 -> 26.6,
+"_AdditionalRandomHitLabel": "" -> "SWD_114_04_H01_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
 "SWD_114_04_ATK_LV03"
 "_AuraId": 0 -> 20000,
 "_AuraMaxLimitLevel": 0 -> 1,
+"SWD_114_04_SPD_LV03"
+"_AdditionalRandomHitLabel": "" -> "BUF_140_SPB_LV03",
+"_AdditionalRandomHitNum": 0 -> 1,
 
 Euden
 SWD_117_03_H01_LV04"
@@ -476,9 +479,12 @@ Orsem:
 "DAG_002_03_H01_ORUSEM_LV03"
 "_AdditionCritical": 0.0 -> 0.4,
 "_DamageAdjustment": 2.48 -> 3.48,
+"_KillerStateDamageRate": 1.3 -> 0.0,
+"_KillerStateDamageRateCurveDependsOnHitCount": "" ->  "0_30/50_60/100_90/200_120",
 "DAG_002_03_H02_ORUSEM_LV03"
 "_AdditionCritical": 0.0 -> 0.4,
 "_DamageAdjustment": 2.48 -> 3.48,
+"_KillerStateDamageRateCurveDependsOnHitCount": "" ->  "0_30/50_60/100_90/200_120",
 "DAG_004_03_H01_FREEZE_180_LV02"
 "_DamageAdjustment": 3.18 -> 6.18,
 "DAG_004_03_H02_FREEZE_180_LV02",
@@ -931,6 +937,16 @@ Gauld
 "LAN_119_03_1_H01_LV03"
 "_DamageAdjustment": 3.04 -> 5.55,
 "LAN_119_03_1_H02_LV03"
+"_DamageAdjustment": 3.04 -> 5.55,
+"LAN_119_03_2_H01_LV03"
+"_DamageAdjustment": 3.04 -> 5.55,
+"LAN_119_03_2_H02_LV03"
+"_DamageAdjustment": 3.04 -> 5.55,
+"LAN_119_03_3_H01_LV03"
+"_AttrIgnoreDefense": 0 -> 1,
+"_DamageAdjustment": 3.04 -> 5.55,
+"LAN_119_03_3_H02_LV03"
+"_AttrIgnoreDefense": 0 -> 1,
 "_DamageAdjustment": 3.04 -> 5.55,
 
 Sharena:
@@ -2235,8 +2251,7 @@ Human Wisdom:
 1781:
 _CurseOfEmptinessInvalid: 0 -> 1
 
-Grand Strategist (Kirsty):
-1887:
+Grand Strategist (Kirsty) - 1887:
 "_RateSkill": 0.0 -> 0.1,
 
 Critical Vulnerability:
@@ -2244,6 +2259,8 @@ Critical Vulnerability:
 "_RateDamageCut": 0.0 -> -0.1,
 
 Cooling Master (Renee) - 1371
+"_UniqueIcon": 0 -> 21,
+"_BuffIconId": 0 -> 103,
 "_UnifiedManagement": 0 -> 1,
 "_DurationNum": 1 ->  0,
 "_DurationSec": 0 -> 15.0,
@@ -2643,9 +2660,10 @@ Flame Blades' Protection - 695
 "_VariousId3a": 0 -> 2,
 "_AbilityType3UpValue": 0.0 -> 20.0
 
-Luther - Passionate Dancer 
-"_AbilityType3": 0 -> 43,
-"_VariousId3a": 0 -> 210001606,
+Luther (Passionate Dancer) - 1102
+"_AbilityType2": 0 -> 25,
+"_VariousId2a": 0 -> 8,
+
 
 Thaumian's Bane + 35% - 715
 "_ConditionType": 0 -> 120,
