@@ -1,17 +1,51 @@
+
+Albert S2 - 101504012
+_SpLv4: 160000 ->  20000
+
+Fleur S2 - 103404022:
+_"Sp": 5934 -> 7056
+_"SpLv2": 5934 -> 7056
+
+Konohana Sakuya - 200501071
+"_MaxUseNum": 0 -> 99,
+
+Liger - 200504071
+"_MaxUseNum": 0 -> 99
+
+Maribelle S2 - 107503012
+"_SpLv3": 5838 -> 8000
+
+Marishiten - 200502161
+"_MaxUseNum": 0 -> 2,
+
+Mitsu S1 - 103504021
+"_Ability3": 0 -> 663,
+
 Nevin S2 -  103505042,
 "_Ability1": 1338 -> 0, (Ryszarda)
 "_Ability2": 1339 -> 0, (Free)
 
+Nyarlathotep (Lathna) - 299000041
+"_MaxUseNum": 0 -> 99
+
 Ryszarda S1 - 105504051
-"_Ability1": 0 -> 1338,
+"_Ability3": 0 -> 1338,
 
 1338
-"_ConditionType": 64 -> 48,
+"_ConditionType": 64 -> 49,
+ "_DisappearToEnableBuff": 0 -> 1152,
 "_RequiredBuff": 1206 -> 0
-"_ConditionValue": -1.0 -> 1171.0,
+"_ConditionValue": -1.0 -> 0.0,
 "_AbilityType1": 63 -> 51,
 "_VariousId1a": 1152 -> 0,
 "_AbilityLimitedGroupId1": 0 -> 51,
 "_TargetAction1": 0 -> 6,
 "_AbilityType1UpValue": -80.0 -> 40.0,
+
+Siren - 200502041
+"_MaxUseNum": 0 -> 99,
+
+Shinobi - 200505091
+"_MaxUseNum": 0 -> 99
+
 
