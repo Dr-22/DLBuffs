@@ -100,14 +100,18 @@ Marty:
 "_AuraMaxLimitLevel": 0 -> 2,
 
 Xander:
-"SWD_004_04_H02_LV03"
-"_DamageAdjustment": 5.566 -> 7.1,
 "SWD_100_04_SHIFT1_H01_LV04"
-"_DamageAdjustment": 16.74 -> 18.9,
-"_DamageUpRateByBuffCount": 0.05 -> 0.06,
+"_DamageUpRateByBuffCount": 0.05 -> 0.055,
 "SWD_100_04_SHIFT2_H01_LV04"
-"_DamageAdjustment": 16.8 -> 19.9,
-"_DamageUpRateByBuffCount": 0.05 -> 0.07,
+"_DamageUpRateByBuffCount": 0.05 -> 0.06,
+"SWD_CHR_10_H01_LV02"
+"_ToBreakDmgRate": 3.3 -> 1.3,
+"SWD_CHR_10_H02_LV02"
+"_ToBreakDmgRate": 3.3 -> 1.3,
+ "SWD_CHR_11_H01_LV02"
+"_ToBreakDmgRate": 3.3 -> 1.0,
+"SWD_CHR_11_H02_LV02"
+"_ToBreakDmgRate": 3.3 -> 1.0,
 
 Gala Ranzal:
 "SWD_105_04_H01_LV04":
@@ -478,12 +482,12 @@ Luther:
 Orsem:
 "DAG_002_03_H01_ORUSEM_LV03"
 "_AdditionCritical": 0.0 -> 0.4,
-"_DamageAdjustment": 2.48 -> 3.48,
+"_DamageAdjustment": 2.48 -> 2.48,
 "_KillerStateDamageRate": 1.3 -> 0.0,
 "_KillerStateDamageRateCurveDependsOnHitCount": "" ->  "0_30/50_60/100_90/200_120",
 "DAG_002_03_H02_ORUSEM_LV03"
 "_AdditionCritical": 0.0 -> 0.4,
-"_DamageAdjustment": 2.48 -> 3.48,
+"_DamageAdjustment": 2.48 -> 2.48,
 "_KillerStateDamageRateCurveDependsOnHitCount": "" ->  "0_30/50_60/100_90/200_120",
 "DAG_004_03_H01_FREEZE_180_LV02"
 "_DamageAdjustment": 3.18 -> 6.18,
@@ -923,7 +927,7 @@ Xuan Zang:
 
 Hunter Vanessa:
 "LAN_117_04_H01_LV03":
-_DamageAdjustment": 1.94 -> 3.0,
+_DamageAdjustment": 1.94 -> 3.5,
 "LAN_117_04_H02_LV03":
 "_DamageAdjustment": 1.94 -> 3.0,
 "LAN_MH_CHR_01_H01_LV02_CHLV02":
@@ -995,7 +999,10 @@ Ryszarda:
 "LAN_136_04_H01_LV03":
 "_DamageAdjustment": 7.2 -> 8.2,
 "LAN_LIZ_CMB_05_H04":
-"_DamageAdjustment": 2.67 -> 4.0
+"_AttrIgnoreDefense": 0 -> 1,
+"_DamageAdjustment": 2.67 -> 6.0
+"LAN_137_04_H01_LV02"
+"_TargetGroup": 1 -> 12,
 
 Halloween Melsa:
 "LAN_131_04_H01_LV02":
@@ -1902,7 +1909,7 @@ Bloody Tongue- Nyarlathotep
 
 Born Ruler Strength (Xander) - 254
 "_RateAttack": 0.05 -> 0.0,
-"_RateSkill": 0.0 -> 0.05,
+"_RateBurst": 0.0 -> 0.05,
 "_EnhancedWater2": 0.0 -> 0.05,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
@@ -1934,16 +1941,25 @@ Burning Ambition - 314:
 "_RateBurst": 0.0 -> 2.5,
 "_CurseOfEmptinessInvalid": 0 -> 1,
 
+Flash of Genius (Ability)  (Ezelith) - 
+"_UniqueIcon": 0 -> 21,
+"_BuffIconId": 0 -> 103,
+"_UnifiedManagement": 0 -> 1,
+"_EnhancedCritical": 0.0 -> 0.15,
+"_CurseOfEmptinessInvalid": 0 -> 1,
+
+
 Crystalline Blades Buffed (Naveed):
 338:
 "_RateDefense": 0.0 -> 0.05,
 "_EnhancedFire2": 0.0 -> 0.06,
 
-Fatalis Curse
-368
+Fatalis Curse - 368
 "_DurationSec": 0.0 -> 40.0,
 
-HVanessa Strength:
+Hunter Vanessa Strength:
+427:
+"_CurseOfEmptinessInvalid": 0 -> 1,
 446:
 "_UniqueIcon": 0 -> 21,
 "_BuffIconId": 0 -> 103,
@@ -2332,12 +2348,10 @@ Frigid Gift (DYCleo) - 1487:
 "_DurationNum": 1 -> 0,
 
 
-Raphael's Steel (Ryszarda):
-1540:
+Raphael's Steel (Ryszarda) -> 1540
 "_RateAttack": 0.15 -> 0.25
 "_RateDefense": 0.0 -> 0.3
 "_RateAttackSpeed": 0.1 -> 0.15,
-"_RateArmored": 0.0 -> 1.0,
 
 Sphere of Protection (Humanoid Mercury) - 1592
 "_DurationNum": 0 -> 3,
@@ -2748,7 +2762,7 @@ Energy = Skill Haste III
 
 Born Ruler (Xander) - 1103
 "_ConditionValue": 3.0. -> 5.0,
-"_MaxCount": 5 -> 10,
+"_MaxCount": 5 -> 5,
 "_ConditionType": 11 -> 45
 "_VariousId1a": 507 -> 597,
 "_AbilityLimitedGroupId1": 55 -> 0,
@@ -2948,6 +2962,10 @@ _VariousId3a": 1 -> 2,
 Holy Accord - 1708
 "_RegenePower": 1.2 -> 6.0,
 
+Raphael's Embrace II (Ryszarda) - 1735
+"_AbilityType2": 0 -> 14,
+"_VariousId2str": "" -> "BAURA_DEF_2",
+
 (Wind) Vengeful Strength & Counter - 1765
 "_CoolTime": 20.0 -> 8.0,
 
@@ -3039,16 +3057,19 @@ Mechanized Blacksmith (Lazry) - 2272
 "_TargetAction1": 0 -> 6,
 "_AbilityType1UpValue": 0.0 -> 40.0,
 
-HP 70 = Skill Damage & Flame Res (Lazry) 
+HP 70 = Skill Damage & Flame Res/Proper Maintenance (Lazry) 
 2273
 "_ConditionType": 1 -> 115,
-"_ConditionValue": 70.0 -> 1.0,
-"_AbilityType1": 6 -> 11,
-"_AbilityLimitedGroupId1": 32 -> 0,
+"_ConditionValue": 70.0 -> 0.0,
+"_ConditionValue2": 0.0 -> 0.0,
+"_AbilityType1": 6 -> 28,
+"_VariousId1a": 0 -> 1,
+"_AbilityLimitedGroupId1": 32 -> 76,
 "_TargetAction1": 6 -> 1,
 "_AbilityType1UpValue": 35.0 -> 25.0,
-"_AbilityType3": 0 -> 19,
-"_AbilityType3UpValue": 0.0 -> 100.0
+"_AbilityType3": 0 -> 47,
+"_VariousId3a": 0 -> 11,
+"_AbilityType3UpValue": 0.0 -> 50.0
 
 2274
 "_ConditionType": 1 -> 115,
@@ -3057,9 +3078,9 @@ HP 70 = Skill Damage & Flame Res (Lazry)
 "_AbilityType1": 28 -> 1,
 "_VariousId1a": 1 -> 10,
 "_AbilityLimitedGroupId1": 76 -> 0,
-"_AbilityType1UpValue": 10.0 -> 40.0,
-"_AbilityType2": 0 -> 43,
-"_VariousId2a": 0 -> 2273,
+"_AbilityType1UpValue": 10.0 -> 10.0,
+"_AbilityType2": 0 -> 0,
+"_VariousId2a": 0 -> 0,
 "_AbilityType3": 0 -> 6,
 "_VariousId3a": 0 -> 2,
 "_TargetAction3": 0 -> 1,
@@ -3422,7 +3443,7 @@ Xander
 _Id": "ABILITY_DETAIL_110070007",
 "_Text": "Increases force strike damage by 55%" -> "Increases force strike damage by 55%, damage to frostbitten foes by 30%, and speeds the mode gauge decrease from Force Strikes by 20%."
 "_Id": "ABILITY_DETAIL_1103",
-"_Text": "Increases strength by 6% for every three enemies\\ndefeated with force strikes (up to five times per quest).\\nAlso increases strength by a further 5% while the user\\nhas the \"Born Ruler\" effect." ->  "Increases skill damage by 4% for every 5 critical hits\\ncaused by force strikes (up to ten times per quest).\\nAlso increases water-attuned and skill damage by a further 5% while the user\\nhas the \"Born Ruler\" effect."
+"_Text": "Increases strength by 6% for every three enemies\\ndefeated with force strikes (up to five times per quest).\\nAlso increases strength by a further 5% while the user\\nhas the \"Born Ruler\" effect." ->  "Increases skill damage by 4% for every critical hit\\ncaused by force strikes (up to five times per quest).\\nAlso increases water-attuned damage, force strike damage and skill damage by a further 5% while the user\\nhas the \"Born Ruler\" effect."
 
 
 Lazry
@@ -3431,4 +3452,4 @@ Lazry
 "_Id": "ABILITY_NAME_2273",
 "_Text": "HP 70% = Skill Damage & Flame Res I" -> "Proper Maintenance"
 _Id": "ABILITY_DETAIL_2273",
-"_Text": "When HP is 70% or above, increases attack\\nskill damage by 35% and adds 10% to flame\\nresistance." -> "Increases skill gauge fill rate of normal attacks by 25% and duration of debuffs from skills by 100% in Low Power Mode. Increases damage of normal attacks and attack rate of skills by 40% in High Power Mode"
+"_Text": "When HP is 70% or above, increases attack\\nskill damage by 35% and adds 10% to flame\\nresistance." -> "Increases flame resistance 25% and duration of frostbite by 50% in Low Power Mode. Increases damage of normal attacks by 40% and attack rate by 10% in High Power Mode."
