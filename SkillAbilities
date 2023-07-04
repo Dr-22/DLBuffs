@@ -1,4 +1,17 @@
-Nevin S2
-"_Id": 103505042,
-"_Ability1": 1338 -> 0,
-"_Ability2": 1339 -> 0,
+Nevin S2 -  103505042,
+"_Ability1": 1338 -> 0, (Ryszarda)
+"_Ability2": 1339 -> 0, (Free)
+
+Ryszarda S1 - 105504051
+"_Ability1": 0 -> 1338,
+
+1338
+"_ConditionType": 64 -> 48,
+"_RequiredBuff": 1206 -> 0
+"_ConditionValue": -1.0 -> 1171.0,
+"_AbilityType1": 63 -> 51,
+"_VariousId1a": 1152 -> 0,
+"_AbilityLimitedGroupId1": 0 -> 51,
+"_TargetAction1": 0 -> 6,
+"_AbilityType1UpValue": -80.0 -> 40.0,
+
