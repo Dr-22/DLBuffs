@@ -903,6 +903,7 @@ Halloween Elisanne:
 "LAN_001_04_H02_SP_LV03"
 "_DamageAdjustment": 13.6 -> 18.6,
 "_AdditionRecoverySp": 700 -> 1000,
+"_ActionCondition1": 0 -> 291,
 
 Sylas
 "LAN_107_04_H01_LV04"
@@ -2144,8 +2145,7 @@ Smiling Flowers:
 
 Vampire Maiden (Halloween Ellisanne) - 1147
 
-Albert:
-1170:
+Albert FS - 1170 (Free)
 _SlipDamageRatio: 0.05 -> 0.0
 
 Nevin Zone
@@ -2558,36 +2558,8 @@ Summer Mym (10950502):
 Sharpshooter Sarisse (10950203):
 "_Abilities32": 210001204 -> 310001702,
 
-Changed SkillData ###################################################################################### :
+Changed DragonData #####################################################################################################################################
 
-Albert (101504012):
-_SpLv4: 160000 ->  20000
-
-Fleur (103404022):
-_"Sp": 5934 -> 7056
-_"SpLv2": 5934 -> 7056
-
-Maribelle (107503012):
-"_SpLv3": 5838 -> 8000
-
-Konohana Sakuya (200501071):
-"_MaxUseNum": 0 -> 99,
-
-Siren (200502041):
-"_MaxUseNum": 0 -> 99,
-
-Liger (200504071),
-"_MaxUseNum": 0 -> 99
-
-Shinobi (200505091)
-"_MaxUseNum": 0 -> 99
-
-Nyarlathotep (Lathna) (299000041)
-"_MaxUseNum": 0 -> 99
-
-Marishiten (200502161)
-"_MaxUseNum": 0 -> 2,
-Changed DragonData####################################################################################################################################################
 Liger (20050407):
 "_Abilities11": 330000446,
 "_Abilities12": 330000447,
@@ -2633,9 +2605,9 @@ Prometheus (20050106):
 Gilgamesh (20050404):
 "_Abilities26": 2216 -> 0,
 
-Changed AbilityData ######################################################################################################################################################################
-Moonlith Howl
-44
+Changed AbilityData #############################################################################################################################################
+
+Moonlith Howl (Nyarlathotep) - 44
 "_ConditionValue": 30.0 -> 70.0,
 
 Primed Strength Lv. 2 - 310:
@@ -2651,12 +2623,11 @@ Full HP = Critical Damage - 340
 "_TargetAction3": 0 -> 1,
 _AbilityType3UpValue": 0.0 -> 30.0
 
-
 Bog = Team Strength II - 359
 "_AbilityType2": 0 -> 14,
 "_VariousId2str": 0 -> "BOW_134_04_SPC_LV02",
 
-Cursed Blood - 443
+Cursed Blood (Audric) - 443
 "_AbilityType1UpValue": 30.0 -> 50.0,
 "_AbilityType2UpValue": -30.0 -> -50.0,
 "_AbilityType3": 0 -> 97,
@@ -2824,7 +2795,7 @@ Floral Knight
 1237
 "_AbilityType2UpValue": 50.0 -> 70.0
 
-Albert - Thunderous Impulse (1189):
+Albert - Impulse Slash (1189):
 _AbilityType1UpValue: 10.0 -> 50.0
 
 Defense Reduced = Debuff Edge (Halloween Akasha) - 1252
