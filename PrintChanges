@@ -82,9 +82,9 @@ The Cutie Competition - 40050125
 Scorchrent Punisher - 1657
 "_AbilityType1UpValue": 25.0 -> 30.0,
 
- Going Undercover - 40050146
+Going Undercover - 40050146
 Stormlashed Punisher + 25% - 1708
-"_AbilityType1UpValue": 25.0 -> 30.0,
+"_AbilityType1UpValue": 25.0 
 
 Welcome to the Opera - 40050120,
 Shadowblighted Punisher + 25% - 1517
@@ -92,19 +92,19 @@ Shadowblighted Punisher + 25% - 1517
 
 Wings of Rebellion at Rest = 40050148
 Frostbitten Punisher + 25% - 855
-"_AbilityType1UpValue": 25.0 -> 30.0,
+"_AbilityType1UpValue": 25.0 
 
 Spirit of the Season = 40050084,
 Paralyzed Punisher + 20% - 110160404
-"_AbilityType1UpValue": 20.0 -> 30.0,
+"_AbilityType1UpValue": 20.0 
 
  Dragon Brethren = 40050006
 Dragon Time + 20% - 110010806
-"_AbilityType1UpValue": 20.0 -> 30.0,
+"_AbilityType1UpValue": 20.0
 
 Evening of Luxury = 40050003,
 Full HP = 15% Str
-"_AbilityType1UpValue": 15.0 -> 30.0,
+"_AbilityType1UpValue": 15.0
 
 KungFuMasters = 40050038,
 Axe = 14% Crit - 148
@@ -124,7 +124,7 @@ Sword = 14% Crit - 2394
 
 SeasidePrincess = 40050067
 Critical Damage +  20% - 110390006
-"_AbilityType1UpValue": 20.0 -> 25.0,
+"_AbilityType1UpValue": 20.0 
 
 Axes' Boon (110080009)
 "_AbilityType2": 0 -> 7,
