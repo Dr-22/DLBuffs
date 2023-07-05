@@ -2308,14 +2308,6 @@ Yoshitsune:
 1439: 
 _RateAttackSpeed: 0.1 -> 0.3
 
-Shikigami Enhancement - Kuzunoha
-1464:
-"_RateRecovery": 0 -> 0.2,
-"_RateRecoverySp": 0 -> 0.1,
-"_MaxDuplicatedCount": 0 -> 1,
-"_Overwrite": 1 -> 0,
-"_OverwriteIdenticalOwner": 0 -> 1,
-
 Radiant Scion (Gala Chelle)
 1471:
 "_RateBurstSpeed": 0.0 -> 0.02
@@ -2373,7 +2365,6 @@ Fluorescent Fish (Yukata Cassandra)
 1718:
 "_RateAttack": 0 -> 0.2,
 "_RateWind": 0 -> 0.1,
--
 "_MaxDuplicatedCount": 0 -> 1,
 "_Overwrite": 1 -> 0,
 "_OverwriteIdenticalOwner": 0 -> 1,
@@ -2463,6 +2454,9 @@ Bamboo Cutter Buffed - Addis (311050102):
 
 Ieyasu - Blade Formation - 384:
 "_DurationSec": 15.0 -> 25.0,
+"_RateAttack": 0 -> 0.15,
+"_RateDefense": 0 -> 0.2,
+"_RateCritical": 0.15 -> 0.3,
 311050202
 "_DurationSec": 15.0 -> 25.0,
 "_RateAttack": 0.0 -> 0.15,
@@ -2945,7 +2939,7 @@ Child Ranzal - Power Hitter (1840):
 "_AbilityType1UpValue": 10.0 -> 15.0,
 _AbilityType2UpValue: 40.0 -> 400.0
 
-Team Str. Amp = Attack Rate
+Str. Amp = Attack Rate
 1862:
 "_AbilityType1UpValue": 15.0,
 
@@ -3228,10 +3222,6 @@ Great Cascade:
 330000567
 "_AbilityType1UpValue": 55.0 -> 65.0,
 "_AbilityType2UpValue": 15.0 -> 25.0,
-
-Great Cascade (Styx):
-330000568:
-	- _CoolTime: 10.0 -> 5.0
 
 330000562 (Strength + Surge of Strength II):
 "_AbilityType1UpValue": 45.0 -> 60.0
